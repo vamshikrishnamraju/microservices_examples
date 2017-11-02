@@ -1,0 +1,30 @@
+<settings>
+	<profiles>
+		<profile>
+			<id>bc-maven</id>
+			<repositories>
+				<repository>
+					<id>bc</id>
+					<name>Business Central Repo</name>
+					<url>
+						http://admin:jboss#1!@localhost:8080/business-central/maven2
+					</url>
+					<layout>default</layout>
+					<releases>
+						<enabled>true</enabled>
+						<updatePolicy>never</updatePolicy>
+					</releases>
+					<snapshots>
+						<enabled>true</enabled>
+						<updatePolicy>never</updatePolicy>
+					</snapshots>
+				</repository>
+
+			</repositories>
+		</profile>
+	</profiles>
+	<activeProfiles>
+		<activeProfile>bc-maven</activeProfile>
+	</activeProfiles>
+</settings>
+

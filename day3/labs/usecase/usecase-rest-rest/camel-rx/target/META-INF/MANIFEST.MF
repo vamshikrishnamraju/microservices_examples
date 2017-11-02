@@ -1,0 +1,25 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1483081931737
+Build-Jdk: 1.7.0_51
+Built-By: dell
+Bundle-Description: An example using Servlet REST with OSGi Blueprint
+Bundle-DocURL: http://www.apache.org/
+Bundle-License: http://www.apache.org/licenses/LICENSE-2.0.txt
+Bundle-ManifestVersion: 2
+Bundle-Name: camel-example-servlet-rest-blueprint
+Bundle-SymbolicName: org.apache.camel.camel-example-servlet-rest-bluepri
+ nt
+Bundle-Vendor: The Apache Software Foundation
+Bundle-Version: 2.15.1
+Created-By: Apache Maven Bundle Plugin
+Export-Package: org.apache.camel.example.rest;uses:="org.apache.camel,co
+ m.demo";version="2.15.1",com.demo;version="2.15.1"
+Implementation-Title: Apache Camel
+Implementation-Version: 2.15.1
+Import-Package: org.apache.camel;version="2.17.0",org.apache.camel.compo
+ nent.servlet;version="2.17.0",org.apache.camel.component.servlet.osgi;v
+ ersion="2.17.0",org.osgi.service.blueprint;version="[1.0.0,2.0.0)",org.
+ osgi.service.http
+Import-Service: org.osgi.service.http.HttpService;multiple:=false
+Karaf-Info: Camel;camel-example-servlet-rest-blueprint=2.15.1
+Tool: Bnd-1.50.0

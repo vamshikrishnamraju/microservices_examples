@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+		xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+  
+
+   <!--
+      Define a simple bean, but this time provide initial values for properties
+      on the JavaBean
+   -->
+   
+   <bean id="bean1pool" class="org.springframework.aop.target.CommonsPoolTargetSource"
+p:targetBeanName="bean1pooltarget" p:maxSize="25" />
+
+
+   	<bean id="bean1pooltarget" class="ex01_bean.ex02_setter.Bean1" scope="prototype" />
+    	
+   	<bean id="bean1a" class="ex01_bean.ex02_setter.Bean1" scope="prototype"  />
+   
+   	<bean id="bean1b" class="ex01_bean.ex02_setter.Bean1"  />
+   	
+	<bean id="bean1" name="test" class="ex01_bean.ex02_setter.Bean1" >
+      
+      <!--
+         Assign initial value to each property
+      -->
+      <property name="no">
+         <value>101</value>
+      </property>
+      
+      <property name="name">
+         <value>Boss</value>
+      </property>
+      
+      <property name="hobbies">
+         <set>
+            <value>chess</value>
+            <value>cricket</value>
+            <value>reading</value>
+         </set>
+      </property>
+      
+	</bean>
+
+<bean id="bean2" class="ex01_bean.ex02_setter.Bean1" >
+      
+      <!--
+         Assign initial value to each property
+      -->
+      <property name="no">
+         <value>102</value>
+      </property>
+      
+      <property name="name">
+         <value>JBoss</value>
+      </property>
+      
+      <property name="hobbies">
+         <list>
+            <value>singing</value>
+            <value>dancing</value>
+            <value>flying</value>
+         </list>
+      </property>
+      
+	</bean>
+</beans>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+		xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+   <!--
+      Define a simple Bean
+   -->
+	<bean id="bean1" class="ex01_bean.ex10_resources.Bean1">
+      
+      <!--
+         Specify the File Resource to pass into the Bean
+         
+         Note: The resource property is defined as type Resource in
+               the Bean1 implementation.  As such Spring will automatically
+               convert the referenced file name to a Resource object.
+               
+         Note: The type of ApplicationContext drives how the resource is
+               found - e.g. a ClassPathXMLApplicationContext uses the Class
+               Path to find the Resource.
+      -->
+	   <property name="resource">
+	      <value>ex01_bean/ex10_resources/message.properties</value>
+      </property>
+      
+	</bean>
+
+</beans>

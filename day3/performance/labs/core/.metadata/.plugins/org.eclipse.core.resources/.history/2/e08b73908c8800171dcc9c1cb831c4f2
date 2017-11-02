@@ -1,0 +1,30 @@
+package demo;
+
+import java.lang.ref.PhantomReference;
+import java.lang.ref.ReferenceQueue;
+
+import demo.ClassPhantom.Referred;
+
+public class test {
+
+	public static void main(String[] args) throws InterruptedException {
+		// TODO Auto-generated method stub
+
+		
+		String a="xyz";
+		 String b = new String("abc");
+		 
+		 String c = a.intern();
+		 
+		System.out.println(a==b);
+		System.out.println(a==c);;
+		
+		System.out.println(c==b);
+		
+		
+		//Thread.sleep(1000000);
+		
+		
+	}
+
+}

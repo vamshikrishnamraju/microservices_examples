@@ -1,0 +1,23 @@
+//created on: Apr 24, 2014
+package store
+
+//list any import classes here.
+import com.sample.Order;
+
+
+//declare any global variables here
+
+dialect "mvel"
+
+
+rule "apply discount"
+ruleflow-group "discount"
+no-loop
+
+    when
+        order : Order()
+    then
+        modify(order) { discount = 5; }
+
+end
+

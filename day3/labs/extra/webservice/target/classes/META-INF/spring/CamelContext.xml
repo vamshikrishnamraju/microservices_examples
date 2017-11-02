@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+    xmlns:cxf="http://camel.apache.org/schema/cxf"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="         http://www.springframework.org/schema/beans     http://www.springframework.org/schema/beans/spring-beans.xsd         http://www.springframework.org/schema/context     http://www.springframework.org/schema/context/spring-context.xsd     http://camel.apache.org/schema/spring   http://camel.apache.org/schema/spring/camel-spring.xsd   http://camel.apache.org/schema/cxf   http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+    <cxf:cxfEndpoint address="http://localhost:9090/training/WebService"
+        id="WS" serviceClass="com.fusesource.training.CustomerService">
+        <cxf:outInterceptors>
+            <ref bean="loggingOutInterceptor"/>
+        </cxf:outInterceptors>
+        <cxf:inInterceptors>
+            <ref bean="loggingInInterceptor"/>
+        </cxf:inInterceptors>
+    </cxf:cxfEndpoint>
+    <bean class="org.apache.cxf.interceptor.LoggingOutInterceptor" id="loggingOutInterceptor"/>
+    <bean class="org.apache.cxf.interceptor.LoggingInInterceptor" id="loggingInInterceptor"/>
+    <bean class="com.fusesource.training.camel.Enrich" id="enrich"/>
+    <bean class="org.apache.camel.dataformat.soap.name.TypeNameStrategy" id="elStrategy"/>
+    <camelContext id="camelContext-5dc0448f-a648-49d7-ace2-f32dba21a5d3"
+        trace="false" xmlns="http://camel.apache.org/schema/spring">
+        <dataFormats>
+            <soapjaxb contextPath="com.fusesource.training"
+                elementNameStrategyRef="elStrategy" id="soapFormat"/>
+        </dataFormats>
+        <route id="_route1">
+            <from id="_from1" uri="file:/camel-exercises2/webservices?noop=true"/>
+            <convertBodyTo id="_convertBodyTo1" type="String"/>
+            <log id="_log1" message="Name of the client to be created received : ${body}"/>
+            <bean id="_bean1" method="createCustomer" ref="enrich"/>
+            <marshal id="_marshal1" ref="soapFormat"/>
+            <setHeader headerName="SOAPAction" id="_setHeader1">
+                <constant>http://training.fusesource.com/saveCustomer</constant>
+            </setHeader>
+            <to id="_to1" uri="http://localhost:9090/training/WebService"/>
+            <log id="_log2" message="SOAP Response received : ${body}">
+                <description>Call Web Service to save the client</description>
+            </log>
+        </route>
+        <route id="cxf-to-queue" streamCache="true">
+            <from id="_from2" uri="cxf:bean:WS?dataFormat=MESSAGE"/>
+            <convertBodyTo id="_convertBodyTo2" type="String"/>
+            <log id="_log3" message="SOAP message received : ${body} and operation type : ${in.header.SOAPAction}"/>
+            <unmarshal id="_unmarshal1" ref="soapFormat"/>
+            <choice id="_choice1">
+                <when id="_when1">
+                    <simple>${in.header.SOAPAction} contains 'saveCustomer'</simple>
+                    <bean id="_bean2" method="saveCustomer" ref="enrich"/>
+                    <marshal id="_marshal2" ref="soapFormat"/>
+                </when>
+                <when id="_when2">
+                    <simple>${in.header.SOAPAction} contains 'getCustomerByName'</simple>
+                    <bean id="_bean3" method="getCustomerByName" ref="enrich"/>
+                    <marshal id="_marshal3" ref="soapFormat"/>
+                </when>
+                <when id="_when3">
+                    <simple>${in.header.SOAPAction} contains 'getAllCustomers'</simple>
+                    <bean id="_bean4" method="getCustomers" ref="enrich"/>
+                    <marshal id="_marshal4" ref="soapFormat"/>
+                </when>
+            </choice>
+            <log id="_log4" message="SOAP message returned : ${body} and operation type : ${in.header.SOAPAction}"/>
+        </route>
+    </camelContext>
+</beans>

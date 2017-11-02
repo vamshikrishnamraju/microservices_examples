@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+        http://www.springframework.org/schema/beans/spring-beans.xsd
+  		http://camel.apache.org/schema/spring
+  		http://camel.apache.org/schema/spring/camel-spring.xsd">
+
+    <camelContext xmlns="http://camel.apache.org/schema/spring">
+    <jmxAgent disabled="false" onlyRegisterProcessorWithCustomId="false" createConnector="true" usePlatformMBeanServer="true" registerNewRoutes="true" statisticsLevel="All" includeHostName="false" mask="false" id="agent"/>
+    <routeBuilder ref="routeByCurrency"/>
+    <routeBuilder ref="routeByFileName"/>
+</camelContext>
+
+    <bean id="routeByCurrency" class="com.fusesource.camel.exercises.cbr.RouteByCurrencyRouter">
+        <property name="sourceDirectory" value="/camel-exercises/cbr/in/xml"/>
+        <property name="sinkDirectory" value="/camel-exercises/cbr/out/xml"/>
+        <property name="createDirectories" value="true"/>
+    </bean>
+
+    <bean id="routeByFileName" class="com.fusesource.camel.exercises.cbr.RouteByFileNameRouter">
+        <property name="sourceDirectory" value="/camel-exercises/cbr/in/csv"/>
+        <property name="sinkDirectory" value="/camel-exercises/cbr/out/csv"/>
+        <property name="createDirectories" value="true"/>
+    </bean>
+
+</beans>

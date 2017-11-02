@@ -1,0 +1,930 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='3476' time_ms='1502460973386'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.92-b14
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.92-b14) for windows-amd64 JRE (1.8.0_92-b14), built on Mar 31 2016 21:03:04 by &quot;java_re&quot; with MS VC++ 10.0 (VS2010)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation -XX:+PrintCompilation -XX:+PrintAssembly -XX:CompileThreshold=1 -Dfile.encoding=Cp1252 
+</args>
+<command>
+HotMethods
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.92-b14
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=C:\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=C:\Java\jdk1.8.0_92\jre\lib\endorsed
+sun.boot.library.path=C:\Java\jdk1.8.0_92\jre\bin
+java.library.path=C:\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/Java/jdk1.8.0_92/bin/../jre/bin/server;C:/Java/jdk1.8.0_92/bin/../jre/bin;C:/Java/jdk1.8.0_92/bin/../jre/lib/amd64;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Java\jdk1.8.0_92\bin;D:\java-performance-2017\softwares\eclipse;;.
+java.home=C:\Java\jdk1.8.0_92\jre
+java.class.path=D:\java-performance-2017\labs\JMC\01_JFR_HotMethods\bin
+sun.boot.class.path=C:\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\Java\jdk1.8.0_92\jre\classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+file.encoding=Cp1252
+sun.java.command=HotMethods
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='3040'/>
+[Opened C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Object from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Serializable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Comparable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharSequence from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.String from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AnnotatedElement from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.GenericDeclaration from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Type from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Cloneable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.System from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Throwable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Error from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadDeath from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Exception from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.RuntimeException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.SecurityManager from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AccessControlContext from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.SecureClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ReflectiveOperationException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassNotFoundException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.LinkageError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NoClassDefFoundError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassCastException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ArrayStoreException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.VirtualMachineError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.OutOfMemoryError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StackOverflowError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IllegalMonitorStateException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.SoftReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.WeakReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.FinalReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.PhantomReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Cleaner from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Runnable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Thread from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Thread$UncaughtExceptionHandler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadGroup from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Map from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Dictionary from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Properties from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AccessibleObject from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Member from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Field from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Parameter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Executable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Method from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Constructor from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MagicAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessor from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessor from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstantPool from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessor from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeFieldAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeStaticFieldAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.annotation.Annotation from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.CallerSensitive from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandle from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.DirectMethodHandle from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MemberName from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleNatives from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.LambdaForm from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodType from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.BootstrapMethodError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.CallSite from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.ConstantCallSite from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MutableCallSite from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.VolatileCallSite from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Appendable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.AbstractStringBuilder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringBuilder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Unsafe from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.AutoCloseable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Closeable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.InputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ByteArrayInputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.File from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URL from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.jar.Manifest from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.CodeSource from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StackTraceElement from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Buffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Boolean from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Character from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Number from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Float from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Double from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Byte from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Short from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Integer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Long from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NullPointerException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ArithmeticException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ObjectStreamField from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Comparator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.String$CaseInsensitiveComparator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Guard from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Permission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.BasicPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.RuntimePermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AccessController from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$GetReflectionFactoryAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.cert.Certificate from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Iterable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.List from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.RandomAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Vector from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Stack from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$Lock from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$ReferenceHandler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.InterruptedException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ArrayList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Set from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractSet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableRandomAccessList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Null from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Lock from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangRefAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.SharedSecrets from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IncompatibleClassChangeError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NoSuchMethodError from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.Reflection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Map$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$Node from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.VM from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Math from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer$FinalizerThread from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$EntrySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedSet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Objects from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Enumeration from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Iterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Enumerator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Runtime from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Version from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaIOFileDescriptorAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Flushable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.OutputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilterInputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedInputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedExceptionAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$ReflectionData from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$Atomic from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.AbstractRepository from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.GenericDeclRepository from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.ClassRepository from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$AnnotationData from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.annotation.AnnotationType from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$ClassValueMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Modifier from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.LangReflectAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.misc.ReflectUtil from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilterOutputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.PrintStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedOutputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Writer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.OutputStreamWriter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamEncoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.spi.CharsetProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.FastCharsetProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.PreHashedMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Aliases from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Classes from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Cache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicInteger from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.action.GetPropertyAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Arrays from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.HistoricallyNamedCharset from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.MS1252 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.NativeConstructorAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingConstructorAccessorImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ArrayEncoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetEncoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte$Encoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CodingErrorAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.ByteBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.HeapByteBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Bits from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.ByteOrder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicLong from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNioAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Bits$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedWriter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DefaultFileSystem from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileSystem from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.WinNTFileSystem from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Enum from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.File$PathStatus from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.file.Watchable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.file.Path from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$NativeLibrary from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Terminator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.SignalHandler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Terminator$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Signal from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.NativeSignalHandler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Integer$IntegerCache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.OSEnvironment from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.io.Win32ErrorMode from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.System$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IllegalArgumentException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Compiler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Compiler$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandlerFactory from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$Factory from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.util.Debug from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$ParallelLoaders from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SetFromMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$KeySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNetAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$7 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.StringTokenizer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.MetaIndex from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Readable from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Reader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedReader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.InputStreamReader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileReader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamDecoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ArrayDecoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetDecoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte$Decoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.CharBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.HeapCharBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$Cache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Array from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale$Cache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.Lock from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Segment from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Node from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CounterCell from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CollectionView from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$KeySetView from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$ValuesView from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$EntrySetView from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Cache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Key from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache$CacheEntry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale$LocaleKey from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleUtils from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharacterData from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharacterDataLatin1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$TreeNode from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.ParseUtil from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.BitSet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.Parts from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.Handler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$JavaSecurityAccessImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityProtectionDomainAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$Key from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Principal from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashSet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.jar.Handler from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.SystemClassLoaderAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='2964'/>
+<thread_logfile thread='2964' filename='C:\Users\Dell\AppData\Local\Temp\\hs_c2964_pid3476.log'/>
+<writer thread='3040'/>
+[Loaded java.lang.invoke.MethodHandleImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='2076'/>
+<thread_logfile thread='2076' filename='C:\Users\Dell\AppData\Local\Temp\\hs_c2076_pid3476.log'/>
+<writer thread='3040'/>
+[Loaded java.lang.invoke.MethodHandleImpl$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='1' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1408' iicount='1408' level='3' stamp='0.094' comment='tiered' hot_count='1408'/>
+[Loaded java.util.function.Function from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$4 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Identity from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Version from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MemberName$Factory from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleStatics from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleStatics$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31636'/>
+</blob>
+<writer thread='3208'/>
+<thread_logfile thread='3208' filename='C:\Users\Dell\AppData\Local\Temp\\hs_c3208_pid3476.log'/>
+     96    1       3       java.lang.Object::&lt;init&gt; (1 bytes)
+Could not load hsdis-amd64.dll; library not loadable; PrintAssembly is disabled
+<nmethod compile_id='1' compiler='C1' level='3' entry='0x0000000002428360' size='800' address='0x0000000002428210' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='712' dependencies_offset='792' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1426' iicount='1426' stamp='0.098'/>
+<writer thread='3040'/>
+[Loaded sun.misc.PostVMInitHook from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicBoolean from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='2' method='java/lang/String hashCode ()I' bytes='55' count='413' backedge_count='5120' iicount='413' level='3' stamp='0.099' comment='tiered' hot_count='413'/>
+[Loaded sun.usagetracker.UsageTrackerClient$4 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$NameComparator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$EntryComparator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='3' method='java/lang/String indexOf (II)I' bytes='70' count='128' backedge_count='2565' iicount='128' level='3' stamp='0.100' comment='tiered' hot_count='128'/>
+<nmethod compile_id='4' compile_kind='c2n' level='0' entry='0x00000000024286c0' size='904' address='0x0000000002428550' relocation_offset='288' consts_offset='904' insts_offset='368' method='java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V' bytes='0' count='640' iicount='640' stamp='0.100'/>
+    100    4     n 0       java.lang.System::arraycopy (native)   (static)
+<task_queued compile_id='5' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1536' iicount='1536' level='1' stamp='0.100' comment='tiered' hot_count='1536'/>
+[Loaded java.util.SortedMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.NavigableMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TreeMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$CheckedEntrySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$EntrySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$CheckedEntrySet$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$HashIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$EntryIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$CheckedEntry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TreeMap$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='6' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='640' iicount='640' level='3' stamp='0.102' comment='tiered' hot_count='640'/>
+<task_queued compile_id='7' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='640' iicount='640' level='3' stamp='0.102' comment='tiered' hot_count='640'/>
+<task_queued compile_id='8' method='java/lang/String charAt (I)C' bytes='29' count='1664' iicount='1664' level='3' stamp='0.102' comment='tiered' hot_count='1664'/>
+<task_queued compile_id='9' method='java/lang/Math min (II)I' bytes='11' count='512' iicount='512' level='3' stamp='0.102' comment='tiered' hot_count='512'/>
+<task_queued compile_id='10' method='java/lang/String length ()I' bytes='6' count='512' iicount='512' level='3' stamp='0.102' comment='tiered' hot_count='512'/>
+[Loaded sun.usagetracker.UsageTrackerClient$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+    102    5       1       java.lang.Object::&lt;init&gt; (1 bytes)
+<nmethod compile_id='5' compiler='C1' level='1' entry='0x0000000002428ca0' size='712' address='0x0000000002428b50' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='640' dependencies_offset='704' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1647' iicount='1647' stamp='0.103'/>
+<make_not_entrant thread='3208' compile_id='1' compiler='C1' level='3' stamp='0.103'/>
+    103    1       3       java.lang.Object::&lt;init&gt; (1 bytes)   made not entrant
+    103    3       3       java.lang.String::indexOf (70 bytes)
+<writer thread='3040'/>
+[Loaded java.lang.StringCoding from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='3' compiler='C1' level='3' entry='0x00000000024291e0' size='1848' address='0x0000000002429050' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1312' scopes_pcs_offset='1472' dependencies_offset='1824' nul_chk_table_offset='1832' method='java/lang/String indexOf (II)I' bytes='70' count='296' backedge_count='5831' iicount='296' stamp='0.104'/>
+<writer thread='3040'/>
+[Loaded java.lang.ThreadLocal$ThreadLocalMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+    104    2       3       java.lang.String::hashCode (55 bytes)
+<writer thread='3040'/>
+[Loaded java.lang.ThreadLocal$ThreadLocalMap$Entry from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Unicode from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='2' compiler='C1' level='3' entry='0x0000000002429940' size='1448' address='0x00000000024297d0' relocation_offset='288' insts_offset='368' stub_offset='880' scopes_data_offset='1032' scopes_pcs_offset='1152' dependencies_offset='1424' nul_chk_table_offset='1432' method='java/lang/String hashCode ()I' bytes='55' count='464' backedge_count='5692' iicount='464' stamp='0.105'/>
+<writer thread='3040'/>
+[Loaded java.lang.StringCoding$StringEncoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+    104    6       3       java.lang.CharacterData::of (120 bytes)
+<writer thread='3040'/>
+[Loaded sun.nio.cs.UTF_8$Encoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='6' compiler='C1' level='3' entry='0x0000000002429f40' size='2616' address='0x0000000002429d90' relocation_offset='288' insts_offset='432' stub_offset='1680' scopes_data_offset='1832' scopes_pcs_offset='1976' dependencies_offset='2552' nul_chk_table_offset='2560' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='961' iicount='961' stamp='0.105'/>
+    105    7       3       java.lang.CharacterDataLatin1::getProperties (11 bytes)
+<nmethod compile_id='7' compiler='C1' level='3' entry='0x000000000242a960' size='952' address='0x000000000242a810' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='792' dependencies_offset='920' nul_chk_table_offset='928' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='961' iicount='961' stamp='0.105'/>
+    105    8       3       java.lang.String::charAt (29 bytes)
+<nmethod compile_id='8' compiler='C1' level='3' entry='0x000000000242ad80' size='1376' address='0x000000000242ac10' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='992' scopes_pcs_offset='1096' dependencies_offset='1352' nul_chk_table_offset='1360' method='java/lang/String charAt (I)C' bytes='29' count='2603' iicount='2603' stamp='0.106'/>
+    105   10       3       java.lang.String::length (6 bytes)
+<nmethod compile_id='10' compiler='C1' level='3' entry='0x000000000242b2e0' size='856' address='0x000000000242b190' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='720' dependencies_offset='832' nul_chk_table_offset='840' method='java/lang/String length ()I' bytes='6' count='755' iicount='755' stamp='0.106'/>
+    106    9       3       java.lang.Math::min (11 bytes)
+<nmethod compile_id='9' compiler='C1' level='3' entry='0x000000000242b660' size='904' address='0x000000000242b510' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='784' dependencies_offset='896' method='java/lang/Math min (II)I' bytes='11' count='645' iicount='645' stamp='0.106'/>
+<writer thread='3040'/>
+[Loaded sun.launcher.LauncherHelper from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringDecoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.util.URLUtil from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$Loader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipConstants from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaUtilZipFileAccess from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='11' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='256' iicount='256' level='3' stamp='0.109' comment='tiered' hot_count='256'/>
+<task_queued compile_id='12' method='java/lang/Character toLowerCase (I)I' bytes='9' count='640' iicount='640' level='3' stamp='0.109' comment='tiered' hot_count='640'/>
+<task_queued compile_id='13' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='640' iicount='640' level='3' stamp='0.109' comment='tiered' hot_count='640'/>
+<writer thread='3208'/>
+    109   12       3       java.lang.Character::toLowerCase (9 bytes)
+<nmethod compile_id='12' compiler='C1' level='3' entry='0x000000000242c240' size='1160' address='0x000000000242c0d0' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='944' scopes_pcs_offset='992' dependencies_offset='1136' nul_chk_table_offset='1144' method='java/lang/Character toLowerCase (I)I' bytes='9' count='687' iicount='687' stamp='0.110'/>
+    110   13       3       java.lang.CharacterDataLatin1::toLowerCase (39 bytes)
+<nmethod compile_id='13' compiler='C1' level='3' entry='0x000000000242c700' size='1352' address='0x000000000242c590' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1016' scopes_pcs_offset='1128' dependencies_offset='1320' nul_chk_table_offset='1328' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='687' iicount='687' stamp='0.111'/>
+    110   11       3       java.lang.AbstractStringBuilder::ensureCapacityInternal (16 bytes)
+<nmethod compile_id='11' compiler='C1' level='3' entry='0x000000000242cc80' size='1192' address='0x000000000242cb10' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='968' scopes_pcs_offset='1024' dependencies_offset='1168' nul_chk_table_offset='1176' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='262' iicount='262' stamp='0.111'/>
+<writer thread='3040'/>
+<task_queued compile_id='14' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='256' iicount='256' level='3' stamp='0.112' comment='tiered' hot_count='256'/>
+<task_queued compile_id='15' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='256' iicount='256' level='3' stamp='0.112' comment='tiered' hot_count='256'/>
+<task_queued compile_id='16' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='384' iicount='384' level='3' stamp='0.112' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+    112   15       3       java.io.WinNTFileSystem::isSlash (18 bytes)
+<nmethod compile_id='15' compiler='C1' level='3' entry='0x000000000242d120' size='1024' address='0x000000000242cfd0' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='840' scopes_pcs_offset='888' dependencies_offset='1016' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='605' iicount='605' stamp='0.113'/>
+    113   14       3       java.lang.AbstractStringBuilder::append (29 bytes)
+<nmethod compile_id='14' compiler='C1' level='3' entry='0x000000000242d580' size='1672' address='0x000000000242d410' relocation_offset='288' insts_offset='368' stub_offset='976' scopes_data_offset='1168' scopes_pcs_offset='1312' dependencies_offset='1632' nul_chk_table_offset='1640' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='591' iicount='591' stamp='0.114'/>
+    113   16  s    3       java.lang.StringBuffer::append (13 bytes)
+<nmethod compile_id='16' compiler='C1' level='3' entry='0x000000000242dc60' size='2304' address='0x000000000242dad0' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1680' scopes_pcs_offset='1880' dependencies_offset='2264' nul_chk_table_offset='2272' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='533' iicount='533' stamp='0.114'/>
+<writer thread='3040'/>
+[Loaded sun.misc.URLClassPath$FileLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='17' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='256' backedge_count='1239' iicount='256' level='3' stamp='0.115' comment='tiered' hot_count='256'/>
+<task_queued compile_id='18' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='256' iicount='256' level='3' stamp='0.115' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    115   17       3       java.lang.String::equals (81 bytes)
+<writer thread='3040'/>
+[Loaded sun.misc.Resource from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.ByteBuffered from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='17' compiler='C1' level='3' entry='0x000000000242e5a0' size='2504' address='0x000000000242e410' relocation_offset='288' insts_offset='400' stub_offset='1616' scopes_data_offset='1768' scopes_pcs_offset='1984' dependencies_offset='2464' nul_chk_table_offset='2472' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='258' backedge_count='1294' iicount='258' stamp='0.116'/>
+    115   18       3       java.lang.AbstractStringBuilder::append (50 bytes)
+<writer thread='3040'/>
+[Loaded sun.misc.PerfCounter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Perf$GetPerfAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Perf from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.PerfCounter$CoreCounters from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.ch.DirectBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='18' compiler='C1' level='3' entry='0x000000000242f3a0' size='2440' address='0x000000000242f210' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1720' scopes_pcs_offset='1968' dependencies_offset='2400' nul_chk_table_offset='2408' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='260' iicount='260' stamp='0.117'/>
+<writer thread='3040'/>
+[Loaded java.nio.MappedByteBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.DirectByteBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.LongBuffer from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.DirectLongBufferU from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PermissionCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Permissions from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='19' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='384' iicount='384' level='3' stamp='0.120' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+    119   19       3       java.util.Arrays::copyOfRange (63 bytes)
+<writer thread='3040'/>
+[Loaded java.net.URLConnection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.URLConnection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.FileURLConnection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.MessageHeader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilePermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilePermission$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='19' compiler='C1' level='3' entry='0x00000000024301e0' size='4824' address='0x000000000242ffd0' relocation_offset='288' insts_offset='528' stub_offset='3120' scopes_data_offset='3440' scopes_pcs_offset='4064' dependencies_offset='4800' nul_chk_table_offset='4808' oops_offset='3368' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='387' iicount='387' stamp='0.121'/>
+<writer thread='3040'/>
+[Loaded java.io.FilePermissionCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AllPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.UnresolvedPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.BasicPermissionCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded HotMethods from file:/D:/java-performance-2017/labs/JMC/01_JFR_HotMethods/bin/]
+[Loaded sun.launcher.LauncherHelper$FXHelper from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$MethodArray from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='20' method='java/lang/String indexOf (I)I' bytes='7' count='256' iicount='256' level='3' stamp='0.123' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    123   20       3       java.lang.String::indexOf (7 bytes)
+<writer thread='3040'/>
+[Loaded java.io.IOException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='20' compiler='C1' level='3' entry='0x0000000002431440' size='1040' address='0x00000000024312d0' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1032' method='java/lang/String indexOf (I)I' bytes='7' count='269' iicount='269' stamp='0.123'/>
+<writer thread='3040'/>
+[Opened C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded com.oracle.jrockit.jfr.EventInfo from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded com.oracle.jrockit.jfr.EventToken from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded java.lang.Void from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded com.oracle.jrockit.jfr.Producer from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded java.net.URI from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URI$Parser from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='21' method='java/net/URI$Parser charAt (I)C' bytes='9' count='256' iicount='256' level='3' stamp='0.126' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    126   21       3       java.net.URI$Parser::charAt (9 bytes)
+<writer thread='3040'/>
+[Loaded oracle.jrockit.jfr.JFR from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded java.lang.Long$LongCache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='21' compiler='C1' level='3' entry='0x0000000002432b80' size='1712' address='0x0000000002432a10' relocation_offset='288' insts_offset='368' stub_offset='1040' scopes_data_offset='1224' scopes_pcs_offset='1360' dependencies_offset='1680' nul_chk_table_offset='1688' method='java/net/URI$Parser charAt (I)C' bytes='9' count='300' iicount='300' stamp='0.127'/>
+<writer thread='3040'/>
+<task_queued compile_id='22' method='java/lang/Number &lt;init&gt; ()V' bytes='5' count='384' iicount='384' level='3' stamp='0.127' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+    126   22       3       java.lang.Number::&lt;init&gt; (5 bytes)
+<nmethod compile_id='22' compiler='C1' level='3' entry='0x0000000002433220' size='912' address='0x00000000024330d0' relocation_offset='288' insts_offset='336' stub_offset='624' scopes_data_offset='792' scopes_pcs_offset='824' dependencies_offset='904' method='java/lang/Number &lt;init&gt; ()V' bytes='5' count='518' iicount='518' stamp='0.127'/>
+<writer thread='3040'/>
+<task_queued compile_id='23' method='java/lang/Long &lt;init&gt; (J)V' bytes='10' count='256' iicount='256' level='3' stamp='0.127' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    127   23       3       java.lang.Long::&lt;init&gt; (10 bytes)
+<nmethod compile_id='23' compiler='C1' level='3' entry='0x0000000002433600' size='1104' address='0x0000000002433490' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='920' scopes_pcs_offset='984' dependencies_offset='1096' method='java/lang/Long &lt;init&gt; (J)V' bytes='10' count='256' iicount='256' stamp='0.128'/>
+<writer thread='3040'/>
+[Loaded java.util.PropertyPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded oracle.jrockit.jfr.JFR$1 from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded java.security.AccessController$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.util.SecurityConstants from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.NetPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.SecurityPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.SocketPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.action.GetBooleanAction from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AllPermissionCollection from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.management.ManagementPermission from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IllegalStateException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Throwable$PrintStreamOrWriter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Throwable$WrappedPrintStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.IdentityHashMap from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.IdentityHashMap$KeySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='24' method='sun/nio/cs/SingleByte$Encoder encode (C)I' bytes='32' count='256' iicount='256' level='3' stamp='0.131' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    131   24       3       sun.nio.cs.SingleByte$Encoder::encode (32 bytes)
+<nmethod compile_id='24' compiler='C1' level='3' entry='0x0000000002433a80' size='1288' address='0x0000000002433910' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='904' scopes_pcs_offset='984' dependencies_offset='1240' nul_chk_table_offset='1248' method='sun/nio/cs/SingleByte$Encoder encode (C)I' bytes='32' count='277' iicount='277' stamp='0.132'/>
+<writer thread='3040'/>
+<task_queued compile_id='25' method='java/lang/String getChars (II[CI)V' bytes='62' count='446' iicount='446' level='3' stamp='0.133' comment='tiered' hot_count='446'/>
+<writer thread='3208'/>
+    133   25       3       java.lang.String::getChars (62 bytes)
+<nmethod compile_id='25' compiler='C1' level='3' entry='0x0000000002434000' size='2264' address='0x0000000002433e50' relocation_offset='288' insts_offset='432' stub_offset='1296' scopes_data_offset='1528' scopes_pcs_offset='1760' dependencies_offset='2240' nul_chk_table_offset='2248' method='java/lang/String getChars (II[CI)V' bytes='62' count='447' iicount='447' stamp='0.134'/>
+<writer thread='3040'/>
+[Loaded java.util.concurrent.ConcurrentHashMap$ForwardingNode from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded com.oracle.jrockit.jfr.InstantEvent from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded com.oracle.jrockit.jfr.DurationEvent from C:\Java\jdk1.8.0_92\jre\lib\jfr.jar]
+[Loaded WorkEvent from file:/D:/java-performance-2017/labs/JMC/01_JFR_HotMethods/bin/]
+<task_queued compile_id='26' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='256' iicount='256' level='3' stamp='0.135' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    135   26       3       java.lang.System::getSecurityManager (4 bytes)
+<nmethod compile_id='26' compiler='C1' level='3' entry='0x00000000024348a0' size='736' address='0x0000000002434750' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='648' scopes_pcs_offset='664' dependencies_offset='728' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='256' iicount='256' stamp='0.135'/>
+<writer thread='3040'/>
+[Loaded Worker from file:/D:/java-performance-2017/labs/JMC/01_JFR_HotMethods/bin/]
+<writer thread='1220'/>
+<task_queued compile_id='27' method='java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='356' iicount='356' level='3' stamp='0.137' comment='tiered' hot_count='356'/>
+<writer thread='3208'/>
+    136   27       3       java.lang.StringBuilder::append (8 bytes)
+<nmethod compile_id='27' compiler='C1' level='3' entry='0x0000000002434bc0' size='912' address='0x0000000002434a50' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='768' scopes_pcs_offset='808' dependencies_offset='904' method='java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='356' iicount='356' stamp='0.137'/>
+<writer thread='1220'/>
+<task_queued compile_id='28' method='java/nio/Buffer position ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.138' comment='tiered' hot_count='128'/>
+<writer thread='3208'/>
+    137   28       1       java.nio.Buffer::position (5 bytes)
+<nmethod compile_id='28' compiler='C1' level='1' entry='0x0000000002434f60' size='704' address='0x0000000002434e10' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/nio/Buffer position ()I' bytes='5' count='129' iicount='129' stamp='0.138'/>
+<writer thread='1220'/>
+<task_queued compile_id='29' method='java/util/Arrays copyOf ([CI)[C' bytes='19' count='256' iicount='256' level='3' stamp='0.138' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+    138   29       3       java.util.Arrays::copyOf (19 bytes)
+<nmethod compile_id='29' compiler='C1' level='3' entry='0x0000000002435280' size='1584' address='0x0000000002435110' relocation_offset='288' insts_offset='368' stub_offset='1008' scopes_data_offset='1200' scopes_pcs_offset='1336' dependencies_offset='1560' nul_chk_table_offset='1568' method='java/util/Arrays copyOf ([CI)[C' bytes='19' count='268' iicount='268' stamp='0.139'/>
+<writer thread='1220'/>
+<task_queued compile_id='30' method='java/nio/Buffer limit ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.139' comment='tiered' hot_count='128'/>
+<writer thread='3208'/>
+    139   30       1       java.nio.Buffer::limit (5 bytes)
+<writer thread='1220'/>
+<task_queued compile_id='31' method='java/lang/AbstractStringBuilder expandCapacity (I)V' bytes='50' count='231' iicount='231' level='3' stamp='0.139' comment='tiered' hot_count='231'/>
+<writer thread='3208'/>
+<nmethod compile_id='30' compiler='C1' level='1' entry='0x00000000024358a0' size='704' address='0x0000000002435750' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/nio/Buffer limit ()I' bytes='5' count='134' iicount='134' stamp='0.139'/>
+    139   31       3       java.lang.AbstractStringBuilder::expandCapacity (50 bytes)
+<nmethod compile_id='31' compiler='C1' level='3' entry='0x0000000002435be0' size='2544' address='0x0000000002435a50' relocation_offset='288' insts_offset='400' stub_offset='1584' scopes_data_offset='1800' scopes_pcs_offset='2048' dependencies_offset='2512' nul_chk_table_offset='2528' method='java/lang/AbstractStringBuilder expandCapacity (I)V' bytes='50' count='248' iicount='248' stamp='0.140'/>
+<writer thread='2920'/>
+[Loaded sun.misc.VMSupport from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ByteArrayOutputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$KeySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1$Encoder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate$Parser from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Date from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.CalendarSystem from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.AbstractCalendar from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.BaseCalendar from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.Gregorian from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TimeZone from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfo from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DataInput from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DataInputStream from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='32' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='488' iicount='488' level='3' stamp='4.919' comment='tiered' hot_count='488'/>
+<writer thread='3208'/>
+   4920   32       3       java.lang.String::&lt;init&gt; (82 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='33' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='256' iicount='256' level='3' stamp='4.920' comment='tiered' hot_count='256'/>
+<task_queued compile_id='34' method='java/io/BufferedInputStream read ()I' bytes='49' count='256' iicount='256' level='3' stamp='4.920' comment='tiered' hot_count='256'/>
+<task_queued compile_id='35' method='java/io/DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='183' backedge_count='3072' iicount='183' level='3' stamp='4.920' comment='tiered' hot_count='183'/>
+<writer thread='3208'/>
+<nmethod compile_id='32' compiler='C1' level='3' entry='0x0000000002437460' size='2704' address='0x0000000002437290' relocation_offset='288' insts_offset='464' stub_offset='1520' scopes_data_offset='1752' scopes_pcs_offset='2040' dependencies_offset='2664' nul_chk_table_offset='2672' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='786' iicount='786' stamp='4.921'/>
+   4922   35       3       java.io.DataInputStream::readUTF (501 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='36' method='java/io/DataInputStream readUTF ()Ljava/lang/String;' bytes='5' count='384' iicount='384' level='3' stamp='4.922' comment='tiered' hot_count='384'/>
+<task_queued compile_id='37' method='java/io/DataInputStream readUnsignedShort ()I' bytes='39' count='384' iicount='384' level='3' stamp='4.922' comment='tiered' hot_count='384'/>
+<task_queued compile_id='38' method='java/io/DataInputStream readFully ([BII)V' bytes='63' count='384' backedge_count='383' iicount='384' level='3' stamp='4.922' comment='tiered' hot_count='384'/>
+<task_queued compile_id='39' method='java/io/BufferedInputStream read1 ([BII)I' bytes='108' count='512' iicount='512' level='3' stamp='4.922' comment='tiered' hot_count='512'/>
+<task_queued compile_id='40' method='java/io/BufferedInputStream read ([BII)I' bytes='113' count='512' backedge_count='1' iicount='512' level='3' stamp='4.922' comment='tiered' hot_count='512'/>
+<task_queued compile_id='41' method='java/io/DataInputStream readShort ()S' bytes='40' count='512' iicount='512' level='3' stamp='4.924' comment='tiered' hot_count='512'/>
+<writer thread='3208'/>
+<nmethod compile_id='35' compiler='C1' level='3' entry='0x0000000002438120' size='15064' address='0x0000000002437d50' relocation_offset='288' insts_offset='976' stub_offset='9104' scopes_data_offset='9624' scopes_pcs_offset='11872' dependencies_offset='14912' nul_chk_table_offset='14936' oops_offset='9528' method='java/io/DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='592' backedge_count='8473' iicount='592' stamp='4.925'/>
+   4926   38       3       java.io.DataInputStream::readFully (63 bytes)
+<nmethod compile_id='38' compiler='C1' level='3' entry='0x000000000243ba00' size='2232' address='0x000000000243b850' relocation_offset='288' insts_offset='432' stub_offset='1360' scopes_data_offset='1568' scopes_pcs_offset='1776' dependencies_offset='2208' nul_chk_table_offset='2216' method='java/io/DataInputStream readFully ([BII)V' bytes='63' count='968' backedge_count='968' iicount='968' stamp='4.926'/>
+   4926   33       2       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+<nmethod compile_id='33' compiler='C1' level='2' entry='0x000000000243c2c0' size='1232' address='0x000000000243c150' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='928' scopes_pcs_offset='1000' dependencies_offset='1208' nul_chk_table_offset='1216' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='7097' iicount='7097' stamp='4.926'/>
+   4927   34  s    3       java.io.BufferedInputStream::read (49 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.calendar.ZoneInfoFile$ZoneOffsetTransitionRule from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.Checksum from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.CRC32 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile$Checksum from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='34' compiler='C1' level='3' entry='0x000000000243cbe0' size='2536' address='0x000000000243ca50' relocation_offset='288' insts_offset='400' stub_offset='1616' scopes_data_offset='1824' scopes_pcs_offset='2016' dependencies_offset='2496' nul_chk_table_offset='2504' method='java/io/BufferedInputStream read ()I' bytes='49' count='5124' iicount='5124' stamp='4.927'/>
+   4928   40  s    3       java.io.BufferedInputStream::read (113 bytes)
+<writer thread='2920'/>
+[Loaded java.util.TimeZone$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.CalendarDate from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.BaseCalendar$Date from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.Gregorian$Date from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.CalendarUtils from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.TimeZoneNameUtility from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='40' compiler='C1' level='3' entry='0x000000000243d640' size='4000' address='0x000000000243d450' relocation_offset='288' insts_offset='496' stub_offset='2640' scopes_data_offset='2880' scopes_pcs_offset='3256' dependencies_offset='3960' nul_chk_table_offset='3968' method='java/io/BufferedInputStream read ([BII)I' bytes='113' count='968' backedge_count='12' iicount='968' stamp='4.928'/>
+   4929   41       3       java.io.DataInputStream::readShort (40 bytes)
+<writer thread='2920'/>
+[Loaded java.util.spi.LocaleServiceProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.TimeZoneNameProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleServiceProviderPool from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='41' compiler='C1' level='3' entry='0x000000000243e5a0' size='1816' address='0x000000000243e410' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1344' scopes_pcs_offset='1480' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/io/DataInputStream readShort ()S' bytes='40' count='1969' iicount='1969' stamp='4.929'/>
+<writer thread='2920'/>
+[Loaded java.text.spi.BreakIteratorProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4929   39       3       java.io.BufferedInputStream::read1 (108 bytes)
+<writer thread='2920'/>
+[Loaded java.text.spi.CollatorProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DateFormatProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DateFormatSymbolsProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DecimalFormatSymbolsProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.NumberFormatProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.CurrencyNameProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.LocaleNameProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.CalendarDataProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleProviderAdapter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.ResourceBundleBasedAdapter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.JRELocaleProviderAdapter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='39' compiler='C1' level='3' entry='0x000000000243ed60' size='4472' address='0x000000000243eb50' relocation_offset='288' insts_offset='528' stub_offset='2608' scopes_data_offset='2896' scopes_pcs_offset='3432' dependencies_offset='4408' nul_chk_table_offset='4424' method='java/io/BufferedInputStream read1 ([BII)I' bytes='108' count='980' iicount='980' stamp='4.930'/>
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.AuxLocaleProviderAdapter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.SPILocaleProviderAdapter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4931   36       3       java.io.DataInputStream::readUTF (5 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='36' compiler='C1' level='3' entry='0x000000000243fe80' size='888' address='0x000000000243fd10' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='880' method='java/io/DataInputStream readUTF ()Ljava/lang/String;' bytes='5' count='592' iicount='592' stamp='4.930'/>
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.LocaleProviderAdapter$Type from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4931   37       3       java.io.DataInputStream::readUnsignedShort (39 bytes)
+<writer thread='2920'/>
+[Loaded java.util.Collections$UnmodifiableCollection$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ArrayList$Itr from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='37' compiler='C1' level='3' entry='0x0000000002440460' size='1816' address='0x00000000024402d0' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1344' scopes_pcs_offset='1480' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/io/DataInputStream readUnsignedShort ()I' bytes='39' count='592' iicount='592' stamp='4.931'/>
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.LocaleProviderAdapter$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.TimeZoneNameProviderImpl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleDataMetaInfo from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.JRELocaleProviderAdapter$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='42' method='java/lang/String charAt (I)C' bytes='29' count='5632' iicount='5632' stamp='4.932' comment='tiered' hot_count='5632'/>
+<writer thread='2076'/>
+   4933   42       4       java.lang.String::charAt (29 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.SPILocaleProviderAdapter$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader$LazyIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedEntrySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedHashIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedEntryIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$BootClassPathHolder from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='2076'/>
+<nmethod compile_id='42' compiler='C2' level='4' entry='0x0000000002443820' size='896' address='0x00000000024436d0' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='528' scopes_pcs_offset='632' dependencies_offset='872' nul_chk_table_offset='880' method='java/lang/String charAt (I)C' bytes='29' count='5689' iicount='5689' stamp='4.933'/>
+<make_not_entrant thread='2076' compile_id='8' compiler='C1' level='3' stamp='4.933'/>
+   4934    8       3       java.lang.String::charAt (29 bytes)   made not entrant
+<writer thread='2920'/>
+[Loaded sun.misc.Launcher$BootClassPathHolder$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='43' method='java/lang/String length ()I' bytes='6' count='1536' iicount='1536' level='1' stamp='4.934' comment='tiered' hot_count='1536'/>
+<writer thread='3208'/>
+   4934   43       1       java.lang.String::length (6 bytes)
+<nmethod compile_id='43' compiler='C1' level='1' entry='0x00000000024434e0' size='768' address='0x0000000002443390' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='648' dependencies_offset='744' nul_chk_table_offset='752' method='java/lang/String length ()I' bytes='6' count='1555' iicount='1555' stamp='4.934'/>
+<make_not_entrant thread='3208' compile_id='10' compiler='C1' level='3' stamp='4.934'/>
+   4935   10       3       java.lang.String::length (6 bytes)   made not entrant
+<writer thread='2920'/>
+<task_queued compile_id='44' method='sun/nio/cs/SingleByte$Decoder decode (I)C' bytes='11' count='1536' iicount='1536' level='3' stamp='4.934' comment='tiered' hot_count='1536'/>
+<writer thread='3208'/>
+   4935   44       3       sun.nio.cs.SingleByte$Decoder::decode (11 bytes)
+<nmethod compile_id='44' compiler='C1' level='3' entry='0x00000000024430e0' size='968' address='0x0000000002442f90' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='792' dependencies_offset='936' nul_chk_table_offset='944' method='sun/nio/cs/SingleByte$Decoder decode (I)C' bytes='11' count='3597' iicount='3597' stamp='4.935'/>
+<writer thread='2920'/>
+<task_queued compile_id='45' method='java/io/BufferedReader readLine (Z)Ljava/lang/String;' bytes='304' count='101' backedge_count='2048' iicount='101' level='3' stamp='4.935' comment='tiered' hot_count='101'/>
+<writer thread='3208'/>
+   4935   45   !   3       java.io.BufferedReader::readLine (304 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='46' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='256' backedge_count='242' iicount='256' level='3' stamp='4.936' comment='tiered' hot_count='256'/>
+<task_queued compile_id='47' method='java/io/File getPath ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='4.936' comment='tiered' hot_count='128'/>
+<task_queued compile_id='48' method='java/util/HashMap hash (Ljava/lang/Object;)I' bytes='20' count='512' iicount='512' level='3' stamp='4.937' comment='tiered' hot_count='512'/>
+<task_queued compile_id='49' method='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='384' iicount='384' level='3' stamp='4.937' comment='tiered' hot_count='384'/>
+<task_queued compile_id='50' method='java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='384' backedge_count='44' iicount='384' level='3' stamp='4.937' comment='tiered' hot_count='384'/>
+[Loaded sun.misc.URLClassPath$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$2 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$3 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.CompoundEnumeration from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='45' compiler='C1' level='3' entry='0x0000000002443d20' size='10976' address='0x0000000002443a90' relocation_offset='288' insts_offset='656' stub_offset='6288' scopes_data_offset='6616' scopes_pcs_offset='8088' dependencies_offset='10248' handler_table_offset='10272' nul_chk_table_offset='10896' method='java/io/BufferedReader readLine (Z)Ljava/lang/String;' bytes='304' count='163' backedge_count='3267' iicount='163' stamp='4.938'/>
+   4938   46       3       java.lang.String::startsWith (72 bytes)
+<writer thread='2920'/>
+[Loaded sun.misc.URLClassPath$JarLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='46' compiler='C1' level='3' entry='0x00000000024429c0' size='1824' address='0x0000000002442850' relocation_offset='288' insts_offset='368' stub_offset='1040' scopes_data_offset='1192' scopes_pcs_offset='1384' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='298' backedge_count='354' iicount='298' stamp='4.938'/>
+   4939   50       3       java.util.HashMap::putVal (300 bytes)
+<writer thread='2920'/>
+[Loaded sun.misc.FileURLMapper from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileNotFoundException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedActionException from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$3$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='50' compiler='C1' level='3' entry='0x0000000002446800' size='8016' address='0x0000000002446590' relocation_offset='288' insts_offset='624' stub_offset='5040' scopes_data_offset='5360' scopes_pcs_offset='6368' dependencies_offset='7904' nul_chk_table_offset='7912' method='java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='390' backedge_count='44' iicount='390' stamp='4.940'/>
+<sweeper state='finished' traversals='1'  total_blobs='296' nmethods='47' adapters='164' free_code_cache='250452288' stamp='4.940'/>
+   4941   48       3       java.util.HashMap::hash (20 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.LocaleServiceProviderPool$LocalizedObjectGetter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.TimeZoneNameUtility$TimeZoneNameGetter from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='48' compiler='C1' level='3' entry='0x0000000002442500' size='1176' address='0x0000000002442390' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='960' scopes_pcs_offset='1008' dependencies_offset='1152' nul_chk_table_offset='1160' method='java/util/HashMap hash (Ljava/lang/Object;)I' bytes='20' count='535' iicount='535' stamp='4.941'/>
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.LocaleResources from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4941   49       3       java.util.HashMap::put (13 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.resources.LocaleData from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.LocaleData$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='49' compiler='C1' level='3' entry='0x0000000002441e20' size='1752' address='0x0000000002441c90' relocation_offset='288' insts_offset='400' stub_offset='1168' scopes_data_offset='1368' scopes_pcs_offset='1520' dependencies_offset='1728' nul_chk_table_offset='1736' method='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='390' iicount='390' stamp='4.941'/>
+<writer thread='2920'/>
+[Loaded java.util.ResourceBundle$Control from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4942   47       1       java.io.File::getPath (5 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.resources.LocaleData$LocaleDataResourceBundleControl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='47' compiler='C1' level='1' entry='0x00000000024418e0' size='704' address='0x0000000002441790' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/io/File getPath ()Ljava/lang/String;' bytes='5' count='151' iicount='151' stamp='4.942'/>
+<writer thread='2920'/>
+[Loaded java.util.Arrays$ArrayList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$Control$CandidateListCache from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.ResourceBundleControlProvider from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='51' method='java/util/ArrayList size ()I' bytes='5' count='128' iicount='128' level='1' stamp='4.943' comment='tiered' hot_count='128'/>
+<task_queued compile_id='52' method='java/lang/String startsWith (Ljava/lang/String;)Z' bytes='7' count='384' iicount='384' level='3' stamp='4.943' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+   4943   52       3       java.lang.String::startsWith (7 bytes)
+<writer thread='2920'/>
+[Loaded java.util.ResourceBundle$RBClassLoader from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$RBClassLoader$1 from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$CacheKey from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='52' compiler='C1' level='3' entry='0x00000000024414c0' size='1040' address='0x0000000002441350' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1032' method='java/lang/String startsWith (Ljava/lang/String;)Z' bytes='7' count='384' iicount='384' stamp='4.943'/>
+<writer thread='2920'/>
+[Loaded java.util.ResourceBundle$CacheKeyReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$LoaderReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+   4944   51       1       java.util.ArrayList::size (5 bytes)
+<writer thread='2920'/>
+[Loaded java.util.ResourceBundle$SingleFormatControl from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='51' compiler='C1' level='1' entry='0x00000000024411a0' size='704' address='0x0000000002441050' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/util/ArrayList size ()I' bytes='5' count='141' iicount='141' stamp='4.944'/>
+<writer thread='2920'/>
+[Loaded java.util.Queue from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Deque from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractSequentialList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedList from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedList$Node from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LanguageTag from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='53' method='java/util/HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='384' iicount='384' level='3' stamp='4.945' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+   4946   53       3       java.util.HashMap$Node::&lt;init&gt; (26 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='54' method='sun/util/locale/LocaleUtils isUpper (C)Z' bytes='18' count='256' iicount='256' level='3' stamp='4.945' comment='tiered' hot_count='256'/>
+[Loaded java.util.Collections$EmptyIterator from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='53' compiler='C1' level='3' entry='0x0000000002440d20' size='1080' address='0x0000000002440bd0' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='856' scopes_pcs_offset='928' dependencies_offset='1072' method='java/util/HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='396' iicount='396' stamp='4.945'/>
+<writer thread='2920'/>
+<task_queued compile_id='55' method='java/lang/StringBuilder toString ()Ljava/lang/String;' bytes='17' count='242' iicount='242' level='3' stamp='4.946' comment='tiered' hot_count='242'/>
+<writer thread='3208'/>
+   4946   54       3       sun.util.locale.LocaleUtils::isUpper (18 bytes)
+<nmethod compile_id='54' compiler='C1' level='3' entry='0x0000000002448660' size='984' address='0x0000000002448510' relocation_offset='288' insts_offset='336' stub_offset='656' scopes_data_offset='808' scopes_pcs_offset='848' dependencies_offset='976' method='sun/util/locale/LocaleUtils isUpper (C)Z' bytes='18' count='262' iicount='262' stamp='4.946'/>
+   4947   55       3       java.lang.StringBuilder::toString (17 bytes)
+<nmethod compile_id='55' compiler='C1' level='3' entry='0x0000000002448a80' size='1072' address='0x0000000002448910' relocation_offset='288' insts_offset='368' stub_offset='688' scopes_data_offset='864' scopes_pcs_offset='920' dependencies_offset='1064' method='java/lang/StringBuilder toString ()Ljava/lang/String;' bytes='17' count='243' iicount='243' stamp='4.946'/>
+<writer thread='2920'/>
+[Loaded sun.util.resources.OpenListResourceBundle from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.TimeZoneNamesBundle from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.TimeZoneNames from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$BundleReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.en.TimeZoneNames_en from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedKeySet from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='56' method='java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='128' iicount='128' level='1' stamp='4.949' comment='tiered' hot_count='128'/>
+<writer thread='3208'/>
+   4949   56       1       java.util.LinkedHashMap::removeEldestEntry (2 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='57' method='java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='256' iicount='256' level='3' stamp='4.949' comment='tiered' hot_count='256'/>
+<task_queued compile_id='58' method='java/util/LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='256' iicount='256' level='3' stamp='4.949' comment='tiered' hot_count='256'/>
+<task_queued compile_id='59' method='java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='384' iicount='384' level='3' stamp='4.949' comment='tiered' hot_count='384'/>
+<task_queued compile_id='60' method='java/util/LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='384' iicount='384' level='3' stamp='4.949' comment='tiered' hot_count='384'/>
+<writer thread='3208'/>
+<nmethod compile_id='56' compiler='C1' level='1' entry='0x0000000002449620' size='680' address='0x00000000024494d0' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='672' method='java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='445' iicount='446' stamp='4.949'/>
+   4950   57       3       java.util.LinkedHashMap::newNode (23 bytes)
+<writer thread='2920'/>
+<task_queued compile_id='61' method='java/lang/String hashCode ()I' bytes='55' count='1725' backedge_count='20480' iicount='1725' stamp='4.949' comment='tiered' hot_count='1725'/>
+<writer thread='2076'/>
+   4950   61       4       java.lang.String::hashCode (55 bytes)
+<writer thread='2920'/>
+[Loaded sun.util.locale.provider.LocaleResources$ResourceReference from C:\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='3208'/>
+<nmethod compile_id='57' compiler='C1' level='3' entry='0x0000000002449920' size='2136' address='0x0000000002449790' relocation_offset='288' insts_offset='400' stub_offset='1328' scopes_data_offset='1512' scopes_pcs_offset='1768' dependencies_offset='2104' nul_chk_table_offset='2120' method='java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='617' iicount='617' stamp='4.950'/>
+   4951   59       3       java.util.LinkedHashMap::linkNodeLast (33 bytes)
+<nmethod compile_id='59' compiler='C1' level='3' entry='0x000000000244a180' size='1232' address='0x000000000244a010' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='904' scopes_pcs_offset='992' dependencies_offset='1200' nul_chk_table_offset='1208' method='java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='617' iicount='617' stamp='4.950'/>
+<writer thread='2920'/>
+<task_queued compile_id='62' method='java/lang/AbstractStringBuilder &lt;init&gt; (I)V' bytes='12' count='398' iicount='398' level='3' stamp='4.950' comment='tiered' hot_count='398'/>
+<writer thread='3208'/>
+   4951   60       3       java.util.LinkedHashMap::afterNodeInsertion (40 bytes)
+<nmethod compile_id='60' compiler='C1' level='3' entry='0x000000000244a6a0' size='2304' address='0x000000000244a510' relocation_offset='288' insts_offset='400' stub_offset='1520' scopes_data_offset='1736' scopes_pcs_offset='1936' dependencies_offset='2272' nul_chk_table_offset='2280' method='java/util/LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='617' iicount='617' stamp='4.951'/>
+   4952   58       3       java.util.LinkedHashMap$Entry::&lt;init&gt; (10 bytes)
+<nmethod compile_id='58' compiler='C1' level='3' entry='0x000000000244afc0' size='1264' address='0x000000000244ae50' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='992' scopes_pcs_offset='1088' dependencies_offset='1248' method='java/util/LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='617' iicount='617' stamp='4.952'/>
+   4952   62       3       java.lang.AbstractStringBuilder::&lt;init&gt; (12 bytes)
+<nmethod compile_id='62' compiler='C1' level='3' entry='0x000000000244b4c0' size='1184' address='0x000000000244b350' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='984' scopes_pcs_offset='1048' dependencies_offset='1176' method='java/lang/AbstractStringBuilder &lt;init&gt; (I)V' bytes='12' count='466' iicount='466' stamp='4.952'/>
+<writer thread='2076'/>
+<nmethod compile_id='61' compiler='C2' level='4' entry='0x000000000244e680' size='1192' address='0x000000000244e550' relocation_offset='288' insts_offset='304' stub_offset='624' scopes_data_offset='656' scopes_pcs_offset='768' dependencies_offset='1168' nul_chk_table_offset='1176' method='java/lang/String hashCode ()I' bytes='55' count='1852' backedge_count='21227' iicount='1852' stamp='4.954'/>
+<make_not_entrant thread='2076' compile_id='2' compiler='C1' level='3' stamp='4.954'/>
+   4954    2       3       java.lang.String::hashCode (55 bytes)   made not entrant
+<writer thread='2920'/>
+<task_queued compile_id='63' method='java/util/concurrent/ConcurrentHashMap tabAt ([Ljava/util/concurrent/ConcurrentHashMap$Node;I)Ljava/util/concurrent/ConcurrentHashMap$Node;' bytes='21' count='256' iicount='256' level='3' stamp='4.960' comment='tiered' hot_count='256'/>
+<writer thread='3208'/>
+   4961   63       3       java.util.concurrent.ConcurrentHashMap::tabAt (21 bytes)
+<writer thread='2920'/>
+<nmethod compile_id='64' compile_kind='c2n' level='0' entry='0x000000000244e300' size='896' address='0x000000000244e190' relocation_offset='288' consts_offset='896' insts_offset='368' method='sun/misc/Unsafe getObjectVolatile (Ljava/lang/Object;J)Ljava/lang/Object;' bytes='0' count='256' iicount='256' stamp='4.960'/>
+   4961   64     n 0       sun.misc.Unsafe::getObjectVolatile (native)   

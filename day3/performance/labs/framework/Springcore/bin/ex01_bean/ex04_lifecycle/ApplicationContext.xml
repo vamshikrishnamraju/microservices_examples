@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+		xmlns:p="http://www.springframework.org/schema/p" xmlns:aop="http://www.springframework.org/schema/aop"
+		xmlns:context="http://www.springframework.org/schema/context" xmlns:jee="http://www.springframework.org/schema/jee"
+		xmlns:tx="http://www.springframework.org/schema/tx"
+		xsi:schemaLocation="
+			http://www.springframework.org/schema/aop http://www.springframework.org/schema/aop/spring-aop-2.5.xsd
+			http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans-2.5.xsd
+			http://www.springframework.org/schema/context http://www.springframework.org/schema/context/spring-context-2.5.xsd
+			http://www.springframework.org/schema/jee http://www.springframework.org/schema/jee/spring-jee-2.5.xsd
+			http://www.springframework.org/schema/tx http://www.springframework.org/schema/tx/spring-tx-2.5.xsd">
+
+   <!--
+      Definition of Bean whose callback methods are identified in this
+      configuration (init-method and destroy-method attributes)
+  
+<bean class="org.springframework.context.annotation.CommonAnnotationBeanPostProcessor"/> -->
+
+	<!--
+		Activates various annotations to be detected in bean classes: Spring's
+		@Required and @Autowired, as well as JSR 250's @PostConstruct,
+		@PreDestroy and @Resource (if available) and JPA's @PersistenceContext
+		and @PersistenceUnit (if available).
+	-->
+	
+<context:annotation-config/>
+
+	
+<bean id="bean1" class="ex01_bean.ex04_lifecycle.Bean1" init-method="init" destroy-method="close">
+	   <constructor-arg index="0">
+	      <value>declarative callbacks</value>
+      </constructor-arg>
+      <property name="int">
+         <value>125</value>
+      </property>
+	</bean>
+
+   <!--
+      Definition of Bean whose callback methods are implied by the implementation
+      of InitializingBean and DisposableBean interfaces.
+   -->
+	<bean id="bean2" class="ex01_bean.ex04_lifecycle.Bean2">
+	   <constructor-arg index="0">
+	      <value>interface callbacks</value>
+      </constructor-arg>
+      <property name="int">
+         <value>125</value>
+      </property>
+	</bean>
+
+
+   
+</beans>

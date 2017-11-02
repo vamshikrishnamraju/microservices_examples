@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <!--
+      Define a Factory supporting a static creation method
+   -->
+   <bean id="bean1" class="ex01_bean.ex06_factory.ExampleStaticFactory" factory-method="createBean">
+      
+      <!--
+         Note: The constructor arg allows us to pass values into the static
+               creation method
+      -->
+	   <constructor-arg index="0">
+	      <value>Static Factory</value>
+      </constructor-arg>
+      
+   </bean>
+
+   <!--
+      Define a Bean that is actually a Factory
+      
+      Note: The definition here is the same as any other Bean definition.  You
+      can use constructor or setter injection to initialise the Factory.
+   -->
+   <bean id="factoryBean" class="ex01_bean.ex06_factory.ExampleInstanceFactory">
+	   <constructor-arg index="0">
+	      <value>Instance Factory</value>
+      </constructor-arg>
+   </bean>
+
+   <!--
+      Define a Bean that is constructed via the above Factory Bean
+   -->
+   <bean id="bean2" factory-bean="factoryBean" factory-method="createBean">
+   </bean>
+
+   <!--
+      Define a Bean that is constructed using a class that implements FactoryBean
+   -->    
+	<bean id="bean3" class="ex01_bean.ex06_factory.ExampleFactoryBean">
+	   <constructor-arg index="0">
+	      <value>FactoryBean Factory</value>
+      </constructor-arg>
+	</bean>
+
+</beans>

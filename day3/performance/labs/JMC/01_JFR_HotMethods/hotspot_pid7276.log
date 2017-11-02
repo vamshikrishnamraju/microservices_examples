@@ -1,0 +1,1379 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='7276' time_ms='1500651215265'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.92-b14
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.92-b14) for windows-amd64 JRE (1.8.0_92-b14), built on Mar 31 2016 21:03:04 by &quot;java_re&quot; with MS VC++ 10.0 (VS2010)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+TraceClassLoading -XX:+LogCompilation -XX:+PrintCompilation -XX:+PrintAssembly -XX:CompileThreshold=1 -Dfile.encoding=Cp1252 
+</args>
+<command>
+demo.test
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.92-b14
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\endorsed
+sun.boot.library.path=C:\jboss\installed\Java\jdk1.8.0_92\jre\bin
+java.library.path=C:\jboss\installed\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/bin/server;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/bin;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/lib/amd64;C:\Ruby24-x64\bin;c:\windows\system32;C:\Windows\System32;C:\spring\software\apache-maven-3.3.1\bin;C:\Ruby24-x64\bin;c:\windows\system32;C:\Windows\System32;C:\spring\software\apache-maven-3.3.1\bin;C:\Git\bin;C:\jboss\installed\Java\jdk1.8.0_92\bin;F:\java-performance-2017\softwares\eclipse;;.
+java.home=C:\jboss\installed\Java\jdk1.8.0_92\jre
+java.class.path=F:\java-performance-2017\labs\JMC\01_JFR_HotMethods\bin
+sun.boot.class.path=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+file.encoding=Cp1252
+sun.java.command=demo.test
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='952'/>
+[Opened C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Object from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Serializable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Comparable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharSequence from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.String from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AnnotatedElement from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.GenericDeclaration from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Type from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Cloneable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.System from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Throwable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Error from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadDeath from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Exception from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.RuntimeException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.SecurityManager from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AccessControlContext from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.SecureClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ReflectiveOperationException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassNotFoundException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.LinkageError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NoClassDefFoundError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassCastException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ArrayStoreException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.VirtualMachineError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.OutOfMemoryError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StackOverflowError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IllegalMonitorStateException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.SoftReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.WeakReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.FinalReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.PhantomReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Cleaner from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Runnable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Thread from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Thread$UncaughtExceptionHandler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadGroup from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Map from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Dictionary from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Properties from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.AccessibleObject from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Member from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Field from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Parameter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Executable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Method from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Constructor from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MagicAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessor from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.MethodAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessor from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstructorAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ConstantPool from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessor from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.FieldAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeFieldAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.UnsafeStaticFieldAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.annotation.Annotation from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.CallerSensitive from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandle from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.DirectMethodHandle from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MemberName from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleNatives from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.LambdaForm from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodType from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.BootstrapMethodError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.CallSite from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.ConstantCallSite from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MutableCallSite from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.VolatileCallSite from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Appendable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.AbstractStringBuilder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringBuilder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Unsafe from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.AutoCloseable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Closeable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.InputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ByteArrayInputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.File from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URL from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.jar.Manifest from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.CodeSource from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StackTraceElement from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Buffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Boolean from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Character from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Number from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Float from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Double from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Byte from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Short from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Integer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Long from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NullPointerException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ArithmeticException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ObjectStreamField from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Comparator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.String$CaseInsensitiveComparator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Guard from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Permission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.BasicPermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.RuntimePermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AccessController from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectPermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$GetReflectionFactoryAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.cert.Certificate from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Iterable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.List from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.RandomAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Vector from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Stack from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$Lock from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$ReferenceHandler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.InterruptedException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ArrayList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Set from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractSet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$EmptyMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableRandomAccessList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Null from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.ReferenceQueue$Lock from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangRefAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Reference$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.SharedSecrets from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IncompatibleClassChangeError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.NoSuchMethodError from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.Reflection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Map$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$Node from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.VM from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Math from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ref.Finalizer$FinalizerThread from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$EntrySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SynchronizedSet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Objects from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Enumeration from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Iterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$Enumerator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Runtime from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Version from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaIOFileDescriptorAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileDescriptor$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Flushable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.OutputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilterInputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedInputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedExceptionAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicReferenceFieldUpdater$AtomicReferenceFieldUpdaterImpl$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$ReflectionData from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$Atomic from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.AbstractRepository from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.GenericDeclRepository from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.generics.repository.ClassRepository from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$AnnotationData from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.annotation.AnnotationType from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$ClassValueMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Modifier from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.LangReflectAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.ReflectAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.misc.ReflectUtil from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilterOutputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.PrintStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedOutputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Writer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.OutputStreamWriter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamEncoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.Charset from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.spi.CharsetProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.FastCharsetProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.PreHashedMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Aliases from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Classes from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StandardCharsets$Cache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicInteger from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.action.GetPropertyAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Arrays from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.HistoricallyNamedCharset from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.MS1252 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Class$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.ReflectionFactory$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.NativeConstructorAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.reflect.DelegatingConstructorAccessorImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ArrayEncoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetEncoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte$Encoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CodingErrorAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.ByteBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.HeapByteBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Bits from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.ByteOrder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicLong from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNioAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.Bits$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedWriter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DefaultFileSystem from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileSystem from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.WinNTFileSystem from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Enum from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.File$PathStatus from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.file.Watchable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.file.Path from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ExpiringCache$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$NativeLibrary from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Terminator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.SignalHandler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Terminator$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Signal from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.NativeSignalHandler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Integer$IntegerCache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.OSEnvironment from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.io.Win32ErrorMode from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaLangAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.System$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.IllegalArgumentException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Compiler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Compiler$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandlerFactory from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$Factory from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.security.util.Debug from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$ParallelLoaders from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$SetFromMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.WeakHashMap$KeySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaNetAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$7 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.StringTokenizer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$ExtClassLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.MetaIndex from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Readable from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.Reader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.BufferedReader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.InputStreamReader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileReader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.StreamDecoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ArrayDecoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CharsetDecoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.SingleByte$Decoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.CharBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.HeapCharBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$Cache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.charset.CoderResult$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.reflect.Array from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale$Cache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.Lock from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.locks.ReentrantLock from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Segment from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$Node from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CounterCell from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$CollectionView from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$KeySetView from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$ValuesView from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.ConcurrentHashMap$EntrySetView from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Cache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.BaseLocale$Key from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleObjectCache$CacheEntry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Locale$LocaleKey from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LocaleUtils from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharacterData from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.CharacterDataLatin1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$TreeNode from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileInputStream$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.ParseUtil from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.BitSet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.Parts from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLStreamHandler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.Handler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$JavaSecurityAccessImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaSecurityProtectionDomainAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.ProtectionDomain$Key from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Principal from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashSet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.jar.Handler from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$AppClassLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.SystemClassLoaderAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='5480'/>
+<thread_logfile thread='5480' filename='C:\Windows\TEMP\\hs_c5480_pid7276.log'/>
+<writer thread='1276'/>
+<thread_logfile thread='1276' filename='C:\Windows\TEMP\\hs_c1276_pid7276.log'/>
+<writer thread='952'/>
+[Loaded java.lang.invoke.MethodHandleImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.function.Function from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleImpl$4 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Identity from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassValue$Version from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MemberName$Factory from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleStatics from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.invoke.MethodHandleStatics$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31632'/>
+</blob>
+[Loaded sun.misc.PostVMInitHook from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.concurrent.atomic.AtomicBoolean from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$4 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.usagetracker.UsageTrackerClient$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$NameComparator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$EntryComparator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Collections$UnmodifiableMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='1' method='java/lang/String indexOf (II)I' bytes='70' count='121' backedge_count='3072' iicount='121' level='3' stamp='0.096' comment='tiered' hot_count='121'/>
+<writer thread='1276'/>
+     95    1       3       java.lang.String::indexOf (70 bytes)
+<writer thread='7104'/>
+<thread_logfile thread='7104' filename='C:\Windows\TEMP\\hs_c7104_pid7276.log'/>
+<writer thread='1276'/>
+Could not load hsdis-amd64.dll; library not loadable; PrintAssembly is disabled
+<nmethod compile_id='1' compiler='C1' level='3' entry='0x0000000002a60720' size='1848' address='0x0000000002a60590' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1312' scopes_pcs_offset='1472' dependencies_offset='1824' nul_chk_table_offset='1832' method='java/lang/String indexOf (II)I' bytes='70' count='147' backedge_count='3594' iicount='147' stamp='0.131'/>
+<writer thread='952'/>
+<task_queued compile_id='2' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='256' iicount='256' level='3' stamp='0.131' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    131    2       3       java.lang.String::&lt;init&gt; (82 bytes)
+<nmethod compile_id='2' compiler='C1' level='3' entry='0x0000000002a62360' size='2704' address='0x0000000002a62190' relocation_offset='288' insts_offset='464' stub_offset='1520' scopes_data_offset='1752' scopes_pcs_offset='2040' dependencies_offset='2664' nul_chk_table_offset='2672' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='256' iicount='256' stamp='0.133'/>
+<writer thread='952'/>
+<task_queued compile_id='3' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='256' iicount='256' level='3' stamp='0.133' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    132    3       3       java.util.Arrays::copyOfRange (63 bytes)
+<writer thread='952'/>
+<task_queued compile_id='4' method='java/lang/String hashCode ()I' bytes='55' count='425' backedge_count='6144' iicount='425' level='3' stamp='0.133' comment='tiered' hot_count='425'/>
+<nmethod compile_id='5' compile_kind='c2n' level='0' entry='0x0000000002a60340' size='904' address='0x0000000002a601d0' relocation_offset='288' consts_offset='904' insts_offset='368' method='java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V' bytes='0' count='640' iicount='640' stamp='0.133'/>
+    133    5     n 0       java.lang.System::arraycopy (native)   (static)
+[Loaded java.util.SortedMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.NavigableMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TreeMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='3' compiler='C1' level='3' entry='0x0000000002a6b020' size='4856' address='0x0000000002a6ae10' relocation_offset='288' insts_offset='528' stub_offset='3152' scopes_data_offset='3472' scopes_pcs_offset='4096' dependencies_offset='4832' nul_chk_table_offset='4840' oops_offset='3400' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='322' iicount='322' stamp='0.134'/>
+    134    4       3       java.lang.String::hashCode (55 bytes)
+<writer thread='952'/>
+[Loaded java.lang.ProcessEnvironment$CheckedEntrySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$EntrySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$CheckedEntrySet$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='4' compiler='C1' level='3' entry='0x0000000002a61d40' size='1448' address='0x0000000002a61bd0' relocation_offset='288' insts_offset='368' stub_offset='880' scopes_data_offset='1032' scopes_pcs_offset='1152' dependencies_offset='1424' nul_chk_table_offset='1432' method='java/lang/String hashCode ()I' bytes='55' count='458' backedge_count='6571' iicount='458' stamp='0.135'/>
+<writer thread='952'/>
+[Loaded java.util.HashMap$HashIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.HashMap$EntryIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ProcessEnvironment$CheckedEntry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='6' method='java/lang/String charAt (I)C' bytes='29' count='1664' iicount='1664' level='3' stamp='0.135' comment='tiered' hot_count='1664'/>
+<writer thread='1276'/>
+    135    6       3       java.lang.String::charAt (29 bytes)
+<writer thread='952'/>
+[Loaded java.util.TreeMap$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='7' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='896' iicount='896' level='3' stamp='0.136' comment='tiered' hot_count='896'/>
+<task_queued compile_id='8' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='896' iicount='896' level='3' stamp='0.136' comment='tiered' hot_count='896'/>
+<task_queued compile_id='9' method='java/lang/String length ()I' bytes='6' count='512' iicount='512' level='3' stamp='0.136' comment='tiered' hot_count='512'/>
+<writer thread='1276'/>
+<nmethod compile_id='6' compiler='C1' level='3' entry='0x0000000002a6c2c0' size='1376' address='0x0000000002a6c150' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='992' scopes_pcs_offset='1096' dependencies_offset='1352' nul_chk_table_offset='1360' method='java/lang/String charAt (I)C' bytes='29' count='1987' iicount='1987' stamp='0.136'/>
+    135    7       3       java.lang.CharacterData::of (120 bytes)
+<writer thread='952'/>
+<task_queued compile_id='10' method='java/lang/Math min (II)I' bytes='11' count='617' iicount='617' level='3' stamp='0.136' comment='tiered' hot_count='617'/>
+<task_queued compile_id='11' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1664' iicount='1664' level='3' stamp='0.136' comment='tiered' hot_count='1664'/>
+<task_queued compile_id='12' method='java/lang/Character toUpperCase (C)C' bytes='6' count='384' iicount='384' level='3' stamp='0.136' comment='tiered' hot_count='384'/>
+[Loaded sun.usagetracker.UsageTrackerClient$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='7' compiler='C1' level='3' entry='0x0000000002a6c880' size='2616' address='0x0000000002a6c6d0' relocation_offset='288' insts_offset='432' stub_offset='1680' scopes_data_offset='1832' scopes_pcs_offset='1976' dependencies_offset='2552' nul_chk_table_offset='2560' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='1207' iicount='1207' stamp='0.136'/>
+    136    8       3       java.lang.CharacterDataLatin1::getProperties (11 bytes)
+<nmethod compile_id='8' compiler='C1' level='3' entry='0x0000000002a6ab20' size='952' address='0x0000000002a6a9d0' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='792' dependencies_offset='920' nul_chk_table_offset='928' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1207' iicount='1207' stamp='0.137'/>
+    136    9       3       java.lang.String::length (6 bytes)
+<nmethod compile_id='9' compiler='C1' level='3' entry='0x0000000002a619a0' size='856' address='0x0000000002a61850' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='720' dependencies_offset='832' nul_chk_table_offset='840' method='java/lang/String length ()I' bytes='6' count='819' iicount='819' stamp='0.137'/>
+    137   11       3       java.lang.Object::&lt;init&gt; (1 bytes)
+<nmethod compile_id='11' compiler='C1' level='3' entry='0x0000000002a6d2a0' size='800' address='0x0000000002a6d150' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='712' dependencies_offset='792' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1692' iicount='1692' stamp='0.137'/>
+    137   10       3       java.lang.Math::min (11 bytes)
+<nmethod compile_id='10' compiler='C1' level='3' entry='0x0000000002a6d5e0' size='904' address='0x0000000002a6d490' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='784' dependencies_offset='896' method='java/lang/Math min (II)I' bytes='11' count='682' iicount='682' stamp='0.138'/>
+<writer thread='952'/>
+[Loaded java.lang.StringCoding from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+    137   12       3       java.lang.Character::toUpperCase (6 bytes)
+<writer thread='952'/>
+[Loaded java.lang.ThreadLocal$ThreadLocalMap from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ThreadLocal$ThreadLocalMap$Entry from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='12' compiler='C1' level='3' entry='0x0000000002a6d9c0' size='1304' address='0x0000000002a6d850' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1048' scopes_pcs_offset='1120' dependencies_offset='1280' nul_chk_table_offset='1288' method='java/lang/Character toUpperCase (C)C' bytes='6' count='388' iicount='388' stamp='0.138'/>
+<writer thread='952'/>
+[Loaded sun.nio.cs.Unicode from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringEncoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.UTF_8$Encoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileOutputStream$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.launcher.LauncherHelper from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.StringCoding$StringDecoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLClassLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.util.URLUtil from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$Loader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$JarLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipConstants from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.JavaUtilZipFileAccess from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.ZipFile$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='13' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='256' iicount='256' level='3' stamp='0.143' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    143   13       3       java.lang.AbstractStringBuilder::ensureCapacityInternal (16 bytes)
+<writer thread='952'/>
+<task_queued compile_id='14' method='java/lang/Character toLowerCase (I)I' bytes='9' count='896' iicount='896' level='3' stamp='0.143' comment='tiered' hot_count='896'/>
+<task_queued compile_id='15' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='896' iicount='896' level='3' stamp='0.143' comment='tiered' hot_count='896'/>
+<writer thread='1276'/>
+<nmethod compile_id='13' compiler='C1' level='3' entry='0x0000000002a6e700' size='1192' address='0x0000000002a6e590' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='968' scopes_pcs_offset='1024' dependencies_offset='1168' nul_chk_table_offset='1176' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='347' iicount='347' stamp='0.144'/>
+    143   14       3       java.lang.Character::toLowerCase (9 bytes)
+<writer thread='952'/>
+<task_queued compile_id='16' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='256' iicount='256' level='3' stamp='0.144' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+<nmethod compile_id='14' compiler='C1' level='3' entry='0x0000000002a6ebc0' size='1160' address='0x0000000002a6ea50' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='944' scopes_pcs_offset='992' dependencies_offset='1136' nul_chk_table_offset='1144' method='java/lang/Character toLowerCase (I)I' bytes='9' count='1102' iicount='1102' stamp='0.144'/>
+    144   15       3       java.lang.CharacterDataLatin1::toLowerCase (39 bytes)
+<writer thread='952'/>
+<task_queued compile_id='17' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1536' iicount='1536' level='1' stamp='0.144' comment='tiered' hot_count='1536'/>
+<task_queued compile_id='18' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='384' iicount='384' level='3' stamp='0.144' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+<nmethod compile_id='15' compiler='C1' level='3' entry='0x0000000002a6f080' size='1352' address='0x0000000002a6ef10' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1016' scopes_pcs_offset='1128' dependencies_offset='1320' nul_chk_table_offset='1328' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='1237' iicount='1237' stamp='0.145'/>
+    144   17       1       java.lang.CharacterDataLatin1::getProperties (11 bytes)
+<nmethod compile_id='17' compiler='C1' level='1' entry='0x0000000002a6f5e0' size='856' address='0x0000000002a6f490' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='712' dependencies_offset='824' nul_chk_table_offset='832' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1625' iicount='1625' stamp='0.145'/>
+<make_not_entrant thread='1276' compile_id='8' compiler='C1' level='3' stamp='0.145'/>
+    145    8       3       java.lang.CharacterDataLatin1::getProperties (11 bytes)   made not entrant
+    145   16       3       java.lang.AbstractStringBuilder::append (29 bytes)
+<nmethod compile_id='16' compiler='C1' level='3' entry='0x0000000002a6f980' size='1672' address='0x0000000002a6f810' relocation_offset='288' insts_offset='368' stub_offset='976' scopes_data_offset='1168' scopes_pcs_offset='1312' dependencies_offset='1632' nul_chk_table_offset='1640' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='441' iicount='441' stamp='0.146'/>
+    145   18       3       java.io.WinNTFileSystem::isSlash (18 bytes)
+<nmethod compile_id='18' compiler='C1' level='3' entry='0x0000000002a70020' size='1024' address='0x0000000002a6fed0' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='840' scopes_pcs_offset='888' dependencies_offset='1016' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='435' iicount='435' stamp='0.146'/>
+<writer thread='952'/>
+<task_queued compile_id='19' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='384' iicount='384' level='3' stamp='0.146' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+    146   19  s    3       java.lang.StringBuffer::append (13 bytes)
+<nmethod compile_id='19' compiler='C1' level='3' entry='0x0000000002a704a0' size='2304' address='0x0000000002a70310' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1680' scopes_pcs_offset='1880' dependencies_offset='2264' nul_chk_table_offset='2272' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='406' iicount='406' stamp='0.147'/>
+<writer thread='952'/>
+<task_queued compile_id='20' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='249' iicount='249' level='3' stamp='0.148' comment='tiered' hot_count='249'/>
+<writer thread='1276'/>
+    147   20       3       java.lang.AbstractStringBuilder::append (50 bytes)
+<writer thread='952'/>
+[Loaded sun.misc.URLClassPath$FileLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='21' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='256' backedge_count='1415' iicount='256' level='3' stamp='0.148' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+<nmethod compile_id='20' compiler='C1' level='3' entry='0x0000000002a70de0' size='2440' address='0x0000000002a70c50' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1720' scopes_pcs_offset='1968' dependencies_offset='2400' nul_chk_table_offset='2408' method='java/lang/AbstractStringBuilder append (Ljava/lang/String;)Ljava/lang/AbstractStringBuilder;' bytes='50' count='260' iicount='260' stamp='0.149'/>
+    148   21       3       java.lang.String::equals (81 bytes)
+<writer thread='952'/>
+[Loaded sun.misc.Resource from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$FileLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Package from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='21' compiler='C1' level='3' entry='0x0000000002a717a0' size='2504' address='0x0000000002a71610' relocation_offset='288' insts_offset='400' stub_offset='1616' scopes_data_offset='1768' scopes_pcs_offset='1984' dependencies_offset='2464' nul_chk_table_offset='2472' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='258' backedge_count='1470' iicount='258' stamp='0.150'/>
+<writer thread='952'/>
+[Loaded sun.nio.ByteBuffered from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.PerfCounter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Perf$GetPerfAction from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Perf from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.PerfCounter$CoreCounters from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.ch.DirectBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.MappedByteBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.DirectByteBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.LongBuffer from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.nio.DirectLongBufferU from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PermissionCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.Permissions from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.net.URLConnection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.URLConnection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.protocol.file.FileURLConnection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.net.www.MessageHeader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilePermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FilePermission$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='22' method='java/lang/String charAt (I)C' bytes='29' count='5632' iicount='5632' stamp='0.153' comment='tiered' hot_count='5632'/>
+<writer thread='7104'/>
+    152   22       4       java.lang.String::charAt (29 bytes)
+<writer thread='952'/>
+[Loaded java.io.FilePermissionCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.AllPermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.UnresolvedPermission from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.BasicPermissionCollection from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='23' method='java/lang/String indexOf (I)I' bytes='7' count='256' iicount='256' level='3' stamp='0.154' comment='tiered' hot_count='256'/>
+<writer thread='7104'/>
+<nmethod compile_id='22' compiler='C2' level='4' entry='0x0000000002a75620' size='896' address='0x0000000002a754d0' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='528' scopes_pcs_offset='632' dependencies_offset='872' nul_chk_table_offset='880' method='java/lang/String charAt (I)C' bytes='29' count='5675' iicount='5675' stamp='0.154'/>
+<make_not_entrant thread='7104' compile_id='6' compiler='C1' level='3' stamp='0.154'/>
+    154    6       3       java.lang.String::charAt (29 bytes)   made not entrant
+<writer thread='1276'/>
+    154   23       3       java.lang.String::indexOf (7 bytes)
+<writer thread='952'/>
+[Loaded demo.test from file:/F:/java-performance-2017/labs/JMC/01_JFR_HotMethods/bin/]
+[Loaded sun.launcher.LauncherHelper$FXHelper from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='23' compiler='C1' level='3' entry='0x0000000002a75200' size='1040' address='0x0000000002a75090' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='936' dependencies_offset='1032' method='java/lang/String indexOf (I)I' bytes='7' count='258' iicount='258' stamp='0.155'/>
+<writer thread='952'/>
+[Loaded java.lang.Class$MethodArray from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.Void from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='24' method='java/nio/Buffer position ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.156' comment='tiered' hot_count='128'/>
+<writer thread='1276'/>
+    155   24       1       java.nio.Buffer::position (5 bytes)
+<writer thread='952'/>
+<task_queued compile_id='25' method='java/nio/Buffer limit ()I' bytes='5' count='128' iicount='128' level='1' stamp='0.156' comment='tiered' hot_count='128'/>
+<writer thread='1276'/>
+<nmethod compile_id='24' compiler='C1' level='1' entry='0x0000000002a74ee0' size='704' address='0x0000000002a74d90' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/nio/Buffer position ()I' bytes='5' count='243' iicount='243' stamp='0.156'/>
+    156   25       1       java.nio.Buffer::limit (5 bytes)
+<writer thread='952'/>
+<task_queued compile_id='26' method='java/nio/ByteBuffer arrayOffset ()I' bytes='35' count='256' iicount='256' level='3' stamp='0.156' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+<nmethod compile_id='25' compiler='C1' level='1' entry='0x0000000002a74be0' size='704' address='0x0000000002a74a90' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/nio/Buffer limit ()I' bytes='5' count='199' iicount='199' stamp='0.156'/>
+    156   26       3       java.nio.ByteBuffer::arrayOffset (35 bytes)
+<nmethod compile_id='26' compiler='C1' level='3' entry='0x0000000002a745e0' size='1568' address='0x0000000002a74450' relocation_offset='288' insts_offset='400' stub_offset='912' scopes_data_offset='1104' scopes_pcs_offset='1224' dependencies_offset='1560' method='java/nio/ByteBuffer arrayOffset ()I' bytes='35' count='258' iicount='258' stamp='0.157'/>
+<writer thread='952'/>
+<task_queued compile_id='27' method='java/nio/Buffer position (I)Ljava/nio/Buffer;' bytes='43' count='256' iicount='256' level='3' stamp='0.157' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    157   27       3       java.nio.Buffer::position (43 bytes)
+<nmethod compile_id='27' compiler='C1' level='3' entry='0x0000000002a73fc0' size='1472' address='0x0000000002a73e50' relocation_offset='288' insts_offset='368' stub_offset='912' scopes_data_offset='1088' scopes_pcs_offset='1192' dependencies_offset='1464' method='java/nio/Buffer position (I)Ljava/nio/Buffer;' bytes='43' count='258' iicount='258' stamp='0.158'/>
+<writer thread='952'/>
+<task_queued compile_id='28' method='java/nio/CharBuffer arrayOffset ()I' bytes='35' count='256' iicount='256' level='3' stamp='0.158' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    157   28       3       java.nio.CharBuffer::arrayOffset (35 bytes)
+<nmethod compile_id='28' compiler='C1' level='3' entry='0x0000000002a739a0' size='1568' address='0x0000000002a73810' relocation_offset='288' insts_offset='400' stub_offset='912' scopes_data_offset='1104' scopes_pcs_offset='1224' dependencies_offset='1560' method='java/nio/CharBuffer arrayOffset ()I' bytes='35' count='258' iicount='258' stamp='0.158'/>
+<writer thread='952'/>
+<task_queued compile_id='29' method='java/lang/String getChars (II[CI)V' bytes='62' count='438' iicount='438' level='3' stamp='0.158' comment='tiered' hot_count='438'/>
+<writer thread='1276'/>
+    158   29       3       java.lang.String::getChars (62 bytes)
+<nmethod compile_id='29' compiler='C1' level='3' entry='0x0000000002a730c0' size='2256' address='0x0000000002a72f10' relocation_offset='288' insts_offset='432' stub_offset='1296' scopes_data_offset='1520' scopes_pcs_offset='1752' dependencies_offset='2232' nul_chk_table_offset='2240' method='java/lang/String getChars (II[CI)V' bytes='62' count='438' iicount='438' stamp='0.159'/>
+<writer thread='952'/>
+<task_queued compile_id='30' method='java/nio/charset/CoderResult isUnderflow ()Z' bytes='13' count='256' iicount='256' level='3' stamp='0.160' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    159   30       3       java.nio.charset.CoderResult::isUnderflow (13 bytes)
+<nmethod compile_id='30' compiler='C1' level='3' entry='0x0000000002a72c60' size='952' address='0x0000000002a72b10' relocation_offset='288' insts_offset='336' stub_offset='624' scopes_data_offset='776' scopes_pcs_offset='816' dependencies_offset='944' method='java/nio/charset/CoderResult isUnderflow ()Z' bytes='13' count='256' iicount='256' stamp='0.160'/>
+<writer thread='952'/>
+<task_queued compile_id='31' method='java/nio/ByteBuffer array ()[B' bytes='35' count='256' iicount='256' level='3' stamp='0.160' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    160   31       3       java.nio.ByteBuffer::array (35 bytes)
+<nmethod compile_id='31' compiler='C1' level='3' entry='0x0000000002a75a20' size='1544' address='0x0000000002a75890' relocation_offset='288' insts_offset='400' stub_offset='912' scopes_data_offset='1104' scopes_pcs_offset='1216' dependencies_offset='1536' method='java/nio/ByteBuffer array ()[B' bytes='35' count='259' iicount='259' stamp='0.161'/>
+<writer thread='952'/>
+<task_queued compile_id='32' method='java/io/BufferedWriter ensureOpen ()V' bytes='18' count='256' iicount='256' level='3' stamp='0.161' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    160   32       3       java.io.BufferedWriter::ensureOpen (18 bytes)
+<writer thread='952'/>
+<task_queued compile_id='33' method='sun/nio/cs/SingleByte$Encoder encode (C)I' bytes='32' count='256' iicount='256' level='3' stamp='0.161' comment='tiered' hot_count='256'/>
+<task_queued compile_id='34' method='sun/nio/cs/StreamEncoder isOpen ()Z' bytes='5' count='128' iicount='128' level='1' stamp='0.161' comment='tiered' hot_count='128'/>
+<writer thread='1276'/>
+<nmethod compile_id='32' compiler='C1' level='3' entry='0x0000000002a76040' size='1200' address='0x0000000002a75ed0' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='928' scopes_pcs_offset='1000' dependencies_offset='1192' method='java/io/BufferedWriter ensureOpen ()V' bytes='18' count='286' iicount='286' stamp='0.161'/>
+    161   33       3       sun.nio.cs.SingleByte$Encoder::encode (32 bytes)
+<writer thread='952'/>
+<task_queued compile_id='35' method='java/io/BufferedOutputStream flush ()V' bytes='12' count='256' iicount='256' level='3' stamp='0.161' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+<nmethod compile_id='33' compiler='C1' level='3' entry='0x0000000002a76500' size='1288' address='0x0000000002a76390' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='904' scopes_pcs_offset='984' dependencies_offset='1240' nul_chk_table_offset='1248' method='sun/nio/cs/SingleByte$Encoder encode (C)I' bytes='32' count='370' iicount='370' stamp='0.161'/>
+    161   35  s    3       java.io.BufferedOutputStream::flush (12 bytes)
+<writer thread='952'/>
+<task_queued compile_id='36' method='java/io/PrintStream ensureOpen ()V' bytes='18' count='384' iicount='384' level='3' stamp='0.161' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+<nmethod compile_id='35' compiler='C1' level='3' entry='0x0000000002a76a60' size='2160' address='0x0000000002a768d0' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1696' scopes_pcs_offset='1824' dependencies_offset='2128' nul_chk_table_offset='2136' method='java/io/BufferedOutputStream flush ()V' bytes='12' count='375' iicount='375' stamp='0.162'/>
+<writer thread='952'/>
+<task_queued compile_id='37' method='java/nio/CharBuffer hasArray ()Z' bytes='20' count='256' iicount='256' level='3' stamp='0.162' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+    162   36       3       java.io.PrintStream::ensureOpen (18 bytes)
+<writer thread='952'/>
+<task_queued compile_id='38' method='java/io/OutputStream flush ()V' bytes='1' count='384' iicount='384' level='3' stamp='0.162' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+<nmethod compile_id='36' compiler='C1' level='3' entry='0x0000000002a772c0' size='1200' address='0x0000000002a77150' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='928' scopes_pcs_offset='1000' dependencies_offset='1192' method='java/io/PrintStream ensureOpen ()V' bytes='18' count='570' iicount='570' stamp='0.162'/>
+    162   34       1       sun.nio.cs.StreamEncoder::isOpen (5 bytes)
+<nmethod compile_id='34' compiler='C1' level='1' entry='0x0000000002a72960' size='704' address='0x0000000002a72810' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='sun/nio/cs/StreamEncoder isOpen ()Z' bytes='5' count='330' iicount='330' stamp='0.163'/>
+    162   38       3       java.io.OutputStream::flush (1 bytes)
+<nmethod compile_id='38' compiler='C1' level='3' entry='0x0000000002a77760' size='768' address='0x0000000002a77610' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='696' dependencies_offset='760' method='java/io/OutputStream flush ()V' bytes='1' count='543' iicount='543' stamp='0.163'/>
+<writer thread='952'/>
+<task_queued compile_id='39' method='java/nio/Buffer limit (I)Ljava/nio/Buffer;' bytes='62' count='384' iicount='384' level='3' stamp='0.163' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+    163   37       3       java.nio.CharBuffer::hasArray (20 bytes)
+<writer thread='952'/>
+<task_queued compile_id='40' method='java/nio/Buffer &lt;init&gt; (IIII)V' bytes='121' count='384' iicount='384' level='3' stamp='0.163' comment='tiered' hot_count='384'/>
+<task_queued compile_id='41' method='java/nio/Buffer remaining ()I' bytes='10' count='384' iicount='384' level='3' stamp='0.163' comment='tiered' hot_count='384'/>
+<task_queued compile_id='42' method='java/nio/Buffer hasRemaining ()Z' bytes='17' count='384' iicount='384' level='3' stamp='0.163' comment='tiered' hot_count='384'/>
+<task_queued compile_id='43' method='java/nio/ByteBuffer hasArray ()Z' bytes='20' count='384' iicount='384' level='3' stamp='0.163' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+<nmethod compile_id='37' compiler='C1' level='3' entry='0x0000000002a77aa0' size='1064' address='0x0000000002a77950' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='840' scopes_pcs_offset='896' dependencies_offset='1056' method='java/nio/CharBuffer hasArray ()Z' bytes='20' count='393' iicount='393' stamp='0.163'/>
+    163   39       3       java.nio.Buffer::limit (62 bytes)
+<writer thread='952'/>
+<task_queued compile_id='44' method='java/lang/String length ()I' bytes='6' count='1536' iicount='1536' level='1' stamp='0.164' comment='tiered' hot_count='1536'/>
+<writer thread='1276'/>
+<nmethod compile_id='39' compiler='C1' level='3' entry='0x0000000002a77f00' size='1648' address='0x0000000002a77d90' relocation_offset='288' insts_offset='368' stub_offset='976' scopes_data_offset='1152' scopes_pcs_offset='1288' dependencies_offset='1640' method='java/nio/Buffer limit (I)Ljava/nio/Buffer;' bytes='62' count='478' iicount='478' stamp='0.164'/>
+    164   44       1       java.lang.String::length (6 bytes)
+<nmethod compile_id='44' compiler='C1' level='1' entry='0x0000000002a78560' size='768' address='0x0000000002a78410' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='648' dependencies_offset='744' nul_chk_table_offset='752' method='java/lang/String length ()I' bytes='6' count='1624' iicount='1624' stamp='0.164'/>
+<make_not_entrant thread='1276' compile_id='9' compiler='C1' level='3' stamp='0.164'/>
+    164    9       3       java.lang.String::length (6 bytes)   made not entrant
+<writer thread='952'/>
+<task_queued compile_id='45' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='2560' iicount='2560' level='1' stamp='0.164' comment='tiered' hot_count='2560'/>
+<writer thread='1276'/>
+    164   45       1       java.lang.Object::&lt;init&gt; (1 bytes)
+<writer thread='952'/>
+<task_queued compile_id='46' method='java/nio/CharBuffer array ()[C' bytes='35' count='512' iicount='512' level='3' stamp='0.164' comment='tiered' hot_count='512'/>
+<task_queued compile_id='47' method='sun/nio/cs/SingleByte access$000 (Ljava/nio/charset/CoderResult;Ljava/nio/Buffer;ILjava/nio/Buffer;I)Ljava/nio/charset/CoderResult;' bytes='10' count='512' iicount='512' level='3' stamp='0.164' comment='tiered' hot_count='512'/>
+<task_queued compile_id='48' method='sun/nio/cs/SingleByte withResult (Ljava/nio/charset/CoderResult;Ljava/nio/Buffer;ILjava/nio/Buffer;I)Ljava/nio/charset/CoderResult;' bytes='25' count='512' iicount='512' level='3' stamp='0.165' comment='tiered' hot_count='512'/>
+<task_queued compile_id='49' method='java/nio/charset/CoderResult isOverflow ()Z' bytes='14' count='512' iicount='512' level='3' stamp='0.165' comment='tiered' hot_count='512'/>
+<writer thread='1276'/>
+<nmethod compile_id='45' compiler='C1' level='1' entry='0x0000000002a788a0' size='712' address='0x0000000002a78750' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='640' dependencies_offset='704' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='2575' iicount='2575' stamp='0.165'/>
+<make_not_entrant thread='1276' compile_id='11' compiler='C1' level='3' stamp='0.165'/>
+    164   11       3       java.lang.Object::&lt;init&gt; (1 bytes)   made not entrant
+    164   40       3       java.nio.Buffer::&lt;init&gt; (121 bytes)
+<writer thread='952'/>
+<task_queued compile_id='50' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='512' iicount='512' level='3' stamp='0.165' comment='tiered' hot_count='512'/>
+<task_queued compile_id='51' method='java/nio/Buffer flip ()Ljava/nio/Buffer;' bytes='20' count='640' iicount='640' level='3' stamp='0.166' comment='tiered' hot_count='640'/>
+<task_queued compile_id='52' method='java/nio/CharBuffer wrap ([CII)Ljava/nio/CharBuffer;' bytes='20' count='640' iicount='640' level='3' stamp='0.166' comment='tiered' hot_count='640'/>
+<task_queued compile_id='53' method='java/nio/HeapCharBuffer &lt;init&gt; ([CII)V' bytes='14' count='640' iicount='640' level='3' stamp='0.166' comment='tiered' hot_count='640'/>
+<writer thread='1276'/>
+<nmethod compile_id='40' compiler='C1' level='3' entry='0x0000000002a78d20' size='8480' address='0x0000000002a78a50' relocation_offset='288' insts_offset='720' stub_offset='5616' scopes_data_offset='6072' scopes_pcs_offset='7176' dependencies_offset='8472' oops_offset='5976' method='java/nio/Buffer &lt;init&gt; (IIII)V' bytes='121' count='755' iicount='755' stamp='0.166'/>
+    166   41       3       java.nio.Buffer::remaining (10 bytes)
+<nmethod compile_id='41' compiler='C1' level='3' entry='0x0000000002a7ace0' size='816' address='0x0000000002a7ab90' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='712' dependencies_offset='808' method='java/nio/Buffer remaining ()I' bytes='10' count='750' iicount='750' stamp='0.167'/>
+    166   42       3       java.nio.Buffer::hasRemaining (17 bytes)
+<writer thread='952'/>
+<task_queued compile_id='54' method='java/nio/CharBuffer &lt;init&gt; (IIII[CI)V' bytes='22' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<writer thread='1276'/>
+<nmethod compile_id='42' compiler='C1' level='3' entry='0x0000000002a7b020' size='976' address='0x0000000002a7aed0' relocation_offset='288' insts_offset='336' stub_offset='624' scopes_data_offset='776' scopes_pcs_offset='824' dependencies_offset='968' method='java/nio/Buffer hasRemaining ()Z' bytes='17' count='771' iicount='771' stamp='0.167'/>
+<writer thread='952'/>
+<nmethod compile_id='55' compile_kind='c2n' level='0' entry='0x0000000002a7b440' size='872' address='0x0000000002a7b2d0' relocation_offset='288' consts_offset='872' insts_offset='368' method='java/io/FileOutputStream writeBytes ([BIIZ)V' bytes='0' count='768' iicount='768' stamp='0.167'/>
+<writer thread='1276'/>
+    167   54       3       java.nio.CharBuffer::&lt;init&gt; (22 bytes)
+<writer thread='952'/>
+    167   55     n 0       java.io.FileOutputStream::writeBytes (native)   
+<task_queued compile_id='56' method='java/io/Writer write (Ljava/lang/String;)V' bytes='11' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<task_queued compile_id='57' method='java/io/BufferedWriter write (Ljava/lang/String;II)V' bytes='117' count='768' backedge_count='767' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<task_queued compile_id='58' method='java/io/BufferedWriter min (II)I' bytes='9' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<task_queued compile_id='59' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<task_queued compile_id='60' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<task_queued compile_id='61' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='768' iicount='768' level='3' stamp='0.167' comment='tiered' hot_count='768'/>
+<writer thread='1276'/>
+<nmethod compile_id='54' compiler='C1' level='3' entry='0x0000000002a7b7c0' size='1048' address='0x0000000002a7b650' relocation_offset='288' insts_offset='368' stub_offset='656' scopes_data_offset='832' scopes_pcs_offset='912' dependencies_offset='1040' method='java/nio/CharBuffer &lt;init&gt; (IIII[CI)V' bytes='22' count='783' iicount='783' stamp='0.168'/>
+    167   57   !   3       java.io.BufferedWriter::write (117 bytes)
+<writer thread='952'/>
+<task_queued compile_id='62' method='sun/nio/cs/StreamEncoder ensureOpen ()V' bytes='18' count='896' iicount='896' level='3' stamp='0.168' comment='tiered' hot_count='896'/>
+<task_queued compile_id='63' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='896' iicount='896' level='3' stamp='0.168' comment='tiered' hot_count='896'/>
+<task_queued compile_id='64' method='sun/nio/cs/SingleByte$Encoder encodeLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='28' count='896' iicount='896' level='3' stamp='0.168' comment='tiered' hot_count='896'/>
+<task_queued compile_id='65' method='sun/nio/cs/SingleByte$Encoder encodeArrayLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='236' count='896' backedge_count='1790' iicount='896' level='3' stamp='0.168' comment='tiered' hot_count='896'/>
+<writer thread='1276'/>
+<nmethod compile_id='57' compiler='C1' level='3' entry='0x0000000002a7bc60' size='3688' address='0x0000000002a7ba90' relocation_offset='288' insts_offset='464' stub_offset='2096' scopes_data_offset='2328' scopes_pcs_offset='2832' dependencies_offset='3488' handler_table_offset='3496' nul_chk_table_offset='3664' method='java/io/BufferedWriter write (Ljava/lang/String;II)V' bytes='117' count='944' backedge_count='944' iicount='944' stamp='0.169'/>
+    168   65       3       sun.nio.cs.SingleByte$Encoder::encodeArrayLoop (236 bytes)
+<writer thread='952'/>
+<task_queued compile_id='66' method='java/io/OutputStream flush ()V' bytes='1' count='1531' iicount='1531' level='1' stamp='0.169' comment='tiered' hot_count='1531'/>
+<task_queued compile_id='67' method='java/io/OutputStreamWriter flushBuffer ()V' bytes='8' count='1024' iicount='1024' level='3' stamp='0.169' comment='tiered' hot_count='1024'/>
+<task_queued compile_id='68' method='sun/nio/cs/StreamEncoder flushBuffer ()V' bytes='42' count='1024' iicount='1024' level='3' stamp='0.169' comment='tiered' hot_count='1024'/>
+<task_queued compile_id='69' method='sun/nio/cs/StreamEncoder implFlushBuffer ()V' bytes='15' count='1024' iicount='1024' level='3' stamp='0.169' comment='tiered' hot_count='1024'/>
+<task_queued compile_id='70' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='1152' iicount='1152' level='3' stamp='0.170' comment='tiered' hot_count='1152'/>
+<task_queued compile_id='71' method='java/io/PrintStream write ([BII)V' bytes='69' count='1152' iicount='1152' level='3' stamp='0.170' comment='tiered' hot_count='1152'/>
+<task_queued compile_id='72' method='java/io/BufferedOutputStream write ([BII)V' bytes='67' count='1152' iicount='1152' level='3' stamp='0.170' comment='tiered' hot_count='1152'/>
+<task_queued compile_id='73' method='java/io/FileOutputStream write ([BII)V' bytes='12' count='1280' iicount='1280' level='3' stamp='0.171' comment='tiered' hot_count='1280'/>
+<task_queued compile_id='74' method='java/nio/Buffer clear ()Ljava/nio/Buffer;' bytes='20' count='1280' iicount='1280' level='3' stamp='0.171' comment='tiered' hot_count='1280'/>
+<task_queued compile_id='75' method='java/nio/ByteBuffer arrayOffset ()I' bytes='35' count='5378' iicount='5378' stamp='0.172' comment='tiered' hot_count='5378'/>
+<writer thread='7104'/>
+    171   75       4       java.nio.ByteBuffer::arrayOffset (35 bytes)
+<nmethod compile_id='75' compiler='C2' level='4' entry='0x0000000002a7f6c0' size='728' address='0x0000000002a7f590' relocation_offset='288' insts_offset='304' stub_offset='432' scopes_data_offset='464' scopes_pcs_offset='528' dependencies_offset='720' method='java/nio/ByteBuffer arrayOffset ()I' bytes='35' count='5939' iicount='5942' stamp='0.173'/>
+<make_not_entrant thread='7104' compile_id='26' compiler='C1' level='3' stamp='0.173'/>
+    172   26       3       java.nio.ByteBuffer::arrayOffset (35 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='65' compiler='C1' level='3' entry='0x0000000002a7fd20' size='18160' address='0x0000000002a7f890' relocation_offset='288' insts_offset='1168' stub_offset='11280' scopes_data_offset='12064' scopes_pcs_offset='14624' dependencies_offset='18032' nul_chk_table_offset='18040' method='sun/nio/cs/SingleByte$Encoder encodeArrayLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='236' count='1509' backedge_count='3018' iicount='1509' stamp='0.173'/>
+    173   66       1       java.io.OutputStream::flush (1 bytes)
+<writer thread='952'/>
+<task_queued compile_id='76' method='java/nio/Buffer remaining ()I' bytes='10' count='1536' iicount='1536' level='1' stamp='0.173' comment='tiered' hot_count='1536'/>
+<writer thread='1276'/>
+<nmethod compile_id='66' compiler='C1' level='1' entry='0x0000000002a7f420' size='680' address='0x0000000002a7f2d0' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='672' method='java/io/OutputStream flush ()V' bytes='1' count='2325' iicount='2325' stamp='0.173'/>
+<make_not_entrant thread='1276' compile_id='38' compiler='C1' level='3' stamp='0.173'/>
+    173   38       3       java.io.OutputStream::flush (1 bytes)   made not entrant
+    173   76       1       java.nio.Buffer::remaining (10 bytes)
+<nmethod compile_id='76' compiler='C1' level='1' entry='0x0000000002a7f120' size='728' address='0x0000000002a7efd0' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='640' dependencies_offset='720' method='java/nio/Buffer remaining ()I' bytes='10' count='1598' iicount='1598' stamp='0.174'/>
+<make_not_entrant thread='1276' compile_id='41' compiler='C1' level='3' stamp='0.174'/>
+    173   41       3       java.nio.Buffer::remaining (10 bytes)   made not entrant
+    173   62       3       sun.nio.cs.StreamEncoder::ensureOpen (18 bytes)
+<nmethod compile_id='62' compiler='C1' level='3' entry='0x0000000002a7ec80' size='1200' address='0x0000000002a7eb10' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='928' scopes_pcs_offset='1000' dependencies_offset='1192' method='sun/nio/cs/StreamEncoder ensureOpen ()V' bytes='18' count='1657' iicount='1657' stamp='0.174'/>
+    174   52   !   3       java.nio.CharBuffer::wrap (20 bytes)
+<nmethod compile_id='52' compiler='C1' level='3' entry='0x0000000002a7e4a0' size='1976' address='0x0000000002a7e310' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1344' scopes_pcs_offset='1576' dependencies_offset='1880' handler_table_offset='1888' nul_chk_table_offset='1960' method='java/nio/CharBuffer wrap ([CII)Ljava/nio/CharBuffer;' bytes='20' count='1775' iicount='1775' stamp='0.175'/>
+    174   50   !   3       java.nio.charset.CharsetEncoder::encode (285 bytes)
+<writer thread='952'/>
+<task_queued compile_id='77' method='java/nio/Buffer position (I)Ljava/nio/Buffer;' bytes='43' count='5378' iicount='5378' stamp='0.175' comment='tiered' hot_count='5378'/>
+<writer thread='5480'/>
+    174   77       4       java.nio.Buffer::position (43 bytes)
+<nmethod compile_id='77' compiler='C2' level='4' entry='0x0000000002a7cbc0' size='832' address='0x0000000002a7ca90' relocation_offset='288' insts_offset='304' stub_offset='464' scopes_data_offset='496' scopes_pcs_offset='584' dependencies_offset='824' method='java/nio/Buffer position (I)Ljava/nio/Buffer;' bytes='43' count='5969' iicount='5970' stamp='0.176'/>
+<make_not_entrant thread='5480' compile_id='27' compiler='C1' level='3' stamp='0.176'/>
+    176   27       3       java.nio.Buffer::position (43 bytes)   made not entrant
+<writer thread='952'/>
+<task_queued compile_id='78' method='java/nio/CharBuffer arrayOffset ()I' bytes='35' count='6402' iicount='6402' stamp='0.177' comment='tiered' hot_count='6402'/>
+<writer thread='7104'/>
+    177   78       4       java.nio.CharBuffer::arrayOffset (35 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='50' compiler='C1' level='3' entry='0x0000000002a85a20' size='9832' address='0x0000000002a85750' relocation_offset='288' insts_offset='720' stub_offset='5968' scopes_data_offset='6360' scopes_pcs_offset='7696' dependencies_offset='9712' handler_table_offset='9728' nul_chk_table_offset='9768' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='2297' iicount='2297' stamp='0.178'/>
+<writer thread='7104'/>
+<nmethod compile_id='78' compiler='C2' level='4' entry='0x0000000002a87f00' size='744' address='0x0000000002a87dd0' relocation_offset='288' insts_offset='304' stub_offset='432' scopes_data_offset='480' scopes_pcs_offset='544' dependencies_offset='736' method='java/nio/CharBuffer arrayOffset ()I' bytes='35' count='6915' iicount='6915' stamp='0.178'/>
+<make_not_entrant thread='7104' compile_id='28' compiler='C1' level='3' stamp='0.178'/>
+    178   28       3       java.nio.CharBuffer::arrayOffset (35 bytes)   made not entrant
+<writer thread='952'/>
+<task_queued compile_id='79' method='java/io/PrintStream println (Ljava/lang/String;)V' bytes='24' count='1152' iicount='1152' level='3' stamp='0.178' comment='tiered' hot_count='1152'/>
+<task_queued compile_id='80' method='java/io/PrintStream print (Ljava/lang/String;)V' bytes='13' count='1152' iicount='1152' level='3' stamp='0.178' comment='tiered' hot_count='1152'/>
+<writer thread='1276'/>
+    178   43       3       java.nio.ByteBuffer::hasArray (20 bytes)
+<writer thread='952'/>
+<task_queued compile_id='81' method='java/io/PrintStream write (Ljava/lang/String;)V' bytes='83' count='1152' iicount='1152' level='3' stamp='0.178' comment='tiered' hot_count='1152'/>
+<writer thread='1276'/>
+<nmethod compile_id='43' compiler='C1' level='3' entry='0x0000000002a7e020' size='1064' address='0x0000000002a7ded0' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='840' scopes_pcs_offset='896' dependencies_offset='1056' method='java/nio/ByteBuffer hasArray ()Z' bytes='20' count='2353' iicount='2353' stamp='0.179'/>
+    178   46       3       java.nio.CharBuffer::array (35 bytes)
+<nmethod compile_id='46' compiler='C1' level='3' entry='0x0000000002a7da20' size='1544' address='0x0000000002a7d890' relocation_offset='288' insts_offset='400' stub_offset='912' scopes_data_offset='1104' scopes_pcs_offset='1216' dependencies_offset='1536' method='java/nio/CharBuffer array ()[C' bytes='35' count='2439' iicount='2439' stamp='0.179'/>
+    179   47       3       sun.nio.cs.SingleByte::access$000 (10 bytes)
+<nmethod compile_id='47' compiler='C1' level='3' entry='0x0000000002a7d1e0' size='2072' address='0x0000000002a7d050' relocation_offset='288' insts_offset='400' stub_offset='1392' scopes_data_offset='1624' scopes_pcs_offset='1800' dependencies_offset='2040' nul_chk_table_offset='2048' method='sun/nio/cs/SingleByte access$000 (Ljava/nio/charset/CoderResult;Ljava/nio/Buffer;ILjava/nio/Buffer;I)Ljava/nio/charset/CoderResult;' bytes='10' count='2551' iicount='2552' stamp='0.180'/>
+    179   53       3       java.nio.HeapCharBuffer::&lt;init&gt; (14 bytes)
+<writer thread='952'/>
+<task_queued compile_id='82' method='java/io/PrintStream newLine ()V' bytes='73' count='1280' iicount='1280' level='3' stamp='0.180' comment='tiered' hot_count='1280'/>
+<task_queued compile_id='83' method='java/io/BufferedWriter newLine ()V' bytes='9' count='1280' iicount='1280' level='3' stamp='0.180' comment='tiered' hot_count='1280'/>
+<writer thread='1276'/>
+<nmethod compile_id='53' compiler='C1' level='3' entry='0x0000000002a85380' size='1304' address='0x0000000002a85210' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='976' scopes_pcs_offset='1104' dependencies_offset='1280' nul_chk_table_offset='1288' method='java/nio/HeapCharBuffer &lt;init&gt; ([CII)V' bytes='14' count='2634' iicount='2634' stamp='0.180'/>
+    180   56       3       java.io.Writer::write (11 bytes)
+<writer thread='952'/>
+<task_queued compile_id='84' method='java/nio/charset/CoderResult isUnderflow ()Z' bytes='13' count='5376' iicount='5376' stamp='0.181' comment='tiered' hot_count='5376'/>
+<writer thread='7104'/>
+    180   84       4       java.nio.charset.CoderResult::isUnderflow (13 bytes)
+<writer thread='952'/>
+<task_queued compile_id='85' method='java/nio/ByteBuffer array ()[B' bytes='35' count='5377' iicount='5377' stamp='0.181' comment='tiered' hot_count='5377'/>
+<writer thread='5480'/>
+    180   85       4       java.nio.ByteBuffer::array (35 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='56' compiler='C1' level='3' entry='0x0000000002a84d80' size='1480' address='0x0000000002a84c10' relocation_offset='288' insts_offset='368' stub_offset='976' scopes_data_offset='1160' scopes_pcs_offset='1256' dependencies_offset='1448' nul_chk_table_offset='1456' method='java/io/Writer write (Ljava/lang/String;)V' bytes='11' count='2688' iicount='2688' stamp='0.181'/>
+    181   48       3       sun.nio.cs.SingleByte::withResult (25 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='84' compiler='C2' level='4' entry='0x0000000002a84ac0' size='584' address='0x0000000002a84990' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='464' dependencies_offset='576' method='java/nio/charset/CoderResult isUnderflow ()Z' bytes='13' count='5380' iicount='5380' stamp='0.181'/>
+<make_not_entrant thread='7104' compile_id='30' compiler='C1' level='3' stamp='0.181'/>
+    181   30       3       java.nio.charset.CoderResult::isUnderflow (13 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='48' compiler='C1' level='3' entry='0x0000000002a84360' size='1920' address='0x0000000002a841d0' relocation_offset='288' insts_offset='400' stub_offset='1296' scopes_data_offset='1520' scopes_pcs_offset='1664' dependencies_offset='1888' nul_chk_table_offset='1896' method='sun/nio/cs/SingleByte withResult (Ljava/nio/charset/CoderResult;Ljava/nio/Buffer;ILjava/nio/Buffer;I)Ljava/nio/charset/CoderResult;' bytes='25' count='2690' iicount='2690' stamp='0.181'/>
+<writer thread='952'/>
+<task_queued compile_id='86' method='java/io/BufferedWriter ensureOpen ()V' bytes='18' count='5376' iicount='5376' stamp='0.182' comment='tiered' hot_count='5376'/>
+<writer thread='7104'/>
+    181   86       4       java.io.BufferedWriter::ensureOpen (18 bytes)
+<writer thread='1276'/>
+    181   49       3       java.nio.charset.CoderResult::isOverflow (14 bytes)
+<writer thread='5480'/>
+<nmethod compile_id='85' compiler='C2' level='4' entry='0x0000000002a8ae80' size='728' address='0x0000000002a8ad50' relocation_offset='288' insts_offset='304' stub_offset='432' scopes_data_offset='464' scopes_pcs_offset='528' dependencies_offset='720' method='java/nio/ByteBuffer array ()[B' bytes='35' count='5381' iicount='5381' stamp='0.182'/>
+<make_not_entrant thread='5480' compile_id='31' compiler='C1' level='3' stamp='0.182'/>
+    181   31       3       java.nio.ByteBuffer::array (35 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='49' compiler='C1' level='3' entry='0x0000000002a8aaa0' size='952' address='0x0000000002a8a950' relocation_offset='288' insts_offset='336' stub_offset='624' scopes_data_offset='776' scopes_pcs_offset='816' dependencies_offset='944' method='java/nio/charset/CoderResult isOverflow ()Z' bytes='14' count='2721' iicount='2721' stamp='0.182'/>
+    182   60       3       java.io.OutputStreamWriter::write (11 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='86' compiler='C2' level='4' entry='0x0000000002a89300' size='584' address='0x0000000002a891d0' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='464' dependencies_offset='576' method='java/io/BufferedWriter ensureOpen ()V' bytes='18' count='5490' iicount='5492' stamp='0.182'/>
+<make_not_entrant thread='7104' compile_id='32' compiler='C1' level='3' stamp='0.182'/>
+    182   32       3       java.io.BufferedWriter::ensureOpen (18 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='60' compiler='C1' level='3' entry='0x0000000002a88f40' size='984' address='0x0000000002a88dd0' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='776' scopes_pcs_offset='832' dependencies_offset='960' nul_chk_table_offset='968' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='2804' iicount='2804' stamp='0.183'/>
+    182   61   !   3       sun.nio.cs.StreamEncoder::write (78 bytes)
+<writer thread='952'/>
+<task_queued compile_id='87' method='java/io/PrintStream ensureOpen ()V' bytes='18' count='5632' iicount='5632' stamp='0.183' comment='tiered' hot_count='5632'/>
+<writer thread='5480'/>
+    182   87       4       java.io.PrintStream::ensureOpen (18 bytes)
+<nmethod compile_id='87' compiler='C2' level='4' entry='0x0000000002a88c80' size='584' address='0x0000000002a88b50' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='464' dependencies_offset='576' method='java/io/PrintStream ensureOpen ()V' bytes='18' count='5868' iicount='5868' stamp='0.183'/>
+<make_not_entrant thread='5480' compile_id='36' compiler='C1' level='3' stamp='0.183'/>
+    183   36       3       java.io.PrintStream::ensureOpen (18 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='61' compiler='C1' level='3' entry='0x0000000002a89d60' size='3456' address='0x0000000002a89b90' relocation_offset='288' insts_offset='464' stub_offset='1968' scopes_data_offset='2192' scopes_pcs_offset='2544' dependencies_offset='3184' handler_table_offset='3192' nul_chk_table_offset='3432' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='2952' iicount='2952' stamp='0.183'/>
+    183   51       3       java.nio.Buffer::flip (20 bytes)
+<nmethod compile_id='51' compiler='C1' level='3' entry='0x0000000002a89920' size='888' address='0x0000000002a897d0' relocation_offset='288' insts_offset='336' stub_offset='560' scopes_data_offset='712' scopes_pcs_offset='752' dependencies_offset='880' method='java/nio/Buffer flip ()Ljava/nio/Buffer;' bytes='20' count='3020' iicount='3020' stamp='0.184'/>
+    183   58       3       java.io.BufferedWriter::min (9 bytes)
+<nmethod compile_id='58' compiler='C1' level='3' entry='0x0000000002a888e0' size='888' address='0x0000000002a88790' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='784' dependencies_offset='880' method='java/io/BufferedWriter min (II)I' bytes='9' count='3080' iicount='3080' stamp='0.184'/>
+    184   59   !   3       java.io.BufferedWriter::flushBuffer (53 bytes)
+<nmethod compile_id='59' compiler='C1' level='3' entry='0x0000000002a8be40' size='2808' address='0x0000000002a8bc90' relocation_offset='288' insts_offset='432' stub_offset='1680' scopes_data_offset='1888' scopes_pcs_offset='2136' dependencies_offset='2632' handler_table_offset='2640' nul_chk_table_offset='2784' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='3236' iicount='3236' stamp='0.185'/>
+    185   63       3       sun.nio.cs.StreamEncoder::implWrite (156 bytes)
+<writer thread='952'/>
+<task_queued compile_id='88' method='java/nio/Buffer flip ()Ljava/nio/Buffer;' bytes='20' count='3584' iicount='3584' stamp='0.187' comment='tiered' hot_count='3584'/>
+<writer thread='7104'/>
+    186   88       4       java.nio.Buffer::flip (20 bytes)
+<writer thread='952'/>
+<task_queued compile_id='89' method='java/io/BufferedOutputStream flush ()V' bytes='12' count='5406' iicount='5406' stamp='0.187' comment='tiered' hot_count='5406'/>
+<writer thread='1276'/>
+<nmethod compile_id='63' compiler='C1' level='3' entry='0x0000000002a8ca40' size='6864' address='0x0000000002a8c7d0' relocation_offset='288' insts_offset='624' stub_offset='4016' scopes_data_offset='4392' scopes_pcs_offset='5360' dependencies_offset='6736' handler_table_offset='6744' nul_chk_table_offset='6816' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='3673' iicount='3673' stamp='0.187'/>
+    187   74       3       java.nio.Buffer::clear (20 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='88' compiler='C2' level='4' entry='0x0000000002a89680' size='568' address='0x0000000002a89550' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='464' dependencies_offset='560' method='java/nio/Buffer flip ()Ljava/nio/Buffer;' bytes='20' count='3716' iicount='3716' stamp='0.188'/>
+<make_not_entrant thread='7104' compile_id='51' compiler='C1' level='3' stamp='0.188'/>
+    187   51       3       java.nio.Buffer::flip (20 bytes)   made not entrant
+<writer thread='5480'/>
+    187   89  s    4       java.io.BufferedOutputStream::flush (12 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='74' compiler='C1' level='3' entry='0x0000000002a88520' size='888' address='0x0000000002a883d0' relocation_offset='288' insts_offset='336' stub_offset='560' scopes_data_offset='712' scopes_pcs_offset='752' dependencies_offset='880' method='java/nio/Buffer clear ()Ljava/nio/Buffer;' bytes='20' count='3726' iicount='3726' stamp='0.188'/>
+    187   64       3       sun.nio.cs.SingleByte$Encoder::encodeLoop (28 bytes)
+<nmethod compile_id='64' compiler='C1' level='3' entry='0x0000000002a8b4a0' size='2416' address='0x0000000002a8b310' relocation_offset='288' insts_offset='400' stub_offset='1552' scopes_data_offset='1760' scopes_pcs_offset='1952' dependencies_offset='2384' nul_chk_table_offset='2392' method='sun/nio/cs/SingleByte$Encoder encodeLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='28' count='3917' iicount='3917' stamp='0.189'/>
+    188   67       3       java.io.OutputStreamWriter::flushBuffer (8 bytes)
+<nmethod compile_id='67' compiler='C1' level='3' entry='0x0000000002a90cc0' size='968' address='0x0000000002a90b50' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='776' scopes_pcs_offset='816' dependencies_offset='944' nul_chk_table_offset='952' method='java/io/OutputStreamWriter flushBuffer ()V' bytes='8' count='4006' iicount='4006' stamp='0.189'/>
+    189   68   !   3       sun.nio.cs.StreamEncoder::flushBuffer (42 bytes)
+<nmethod compile_id='68' compiler='C1' level='3' entry='0x0000000002a90240' size='2720' address='0x0000000002a90090' relocation_offset='288' insts_offset='432' stub_offset='1616' scopes_data_offset='1840' scopes_pcs_offset='2080' dependencies_offset='2544' handler_table_offset='2552' nul_chk_table_offset='2696' method='sun/nio/cs/StreamEncoder flushBuffer ()V' bytes='42' count='4207' iicount='4208' stamp='0.190'/>
+    190   69       3       sun.nio.cs.StreamEncoder::implFlushBuffer (15 bytes)
+<nmethod compile_id='69' compiler='C1' level='3' entry='0x0000000002a8fd00' size='1248' address='0x0000000002a8fb90' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='1008' scopes_pcs_offset='1064' dependencies_offset='1224' nul_chk_table_offset='1232' method='sun/nio/cs/StreamEncoder implFlushBuffer ()V' bytes='15' count='4290' iicount='4290' stamp='0.191'/>
+    190   70       3       sun.nio.cs.StreamEncoder::writeBytes (132 bytes)
+<writer thread='5480'/>
+<nmethod compile_id='89' compiler='C2' level='4' entry='0x0000000002a92b20' size='1976' address='0x0000000002a929d0' relocation_offset='288' insts_offset='336' stub_offset='1200' scopes_data_offset='1280' scopes_pcs_offset='1496' dependencies_offset='1928' handler_table_offset='1936' nul_chk_table_offset='1960' method='java/io/BufferedOutputStream flush ()V' bytes='12' count='6526' iicount='6526' stamp='0.191'/>
+<make_not_entrant thread='5480' compile_id='35' compiler='C1' level='3' stamp='0.191'/>
+    190   35  s    3       java.io.BufferedOutputStream::flush (12 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='70' compiler='C1' level='3' entry='0x0000000002a8e860' size='5368' address='0x0000000002a8e650' relocation_offset='288' insts_offset='528' stub_offset='3312' scopes_data_offset='3600' scopes_pcs_offset='4184' dependencies_offset='5320' nul_chk_table_offset='5328' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='4573' iicount='4573' stamp='0.192'/>
+    192   71   !   3       java.io.PrintStream::write (69 bytes)
+<nmethod compile_id='71' compiler='C1' level='3' entry='0x0000000002a91d60' size='3584' address='0x0000000002a91b90' relocation_offset='288' insts_offset='464' stub_offset='2128' scopes_data_offset='2376' scopes_pcs_offset='2720' dependencies_offset='3312' handler_table_offset='3320' nul_chk_table_offset='3552' method='java/io/PrintStream write ([BII)V' bytes='69' count='4803' iicount='4803' stamp='0.193'/>
+    193   72  s    3       java.io.BufferedOutputStream::write (67 bytes)
+<nmethod compile_id='72' compiler='C1' level='3' entry='0x0000000002a933a0' size='3664' address='0x0000000002a931d0' relocation_offset='288' insts_offset='464' stub_offset='2384' scopes_data_offset='2624' scopes_pcs_offset='2992' dependencies_offset='3616' nul_chk_table_offset='3624' method='java/io/BufferedOutputStream write ([BII)V' bytes='67' count='5008' iicount='5008' stamp='0.194'/>
+    194   73       3       java.io.FileOutputStream::write (12 bytes)
+<writer thread='952'/>
+<task_queued compile_id='90' method='java/lang/String getChars (II[CI)V' bytes='62' count='5430' iicount='5430' stamp='0.194' comment='tiered' hot_count='5430'/>
+<writer thread='7104'/>
+    194   90       4       java.lang.String::getChars (62 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='73' compiler='C1' level='3' entry='0x0000000002a91940' size='928' address='0x0000000002a917d0' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='776' scopes_pcs_offset='824' dependencies_offset='920' method='java/io/FileOutputStream write ([BII)V' bytes='12' count='4356' iicount='4356' stamp='0.195'/>
+    194   79   !   3       java.io.PrintStream::println (24 bytes)
+<nmethod compile_id='79' compiler='C1' level='3' entry='0x0000000002a910e0' size='1952' address='0x0000000002a90f50' relocation_offset='288' insts_offset='400' stub_offset='1232' scopes_data_offset='1440' scopes_pcs_offset='1624' dependencies_offset='1896' handler_table_offset='1904' method='java/io/PrintStream println (Ljava/lang/String;)V' bytes='24' count='2674' iicount='2674' stamp='0.195'/>
+    195   82   !   3       java.io.PrintStream::newLine (73 bytes)
+<writer thread='952'/>
+<task_queued compile_id='91' method='java/nio/Buffer limit (I)Ljava/nio/Buffer;' bytes='62' count='5540' iicount='5540' stamp='0.196' comment='tiered' hot_count='5540'/>
+<writer thread='5480'/>
+    196   91       4       java.nio.Buffer::limit (62 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='82' compiler='C1' level='3' entry='0x0000000002a95760' size='5088' address='0x0000000002a95550' relocation_offset='288' insts_offset='528' stub_offset='2800' scopes_data_offset='3136' scopes_pcs_offset='3640' dependencies_offset='4600' handler_table_offset='4616' nul_chk_table_offset='5016' method='java/io/PrintStream newLine ()V' bytes='73' count='2764' iicount='2764' stamp='0.197'/>
+    196   80       3       java.io.PrintStream::print (13 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='90' compiler='C2' level='4' entry='0x0000000002a98320' size='1296' address='0x0000000002a981d0' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='720' scopes_pcs_offset='904' dependencies_offset='1240' handler_table_offset='1248' nul_chk_table_offset='1272' method='java/lang/String getChars (II[CI)V' bytes='62' count='5862' iicount='5862' stamp='0.197'/>
+<make_not_entrant thread='7104' compile_id='29' compiler='C1' level='3' stamp='0.197'/>
+    196   29       3       java.lang.String::getChars (62 bytes)   made not entrant
+<writer thread='5480'/>
+<nmethod compile_id='91' compiler='C2' level='4' entry='0x0000000002a9a020' size='976' address='0x0000000002a99ed0' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='560' scopes_pcs_offset='664' dependencies_offset='968' method='java/nio/Buffer limit (I)Ljava/nio/Buffer;' bytes='62' count='5548' iicount='5548' stamp='0.197'/>
+<make_not_entrant thread='5480' compile_id='39' compiler='C1' level='3' stamp='0.197'/>
+    197   39       3       java.nio.Buffer::limit (62 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='80' compiler='C1' level='3' entry='0x0000000002a952c0' size='1008' address='0x0000000002a95150' relocation_offset='288' insts_offset='368' stub_offset='656' scopes_data_offset='840' scopes_pcs_offset='888' dependencies_offset='1000' method='java/io/PrintStream print (Ljava/lang/String;)V' bytes='13' count='2794' iicount='2794' stamp='0.197'/>
+<writer thread='952'/>
+<task_queued compile_id='92' method='java/lang/String indexOf (II)I' bytes='70' count='3193' backedge_count='16297' iicount='3193' stamp='0.197' comment='tiered' hot_count='3193'/>
+<writer thread='7104'/>
+    197   92       4       java.lang.String::indexOf (70 bytes)
+<writer thread='1276'/>
+    197   81   !   3       java.io.PrintStream::write (83 bytes)
+<writer thread='952'/>
+<task_queued compile_id='93' method='java/nio/Buffer &lt;init&gt; (IIII)V' bytes='121' count='5632' iicount='5632' stamp='0.198' comment='tiered' hot_count='5632'/>
+<writer thread='1276'/>
+<nmethod compile_id='81' compiler='C1' level='3' entry='0x0000000002a98ac0' size='5632' address='0x0000000002a98890' relocation_offset='288' insts_offset='560' stub_offset='3216' scopes_data_offset='3568' scopes_pcs_offset='4128' dependencies_offset='5120' handler_table_offset='5136' nul_chk_table_offset='5560' method='java/io/PrintStream write (Ljava/lang/String;)V' bytes='83' count='3067' iicount='3067' stamp='0.199'/>
+    199   83       3       java.io.BufferedWriter::newLine (9 bytes)
+<writer thread='5480'/>
+    199   93       4       java.nio.Buffer::&lt;init&gt; (121 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='83' compiler='C1' level='3' entry='0x0000000002a94c40' size='1648' address='0x0000000002a94ad0' relocation_offset='288' insts_offset='368' stub_offset='1072' scopes_data_offset='1272' scopes_pcs_offset='1392' dependencies_offset='1616' nul_chk_table_offset='1624' method='java/io/BufferedWriter newLine ()V' bytes='9' count='3087' iicount='3087' stamp='0.200'/>
+<writer thread='7104'/>
+<nmethod compile_id='92' compiler='C2' level='4' entry='0x0000000002a945e0' size='1576' address='0x0000000002a94490' relocation_offset='288' insts_offset='336' stub_offset='752' scopes_data_offset='784' scopes_pcs_offset='944' dependencies_offset='1552' nul_chk_table_offset='1560' method='java/lang/String indexOf (II)I' bytes='70' count='3568' backedge_count='17051' iicount='3569' stamp='0.201'/>
+<make_not_entrant thread='7104' compile_id='1' compiler='C1' level='3' stamp='0.201'/>
+    200    1       3       java.lang.String::indexOf (70 bytes)   made not entrant
+<writer thread='5480'/>
+<nmethod compile_id='93' compiler='C2' level='4' entry='0x0000000002a9bce0' size='1616' address='0x0000000002a9bb90' relocation_offset='288' insts_offset='336' stub_offset='752' scopes_data_offset='808' scopes_pcs_offset='1080' dependencies_offset='1608' method='java/nio/Buffer &lt;init&gt; (IIII)V' bytes='121' count='6551' iicount='6552' stamp='0.201'/>
+<make_not_entrant thread='5480' compile_id='40' compiler='C1' level='3' stamp='0.201'/>
+    201   40       3       java.nio.Buffer::&lt;init&gt; (121 bytes)   made not entrant
+<writer thread='952'/>
+<task_queued compile_id='94' method='java/io/BufferedWriter write (Ljava/lang/String;II)V' bytes='117' count='6656' backedge_count='6655' iicount='6656' stamp='0.202' comment='tiered' hot_count='6656'/>
+<task_queued compile_id='95' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='6656' iicount='6656' stamp='0.202' comment='tiered' hot_count='6656'/>
+<task_queued compile_id='96' method='sun/nio/cs/SingleByte$Encoder encodeLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='28' count='6656' iicount='6656' stamp='0.202' comment='tiered' hot_count='6656'/>
+<writer thread='5480'/>
+    201   95   !   4       java.io.BufferedWriter::flushBuffer (53 bytes)
+<writer thread='7104'/>
+    201   94   !   4       java.io.BufferedWriter::write (117 bytes)
+<writer thread='952'/>
+<task_queued compile_id='97' method='sun/nio/cs/SingleByte$Encoder encodeArrayLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='236' count='6656' backedge_count='13310' iicount='6656' stamp='0.202' comment='tiered' hot_count='6656'/>
+<task_queued compile_id='98' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='7680' iicount='7680' stamp='0.205' comment='tiered' hot_count='7680'/>
+<task_queued compile_id='99' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='8704' iicount='8704' stamp='0.207' comment='tiered' hot_count='8704'/>
+<writer thread='7104'/>
+<nmethod compile_id='94' compiler='C2' level='4' entry='0x0000000002a9ae60' size='3672' address='0x0000000002a9ad10' relocation_offset='288' insts_offset='336' stub_offset='1936' scopes_data_offset='1992' scopes_pcs_offset='2768' dependencies_offset='3600' handler_table_offset='3608' nul_chk_table_offset='3632' method='java/io/BufferedWriter write (Ljava/lang/String;II)V' bytes='117' count='8808' backedge_count='8808' iicount='8809' stamp='0.209'/>
+<make_not_entrant thread='7104' compile_id='57' compiler='C1' level='3' stamp='0.209'/>
+    208   57   !   3       java.io.BufferedWriter::write (117 bytes)   made not entrant
+    208   97       4       sun.nio.cs.SingleByte$Encoder::encodeArrayLoop (236 bytes)
+<writer thread='952'/>
+<task_queued compile_id='100' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='9728' iicount='9728' stamp='0.211' comment='tiered' hot_count='9728'/>
+<task_queued compile_id='101' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='9728' iicount='9728' stamp='0.211' comment='tiered' hot_count='9728'/>
+<task_queued compile_id='102' method='sun/nio/cs/StreamEncoder flushBuffer ()V' bytes='42' count='9728' iicount='9728' stamp='0.211' comment='tiered' hot_count='9728'/>
+<task_queued compile_id='103' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='10752' iicount='10752' stamp='0.214' comment='tiered' hot_count='10752'/>
+<task_queued compile_id='104' method='java/io/PrintStream write ([BII)V' bytes='69' count='11776' iicount='11776' stamp='0.217' comment='tiered' hot_count='11776'/>
+<writer thread='7104'/>
+<nmethod compile_id='97' compiler='C2' level='4' entry='0x0000000002a9e0a0' size='4536' address='0x0000000002a9df50' relocation_offset='288' insts_offset='336' stub_offset='1680' scopes_data_offset='1816' scopes_pcs_offset='2992' dependencies_offset='4464' nul_chk_table_offset='4480' oops_offset='1704' method='sun/nio/cs/SingleByte$Encoder encodeArrayLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='236' count='12324' backedge_count='24648' iicount='12325' stamp='0.218'/>
+<make_not_entrant thread='7104' compile_id='65' compiler='C1' level='3' stamp='0.218'/>
+    218   65       3       sun.nio.cs.SingleByte$Encoder::encodeArrayLoop (236 bytes)   made not entrant
+    219   99   !   4       sun.nio.cs.StreamEncoder::write (78 bytes)
+<writer thread='952'/>
+<task_queued compile_id='105' method='java/io/BufferedOutputStream write ([BII)V' bytes='67' count='12800' iicount='12800' stamp='0.221' comment='tiered' hot_count='12800'/>
+<writer thread='5480'/>
+<nmethod compile_id='95' compiler='C2' level='4' entry='0x0000000002aa1a20' size='12128' address='0x0000000002aa1890' relocation_offset='288' insts_offset='400' stub_offset='4496' scopes_data_offset='4792' scopes_pcs_offset='9616' dependencies_offset='12016' nul_chk_table_offset='12040' oops_offset='4520' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='17689' iicount='17689' stamp='0.233'/>
+<make_not_entrant thread='5480' compile_id='59' compiler='C1' level='3' stamp='0.233'/>
+    233   59   !   3       java.io.BufferedWriter::flushBuffer (53 bytes)   made not entrant
+    233  102   !   4       sun.nio.cs.StreamEncoder::flushBuffer (42 bytes)
+<writer thread='952'/>
+<task_queued compile_id='106' method='java/io/PrintStream println (Ljava/lang/String;)V' bytes='24' count='11776' iicount='11776' stamp='0.248' comment='tiered' hot_count='11776'/>
+<writer thread='7104'/>
+<nmethod compile_id='99' compiler='C2' level='4' entry='0x0000000002aa7220' size='10904' address='0x0000000002aa7090' relocation_offset='288' insts_offset='400' stub_offset='3696' scopes_data_offset='3960' scopes_pcs_offset='8480' dependencies_offset='10816' nul_chk_table_offset='10840' oops_offset='3720' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='17693' iicount='17693' stamp='0.250'/>
+<make_not_entrant thread='7104' compile_id='61' compiler='C1' level='3' stamp='0.250'/>
+    250   61   !   3       sun.nio.cs.StreamEncoder::write (78 bytes)   made not entrant
+<writer thread='5480'/>
+<nmethod compile_id='102' compiler='C2' level='4' entry='0x0000000002a9f5c0' size='9328' address='0x0000000002a9f410' relocation_offset='288' insts_offset='432' stub_offset='4816' scopes_data_offset='5000' scopes_pcs_offset='6968' dependencies_offset='9144' handler_table_offset='9152' nul_chk_table_offset='9248' method='sun/nio/cs/StreamEncoder flushBuffer ()V' bytes='42' count='24953' iicount='24953' stamp='0.253'/>
+<make_not_entrant thread='5480' compile_id='68' compiler='C1' level='3' stamp='0.253'/>
+    252   68   !   3       sun.nio.cs.StreamEncoder::flushBuffer (42 bytes)   made not entrant
+<writer thread='7104'/>
+    252  103       4       sun.nio.cs.StreamEncoder::writeBytes (132 bytes)
+<writer thread='5480'/>
+    252  104   !   4       java.io.PrintStream::write (69 bytes)
+<writer thread='952'/>
+<task_queued compile_id='107' method='java/io/PrintStream write (Ljava/lang/String;)V' bytes='83' count='12800' iicount='12800' stamp='0.254' comment='tiered' hot_count='12800'/>
+<task_queued compile_id='108' method='java/io/PrintStream newLine ()V' bytes='73' count='12800' iicount='12800' stamp='0.254' comment='tiered' hot_count='12800'/>
+<writer thread='5480'/>
+<nmethod compile_id='104' compiler='C2' level='4' entry='0x0000000002a9ca60' size='5744' address='0x0000000002a9c8d0' relocation_offset='288' insts_offset='400' stub_offset='3216' scopes_data_offset='3328' scopes_pcs_offset='4232' dependencies_offset='5592' handler_table_offset='5600' nul_chk_table_offset='5696' method='java/io/PrintStream write ([BII)V' bytes='69' count='24958' iicount='24958' stamp='0.263'/>
+<make_not_entrant thread='5480' compile_id='71' compiler='C1' level='3' stamp='0.263'/>
+    262   71   !   3       java.io.PrintStream::write (69 bytes)   made not entrant
+<writer thread='7104'/>
+<nmethod compile_id='103' compiler='C2' level='4' entry='0x0000000002aac120' size='7520' address='0x0000000002aabf90' relocation_offset='288' insts_offset='400' stub_offset='3760' scopes_data_offset='3912' scopes_pcs_offset='5392' dependencies_offset='7344' handler_table_offset='7352' nul_chk_table_offset='7448' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='24958' iicount='24958' stamp='0.273'/>
+<make_not_entrant thread='7104' compile_id='70' compiler='C1' level='3' stamp='0.273'/>
+    273   70       3       sun.nio.cs.StreamEncoder::writeBytes (132 bytes)   made not entrant
+<writer thread='5480'/>
+    273  105  s    4       java.io.BufferedOutputStream::write (67 bytes)
+<writer thread='7104'/>
+    273  106   !   4       java.io.PrintStream::println (24 bytes)
+<writer thread='5480'/>
+<nmethod compile_id='105' compiler='C2' level='4' entry='0x0000000002aa9ca0' size='2064' address='0x0000000002aa9b50' relocation_offset='288' insts_offset='336' stub_offset='1360' scopes_data_offset='1400' scopes_pcs_offset='1608' dependencies_offset='2008' handler_table_offset='2016' nul_chk_table_offset='2040' method='java/io/BufferedOutputStream write ([BII)V' bytes='67' count='24958' iicount='24958' stamp='0.277'/>
+<make_not_entrant thread='5480' compile_id='72' compiler='C1' level='3' stamp='0.277'/>
+    276   72  s    3       java.io.BufferedOutputStream::write (67 bytes)   made not entrant
+    277  107   !   4       java.io.PrintStream::write (83 bytes)
+<nmethod compile_id='107' compiler='C2' level='4' entry='0x0000000002aaa5e0' size='6800' address='0x0000000002aaa450' relocation_offset='288' insts_offset='400' stub_offset='3088' scopes_data_offset='3264' scopes_pcs_offset='4640' dependencies_offset='6592' handler_table_offset='6608' nul_chk_table_offset='6728' method='java/io/PrintStream write (Ljava/lang/String;)V' bytes='83' count='18447' iicount='18447' stamp='0.292'/>
+<make_not_entrant thread='5480' compile_id='81' compiler='C1' level='3' stamp='0.292'/>
+    292   81   !   3       java.io.PrintStream::write (83 bytes)   made not entrant
+    292  108   !   4       java.io.PrintStream::newLine (73 bytes)
+<nmethod compile_id='108' compiler='C2' level='4' entry='0x0000000002aadec0' size='7792' address='0x0000000002aadd10' relocation_offset='288' insts_offset='432' stub_offset='3760' scopes_data_offset='3984' scopes_pcs_offset='5472' dependencies_offset='7552' handler_table_offset='7568' nul_chk_table_offset='7712' method='java/io/PrintStream newLine ()V' bytes='73' count='21301' iicount='21301' stamp='0.306'/>
+<make_not_entrant thread='5480' compile_id='82' compiler='C1' level='3' stamp='0.306'/>
+    305   82   !   3       java.io.PrintStream::newLine (73 bytes)   made not entrant
+    306   96       4       sun.nio.cs.SingleByte$Encoder::encodeLoop (28 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='106' compiler='C2' level='4' entry='0x0000000002ab29c0' size='13728' address='0x0000000002ab27d0' relocation_offset='288' insts_offset='496' stub_offset='5744' scopes_data_offset='6032' scopes_pcs_offset='9392' dependencies_offset='13296' handler_table_offset='13320' nul_chk_table_offset='13584' method='java/io/PrintStream println (Ljava/lang/String;)V' bytes='24' count='21713' iicount='21713' stamp='0.308'/>
+<make_not_entrant thread='7104' compile_id='79' compiler='C1' level='3' stamp='0.308'/>
+    308   79   !   3       java.io.PrintStream::println (24 bytes)   made not entrant
+<writer thread='5480'/>
+<nmethod compile_id='96' compiler='C2' level='4' entry='0x0000000002ab1760' size='4480' address='0x0000000002ab1610' relocation_offset='288' insts_offset='336' stub_offset='1680' scopes_data_offset='1824' scopes_pcs_offset='2936' dependencies_offset='4408' nul_chk_table_offset='4424' oops_offset='1704' method='sun/nio/cs/SingleByte$Encoder encodeLoop (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;)Ljava/nio/charset/CoderResult;' bytes='28' count='17693' iicount='17693' stamp='0.317'/>
+<make_not_entrant thread='5480' compile_id='64' compiler='C1' level='3' stamp='0.317'/>
+    316   64       3       sun.nio.cs.SingleByte$Encoder::encodeLoop (28 bytes)   made not entrant
+<writer thread='952'/>
+<task_queued compile_id='109' compile_kind='osr' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='60416' iicount='1' osr_bci='5' level='3' stamp='0.499' comment='tiered' hot_count='60416'/>
+<writer thread='1276'/>
+    499  109 %     3       demo.test::main @ 5 (23 bytes)
+<nmethod compile_id='109' compile_kind='osr' compiler='C1' level='3' entry='0x0000000002a9a480' size='2552' address='0x0000000002a9a2d0' relocation_offset='288' insts_offset='432' stub_offset='1552' scopes_data_offset='1784' scopes_pcs_offset='2064' dependencies_offset='2480' handler_table_offset='2488' nul_chk_table_offset='2536' oops_offset='1736' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='60627' iicount='1' stamp='0.500'/>
+<writer thread='952'/>
+<task_queued compile_id='110' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='61499' iicount='1' level='3' stamp='0.504' comment='tiered' hot_count='1'/>
+<writer thread='1276'/>
+    503  110       3       demo.test::main (23 bytes)
+<nmethod compile_id='110' compiler='C1' level='3' entry='0x0000000002a979a0' size='2464' address='0x0000000002a97810' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1720' scopes_pcs_offset='1992' dependencies_offset='2392' handler_table_offset='2400' nul_chk_table_offset='2448' oops_offset='1672' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='61660' iicount='1' stamp='0.504'/>
+<writer thread='952'/>
+<task_queued compile_id='111' compile_kind='osr' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='101435' iicount='1' osr_bci='5' stamp='0.681' comment='tiered' hot_count='101435'/>
+<writer thread='7104'/>
+    681  111 %     4       demo.test::main @ 5 (23 bytes)
+<nmethod compile_id='111' compile_kind='osr' compiler='C2' level='4' entry='0x0000000002a8e420' size='816' address='0x0000000002a8e2d0' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='568' scopes_pcs_offset='640' dependencies_offset='784' handler_table_offset='792' oops_offset='536' method='demo/test main ([Ljava/lang/String;)V' bytes='23' count='1' backedge_count='101833' iicount='1' stamp='0.683'/>
+<make_not_entrant thread='7104' compile_id='109' compile_kind='osr' compiler='C1' level='3' stamp='0.683'/>
+    683  109 %     3       demo.test::main @ -2 (23 bytes)   made not entrant
+<writer thread='6508'/>
+[Loaded sun.misc.VMSupport from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.ByteArrayOutputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Hashtable$KeySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.ISO_8859_1$Encoder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate$Parser from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.nio.cs.Surrogate from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Date from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.CalendarSystem from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.AbstractCalendar from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.BaseCalendar from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.Gregorian from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TimeZone from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfo from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DataInput from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.DataInputStream from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='112' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='256' iicount='256' level='3' stamp='4.662' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+   4663  112       3       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='113' method='java/io/BufferedInputStream read ()I' bytes='49' count='256' iicount='256' level='3' stamp='4.662' comment='tiered' hot_count='256'/>
+<task_queued compile_id='114' method='java/io/DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='183' backedge_count='3072' iicount='183' level='3' stamp='4.663' comment='tiered' hot_count='183'/>
+<writer thread='1276'/>
+<nmethod compile_id='112' compiler='C1' level='3' entry='0x0000000002a9c580' size='1200' address='0x0000000002a9c410' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='928' scopes_pcs_offset='1000' dependencies_offset='1192' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='892' iicount='894' stamp='4.663'/>
+   4663  114       3       java.io.DataInputStream::readUTF (501 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='115' method='java/io/DataInputStream readUTF ()Ljava/lang/String;' bytes='5' count='256' iicount='256' level='3' stamp='4.663' comment='tiered' hot_count='256'/>
+<task_queued compile_id='116' method='java/io/BufferedInputStream read ([BII)I' bytes='113' count='384' iicount='384' level='3' stamp='4.663' comment='tiered' hot_count='384'/>
+<task_queued compile_id='117' method='java/io/BufferedInputStream read1 ([BII)I' bytes='108' count='384' iicount='384' level='3' stamp='4.663' comment='tiered' hot_count='384'/>
+<task_queued compile_id='118' method='java/io/DataInputStream readUnsignedShort ()I' bytes='39' count='436' iicount='436' level='3' stamp='4.663' comment='tiered' hot_count='436'/>
+<task_queued compile_id='119' method='java/io/DataInputStream readFully ([BII)V' bytes='63' count='509' backedge_count='508' iicount='509' level='3' stamp='4.663' comment='tiered' hot_count='509'/>
+<task_queued compile_id='120' method='java/io/DataInputStream readShort ()S' bytes='40' count='512' iicount='512' level='3' stamp='4.665' comment='tiered' hot_count='512'/>
+<writer thread='1276'/>
+<nmethod compile_id='114' compiler='C1' level='3' entry='0x0000000002ab6160' size='15184' address='0x0000000002ab5d90' relocation_offset='288' insts_offset='976' stub_offset='9232' scopes_data_offset='9752' scopes_pcs_offset='12000' dependencies_offset='15040' nul_chk_table_offset='15056' oops_offset='9656' method='java/io/DataInputStream readUTF (Ljava/io/DataInput;)Ljava/lang/String;' bytes='501' count='592' backedge_count='8473' iicount='592' stamp='4.666'/>
+   4667  119       3       java.io.DataInputStream::readFully (63 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='121' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='5522' iicount='5522' stamp='4.666' comment='tiered' hot_count='5522'/>
+<writer thread='7104'/>
+   4667  121       4       java.io.BufferedInputStream::getBufIfOpen (21 bytes)
+<writer thread='1276'/>
+<nmethod compile_id='119' compiler='C1' level='3' entry='0x0000000002a970c0' size='2232' address='0x0000000002a96f10' relocation_offset='288' insts_offset='432' stub_offset='1360' scopes_data_offset='1568' scopes_pcs_offset='1776' dependencies_offset='2208' nul_chk_table_offset='2216' method='java/io/DataInputStream readFully ([BII)V' bytes='63' count='968' backedge_count='968' iicount='968' stamp='4.667'/>
+   4668  113  s    3       java.io.BufferedInputStream::read (49 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='121' compiler='C2' level='4' entry='0x0000000002aaffc0' size='608' address='0x0000000002aafe90' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='472' dependencies_offset='600' method='java/io/BufferedInputStream getBufIfOpen ()[B' bytes='21' count='7096' iicount='7096' stamp='4.668'/>
+<make_not_entrant thread='7104' compile_id='112' compiler='C1' level='3' stamp='4.668'/>
+   4668  112       3       java.io.BufferedInputStream::getBufIfOpen (21 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='113' compiler='C1' level='3' entry='0x0000000002ab0de0' size='2448' address='0x0000000002ab0c50' relocation_offset='288' insts_offset='400' stub_offset='1552' scopes_data_offset='1760' scopes_pcs_offset='1952' dependencies_offset='2416' nul_chk_table_offset='2424' method='java/io/BufferedInputStream read ()I' bytes='49' count='5123' iicount='5123' stamp='4.668'/>
+   4669  116  s    3       java.io.BufferedInputStream::read (113 bytes)
+<writer thread='6508'/>
+[Loaded sun.util.calendar.ZoneInfoFile$ZoneOffsetTransitionRule from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.Checksum from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.zip.CRC32 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.ZoneInfoFile$Checksum from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.TimeZone$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.CalendarDate from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.BaseCalendar$Date from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.calendar.Gregorian$Date from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='116' compiler='C1' level='3' entry='0x0000000002aa6320' size='3880' address='0x0000000002aa6150' relocation_offset='288' insts_offset='464' stub_offset='2544' scopes_data_offset='2784' scopes_pcs_offset='3160' dependencies_offset='3848' nul_chk_table_offset='3856' method='java/io/BufferedInputStream read ([BII)I' bytes='113' count='968' backedge_count='12' iicount='968' stamp='4.669'/>
+<writer thread='6508'/>
+[Loaded sun.util.calendar.CalendarUtils from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+   4670  120       3       java.io.DataInputStream::readShort (40 bytes)
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.TimeZoneNameUtility from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.LocaleServiceProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.TimeZoneNameProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleServiceProviderPool from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='120' compiler='C1' level='3' entry='0x0000000002ab06a0' size='1816' address='0x0000000002ab0510' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1344' scopes_pcs_offset='1480' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/io/DataInputStream readShort ()S' bytes='40' count='1969' iicount='1969' stamp='4.670'/>
+   4671  117       3       java.io.BufferedInputStream::read1 (108 bytes)
+<writer thread='6508'/>
+[Loaded java.text.spi.BreakIteratorProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.CollatorProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DateFormatProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DateFormatSymbolsProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.DecimalFormatSymbolsProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.text.spi.NumberFormatProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.CurrencyNameProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.LocaleNameProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.CalendarDataProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleProviderAdapter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.ResourceBundleBasedAdapter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.JRELocaleProviderAdapter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='117' compiler='C1' level='3' entry='0x0000000002aa52e0' size='4192' address='0x0000000002aa50d0' relocation_offset='288' insts_offset='528' stub_offset='2416' scopes_data_offset='2696' scopes_pcs_offset='3232' dependencies_offset='4160' nul_chk_table_offset='4168' method='java/io/BufferedInputStream read1 ([BII)I' bytes='108' count='980' iicount='980' stamp='4.671'/>
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.AuxLocaleProviderAdapter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.SPILocaleProviderAdapter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+   4672  115       3       java.io.DataInputStream::readUTF (5 bytes)
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.AuxLocaleProviderAdapter$NullProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleProviderAdapter$Type from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='115' compiler='C1' level='3' entry='0x0000000002ab0280' size='888' address='0x0000000002ab0110' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='768' scopes_pcs_offset='800' dependencies_offset='880' method='java/io/DataInputStream readUTF ()Ljava/lang/String;' bytes='5' count='592' iicount='592' stamp='4.672'/>
+   4672  118       3       java.io.DataInputStream::readUnsignedShort (39 bytes)
+<writer thread='6508'/>
+[Loaded java.util.Collections$UnmodifiableCollection$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ArrayList$Itr from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleProviderAdapter$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='118' compiler='C1' level='3' entry='0x0000000002aa4b20' size='1816' address='0x0000000002aa4990' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1344' scopes_pcs_offset='1480' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/io/DataInputStream readUnsignedShort ()I' bytes='39' count='592' iicount='592' stamp='4.672'/>
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.TimeZoneNameProviderImpl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleDataMetaInfo from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='122' method='java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='249' iicount='249' level='3' stamp='4.673' comment='tiered' hot_count='249'/>
+<writer thread='1276'/>
+   4674  122       3       java.lang.StringBuilder::append (8 bytes)
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.JRELocaleProviderAdapter$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='122' compiler='C1' level='3' entry='0x0000000002a96ac0' size='912' address='0x0000000002a96950' relocation_offset='288' insts_offset='368' stub_offset='592' scopes_data_offset='768' scopes_pcs_offset='808' dependencies_offset='904' method='java/lang/StringBuilder append (Ljava/lang/String;)Ljava/lang/StringBuilder;' bytes='8' count='250' iicount='250' stamp='4.673'/>
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.SPILocaleProviderAdapter$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader$LazyIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ServiceLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedEntrySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedHashIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedHashMap$LinkedEntryIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$BootClassPathHolder from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.Launcher$BootClassPathHolder$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='123' method='sun/nio/cs/SingleByte$Decoder decode (I)C' bytes='11' count='1536' iicount='1536' level='3' stamp='4.675' comment='tiered' hot_count='1536'/>
+<writer thread='1276'/>
+   4676  123       3       sun.nio.cs.SingleByte$Decoder::decode (11 bytes)
+<nmethod compile_id='123' compiler='C1' level='3' entry='0x0000000002ab9a60' size='968' address='0x0000000002ab9910' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='792' dependencies_offset='936' nul_chk_table_offset='944' method='sun/nio/cs/SingleByte$Decoder decode (I)C' bytes='11' count='3596' iicount='3596' stamp='4.676'/>
+<writer thread='6508'/>
+<task_queued compile_id='124' method='java/io/BufferedReader readLine (Z)Ljava/lang/String;' bytes='304' count='101' backedge_count='2048' iicount='101' level='3' stamp='4.676' comment='tiered' hot_count='101'/>
+<writer thread='1276'/>
+   4676  124   !   3       java.io.BufferedReader::readLine (304 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='125' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='256' iicount='256' level='3' stamp='4.676' comment='tiered' hot_count='256'/>
+<task_queued compile_id='126' method='java/io/File getPath ()Ljava/lang/String;' bytes='5' count='128' iicount='128' level='1' stamp='4.678' comment='tiered' hot_count='128'/>
+[Loaded sun.misc.URLClassPath$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.lang.ClassLoader$2 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.URLClassPath$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='124' compiler='C1' level='3' entry='0x0000000002ab9fa0' size='10912' address='0x0000000002ab9d10' relocation_offset='288' insts_offset='656' stub_offset='6288' scopes_data_offset='6616' scopes_pcs_offset='8088' dependencies_offset='10232' handler_table_offset='10240' nul_chk_table_offset='10840' method='java/io/BufferedReader readLine (Z)Ljava/lang/String;' bytes='304' count='163' backedge_count='3267' iicount='163' stamp='4.679'/>
+   4679  125       3       java.lang.System::getSecurityManager (4 bytes)
+<writer thread='6508'/>
+[Loaded java.net.URLClassLoader$3 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.CompoundEnumeration from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='125' compiler='C1' level='3' entry='0x0000000002abc920' size='736' address='0x0000000002abc7d0' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='648' scopes_pcs_offset='664' dependencies_offset='728' method='java/lang/System getSecurityManager ()Ljava/lang/SecurityManager;' bytes='4' count='274' iicount='274' stamp='4.679'/>
+   4680  126       1       java.io.File::getPath (5 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='127' method='java/util/HashMap hash (Ljava/lang/Object;)I' bytes='20' count='512' iicount='512' level='3' stamp='4.679' comment='tiered' hot_count='512'/>
+<writer thread='1276'/>
+<nmethod compile_id='126' compiler='C1' level='1' entry='0x0000000002abcc20' size='704' address='0x0000000002abcad0' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='632' dependencies_offset='696' method='java/io/File getPath ()Ljava/lang/String;' bytes='5' count='135' iicount='135' stamp='4.679'/>
+   4680  127       3       java.util.HashMap::hash (20 bytes)
+<nmethod compile_id='127' compiler='C1' level='3' entry='0x0000000002abcf40' size='1176' address='0x0000000002abcdd0' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='960' scopes_pcs_offset='1008' dependencies_offset='1152' nul_chk_table_offset='1160' method='java/util/HashMap hash (Ljava/lang/Object;)I' bytes='20' count='514' iicount='514' stamp='4.680'/>
+<sweeper state='finished' traversals='1'  total_blobs='364' nmethods='124' adapters='155' free_code_cache='250230272' stamp='4.680'/>
+<writer thread='6508'/>
+[Loaded sun.misc.URLClassPath$JarLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.misc.FileURLMapper from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.IOException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.io.FileNotFoundException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.security.PrivilegedActionException from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='128' method='java/lang/Character toLowerCase (C)C' bytes='6' count='256' iicount='256' level='3' stamp='4.681' comment='tiered' hot_count='256'/>
+<writer thread='1276'/>
+   4682  128       3       java.lang.Character::toLowerCase (6 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='129' method='java/util/Arrays copyOf ([CI)[C' bytes='19' count='256' iicount='256' level='3' stamp='4.681' comment='tiered' hot_count='256'/>
+<task_queued compile_id='130' method='java/lang/String toLowerCase (Ljava/util/Locale;)Ljava/lang/String;' bytes='439' count='128' backedge_count='2681' iicount='128' level='3' stamp='4.681' comment='tiered' hot_count='128'/>
+<writer thread='1276'/>
+<nmethod compile_id='128' compiler='C1' level='3' entry='0x0000000002abdb80' size='1304' address='0x0000000002abda10' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1048' scopes_pcs_offset='1120' dependencies_offset='1280' nul_chk_table_offset='1288' method='java/lang/Character toLowerCase (C)C' bytes='6' count='284' iicount='284' stamp='4.682'/>
+   4682  130       3       java.lang.String::toLowerCase (439 bytes)
+<writer thread='6508'/>
+[Loaded java.net.URLClassLoader$3$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleServiceProviderPool$LocalizedObjectGetter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.TimeZoneNameUtility$TimeZoneNameGetter from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.provider.LocaleResources from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.LocaleData from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.LocaleData$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$Control from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.LocaleData$LocaleDataResourceBundleControl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Arrays$ArrayList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$Control$CandidateListCache from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.spi.ResourceBundleControlProvider from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='131' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='256' backedge_count='583' iicount='256' level='3' stamp='4.684' comment='tiered' hot_count='256'/>
+[Loaded java.util.ResourceBundle$RBClassLoader from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$RBClassLoader$1 from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='130' compiler='C1' level='3' entry='0x0000000002abe4c0' size='11408' address='0x0000000002abe190' relocation_offset='288' insts_offset='816' stub_offset='6640' scopes_data_offset='7096' scopes_pcs_offset='8960' dependencies_offset='11264' nul_chk_table_offset='11272' method='java/lang/String toLowerCase (Ljava/util/Locale;)Ljava/lang/String;' bytes='439' count='134' backedge_count='2789' iicount='134' stamp='4.685'/>
+   4685  131       3       java.lang.String::startsWith (72 bytes)
+<writer thread='6508'/>
+[Loaded java.util.ResourceBundle$CacheKey from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$CacheKeyReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$LoaderReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$SingleFormatControl from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='131' compiler='C1' level='3' entry='0x0000000002ac0fc0' size='1824' address='0x0000000002ac0e50' relocation_offset='288' insts_offset='368' stub_offset='1040' scopes_data_offset='1192' scopes_pcs_offset='1384' dependencies_offset='1784' nul_chk_table_offset='1792' method='java/lang/String startsWith (Ljava/lang/String;I)Z' bytes='72' count='327' backedge_count='767' iicount='327' stamp='4.685'/>
+   4686  129       3       java.util.Arrays::copyOf (19 bytes)
+<writer thread='6508'/>
+[Loaded java.util.Queue from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.Deque from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.AbstractSequentialList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='129' compiler='C1' level='3' entry='0x0000000002ac1700' size='1576' address='0x0000000002ac1590' relocation_offset='288' insts_offset='368' stub_offset='1008' scopes_data_offset='1192' scopes_pcs_offset='1328' dependencies_offset='1552' nul_chk_table_offset='1560' method='java/util/Arrays copyOf ([CI)[C' bytes='19' count='267' iicount='267' stamp='4.686'/>
+<writer thread='6508'/>
+[Loaded java.util.LinkedList from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.LinkedList$Node from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.locale.LanguageTag from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<task_queued compile_id='132' method='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='384' iicount='384' level='3' stamp='4.687' comment='tiered' hot_count='384'/>
+<task_queued compile_id='133' method='java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='384' backedge_count='48' iicount='384' level='3' stamp='4.687' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+   4687  133       3       java.util.HashMap::putVal (300 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='134' method='java/util/HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='384' iicount='384' level='3' stamp='4.687' comment='tiered' hot_count='384'/>
+[Loaded java.util.Collections$EmptyIterator from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.OpenListResourceBundle from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.TimeZoneNamesBundle from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.TimeZoneNames from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded java.util.ResourceBundle$BundleReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+[Loaded sun.util.resources.en.TimeZoneNames_en from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='133' compiler='C1' level='3' entry='0x0000000002ac1e40' size='8080' address='0x0000000002ac1bd0' relocation_offset='288' insts_offset='624' stub_offset='5104' scopes_data_offset='5424' scopes_pcs_offset='6432' dependencies_offset='7968' nul_chk_table_offset='7976' method='java/util/HashMap putVal (ILjava/lang/Object;Ljava/lang/Object;ZZ)Ljava/lang/Object;' bytes='300' count='409' backedge_count='53' iicount='409' stamp='4.689'/>
+   4689  132       3       java.util.HashMap::put (13 bytes)
+<writer thread='6508'/>
+[Loaded java.util.LinkedHashMap$LinkedKeySet from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='132' compiler='C1' level='3' entry='0x0000000002ac3d20' size='1752' address='0x0000000002ac3b90' relocation_offset='288' insts_offset='400' stub_offset='1168' scopes_data_offset='1368' scopes_pcs_offset='1520' dependencies_offset='1728' nul_chk_table_offset='1736' method='java/util/HashMap put (Ljava/lang/Object;Ljava/lang/Object;)Ljava/lang/Object;' bytes='13' count='409' iicount='409' stamp='4.689'/>
+   4690  134       3       java.util.HashMap$Node::&lt;init&gt; (26 bytes)
+<nmethod compile_id='134' compiler='C1' level='3' entry='0x0000000002ac43e0' size='1080' address='0x0000000002ac4290' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='856' scopes_pcs_offset='928' dependencies_offset='1072' method='java/util/HashMap$Node &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='26' count='400' iicount='400' stamp='4.690'/>
+<writer thread='6508'/>
+<task_queued compile_id='135' method='java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='128' iicount='128' level='1' stamp='4.691' comment='tiered' hot_count='128'/>
+<writer thread='1276'/>
+   4691  135       1       java.util.LinkedHashMap::removeEldestEntry (2 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='136' method='java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='256' iicount='256' level='3' stamp='4.691' comment='tiered' hot_count='256'/>
+<task_queued compile_id='137' method='java/util/LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='256' iicount='256' level='3' stamp='4.691' comment='tiered' hot_count='256'/>
+<task_queued compile_id='138' method='java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='384' iicount='384' level='3' stamp='4.691' comment='tiered' hot_count='384'/>
+<task_queued compile_id='139' method='java/util/LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='384' iicount='384' level='3' stamp='4.691' comment='tiered' hot_count='384'/>
+<writer thread='1276'/>
+<nmethod compile_id='135' compiler='C1' level='1' entry='0x0000000002ac4860' size='680' address='0x0000000002ac4710' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='616' scopes_pcs_offset='624' dependencies_offset='672' method='java/util/LinkedHashMap removeEldestEntry (Ljava/util/Map$Entry;)Z' bytes='2' count='378' iicount='378' stamp='4.691'/>
+<writer thread='6508'/>
+<task_queued compile_id='140' method='java/lang/String hashCode ()I' bytes='55' count='1551' backedge_count='20480' iicount='1551' stamp='4.691' comment='tiered' hot_count='1551'/>
+<writer thread='7104'/>
+   4692  140       4       java.lang.String::hashCode (55 bytes)
+<writer thread='1276'/>
+   4692  136       3       java.util.LinkedHashMap::newNode (23 bytes)
+<writer thread='6508'/>
+[Loaded sun.util.locale.provider.LocaleResources$ResourceReference from C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar]
+<writer thread='1276'/>
+<nmethod compile_id='136' compiler='C1' level='3' entry='0x0000000002ac4b60' size='2128' address='0x0000000002ac49d0' relocation_offset='288' insts_offset='400' stub_offset='1328' scopes_data_offset='1512' scopes_pcs_offset='1768' dependencies_offset='2104' nul_chk_table_offset='2112' method='java/util/LinkedHashMap newNode (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)Ljava/util/HashMap$Node;' bytes='23' count='616' iicount='616' stamp='4.692'/>
+   4693  137       3       java.util.LinkedHashMap$Entry::&lt;init&gt; (10 bytes)
+<writer thread='6508'/>
+<task_queued compile_id='141' method='java/lang/AbstractStringBuilder &lt;init&gt; (I)V' bytes='12' count='334' iicount='334' level='3' stamp='4.692' comment='tiered' hot_count='334'/>
+<uncommon_trap thread='6508' reason='unstable_if' action='reinterpret' compile_id='95' compiler='C2' level='4' stamp='4.692'>
+<jvms bci='15' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='17693' iicount='17693'/>
+<jvms bci='41' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='17693' iicount='17693'/>
+<jvms bci='60' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='17693' iicount='17693'/>
+<jvms bci='7' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='17693' iicount='17693'/>
+<jvms bci='34' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='17693' iicount='17693'/>
+</uncommon_trap>
+<make_not_entrant thread='6508' compile_id='95' compiler='C2' level='4' stamp='4.692'/>
+   4693   95   !   4       java.io.BufferedWriter::flushBuffer (53 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='137' compiler='C1' level='3' entry='0x0000000002ac53c0' size='1256' address='0x0000000002ac5250' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='992' scopes_pcs_offset='1088' dependencies_offset='1248' method='java/util/LinkedHashMap$Entry &lt;init&gt; (ILjava/lang/Object;Ljava/lang/Object;Ljava/util/HashMap$Node;)V' bytes='10' count='616' iicount='616' stamp='4.693'/>
+   4693  138       3       java.util.LinkedHashMap::linkNodeLast (33 bytes)
+<writer thread='6508'/>
+<uncommon_trap thread='6508' reason='class_check' action='maybe_recompile' compile_id='103' compiler='C2' level='4' stamp='4.693'>
+<jvms bci='120' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='24958' iicount='24958'/>
+</uncommon_trap>
+<writer thread='1276'/>
+<nmethod compile_id='138' compiler='C1' level='3' entry='0x0000000002ac58c0' size='1232' address='0x0000000002ac5750' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='904' scopes_pcs_offset='992' dependencies_offset='1200' nul_chk_table_offset='1208' method='java/util/LinkedHashMap linkNodeLast (Ljava/util/LinkedHashMap$Entry;)V' bytes='33' count='616' iicount='616' stamp='4.693'/>
+   4694  139       3       java.util.LinkedHashMap::afterNodeInsertion (40 bytes)
+<writer thread='952'/>
+<task_queued compile_id='142' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='17792' iicount='17792' decompiles='1' level='3' stamp='4.693' comment='tiered' hot_count='17792'/>
+<writer thread='1276'/>
+<nmethod compile_id='139' compiler='C1' level='3' entry='0x0000000002ac5de0' size='2304' address='0x0000000002ac5c50' relocation_offset='288' insts_offset='400' stub_offset='1520' scopes_data_offset='1736' scopes_pcs_offset='1936' dependencies_offset='2272' nul_chk_table_offset='2280' method='java/util/LinkedHashMap afterNodeInsertion (Z)V' bytes='40' count='616' iicount='616' stamp='4.694'/>
+   4694  142   !   3       java.io.BufferedWriter::flushBuffer (53 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='140' compiler='C2' level='4' entry='0x0000000002ac9440' size='1192' address='0x0000000002ac9310' relocation_offset='288' insts_offset='304' stub_offset='624' scopes_data_offset='656' scopes_pcs_offset='768' dependencies_offset='1168' nul_chk_table_offset='1176' method='java/lang/String hashCode ()I' bytes='55' count='1828' backedge_count='23037' iicount='1828' stamp='4.694'/>
+<make_not_entrant thread='7104' compile_id='4' compiler='C1' level='3' stamp='4.694'/>
+   4695    4       3       java.lang.String::hashCode (55 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='142' compiler='C1' level='3' entry='0x0000000002ac8940' size='2872' address='0x0000000002ac8790' relocation_offset='288' insts_offset='432' stub_offset='1744' scopes_data_offset='1952' scopes_pcs_offset='2200' dependencies_offset='2696' handler_table_offset='2704' nul_chk_table_offset='2848' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='18193' iicount='18193' decompiles='1' stamp='4.695'/>
+   4695  141       3       java.lang.AbstractStringBuilder::&lt;init&gt; (12 bytes)
+<nmethod compile_id='141' compiler='C1' level='3' entry='0x0000000002ac8440' size='1184' address='0x0000000002ac82d0' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='984' scopes_pcs_offset='1048' dependencies_offset='1176' method='java/lang/AbstractStringBuilder &lt;init&gt; (I)V' bytes='12' count='390' iicount='390' stamp='4.695'/>
+<writer thread='6508'/>
+<uncommon_trap thread='6508' reason='unstable_if' action='reinterpret' compile_id='99' compiler='C2' level='4' count='1' state='intrinsic recompiled' stamp='4.696'>
+<jvms bci='15' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='17693' iicount='17693' unstable_if_traps='1'/>
+<jvms bci='41' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='17693' iicount='17693'/>
+<jvms bci='60' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='17693' iicount='17693'/>
+</uncommon_trap>
+<make_not_entrant thread='6508' compile_id='99' compiler='C2' level='4' stamp='4.696'/>
+   4696   99   !   4       sun.nio.cs.StreamEncoder::write (78 bytes)   made not entrant
+<uncommon_trap thread='6508' reason='class_check' action='maybe_recompile' compile_id='103' compiler='C2' level='4' count='1' state='class_check' stamp='4.696'>
+<jvms bci='120' method='sun/nio/cs/StreamEncoder writeBytes ()V' bytes='132' count='24958' iicount='24958' class_check_traps='1'/>
+</uncommon_trap>
+<writer thread='952'/>
+<task_queued compile_id='143' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='17792' iicount='17792' decompiles='1' level='3' stamp='4.696' comment='tiered' hot_count='17792'/>
+<writer thread='1276'/>
+   4697  143   !   3       sun.nio.cs.StreamEncoder::write (78 bytes)
+<writer thread='952'/>
+<task_queued compile_id='144' method='sun/nio/cs/StreamEncoder ensureOpen ()V' bytes='18' count='17920' iicount='17920' stamp='4.696' comment='tiered' hot_count='17920'/>
+<writer thread='5480'/>
+   4697  144       4       sun.nio.cs.StreamEncoder::ensureOpen (18 bytes)
+<nmethod compile_id='144' compiler='C2' level='4' entry='0x0000000002ac6c80' size='584' address='0x0000000002ac6b50' relocation_offset='288' insts_offset='304' stub_offset='400' scopes_data_offset='432' scopes_pcs_offset='464' dependencies_offset='576' method='sun/nio/cs/StreamEncoder ensureOpen ()V' bytes='18' count='17920' iicount='17920' stamp='4.697'/>
+<make_not_entrant thread='5480' compile_id='62' compiler='C1' level='3' stamp='4.697'/>
+   4698   62       3       sun.nio.cs.StreamEncoder::ensureOpen (18 bytes)   made not entrant
+<writer thread='1276'/>
+<nmethod compile_id='143' compiler='C1' level='3' entry='0x0000000002ac76a0' size='3520' address='0x0000000002ac74d0' relocation_offset='288' insts_offset='464' stub_offset='2032' scopes_data_offset='2256' scopes_pcs_offset='2608' dependencies_offset='3248' handler_table_offset='3256' nul_chk_table_offset='3496' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='17918' iicount='17918' decompiles='1' stamp='4.697'/>
+<writer thread='952'/>
+<task_queued compile_id='145' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='23040' iicount='23040' decompiles='1' stamp='4.707' comment='tiered' hot_count='23040'/>
+<writer thread='7104'/>
+   4708  145   !   4       java.io.BufferedWriter::flushBuffer (53 bytes)
+<writer thread='952'/>
+<task_queued compile_id='146' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='23040' iicount='23040' decompiles='1' stamp='4.709' comment='tiered' hot_count='23040'/>
+<writer thread='5480'/>
+   4710  146   !   4       sun.nio.cs.StreamEncoder::write (78 bytes)
+<writer thread='952'/>
+<task_queued compile_id='147' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='23040' iicount='23040' stamp='4.709' comment='tiered' hot_count='23040'/>
+<task_queued compile_id='148' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='24064' iicount='24064' stamp='4.709' comment='tiered' hot_count='24064'/>
+<task_queued compile_id='149' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='25088' iicount='25088' unstable_if_traps='2' stamp='4.713' comment='tiered' hot_count='25088'/>
+<writer thread='5480'/>
+<nmethod compile_id='146' compiler='C2' level='4' entry='0x0000000002ad1060' size='10752' address='0x0000000002ad0ed0' relocation_offset='288' insts_offset='400' stub_offset='3632' scopes_data_offset='3896' scopes_pcs_offset='8328' dependencies_offset='10664' nul_chk_table_offset='10688' oops_offset='3656' method='sun/nio/cs/StreamEncoder write ([CII)V' bytes='78' count='28238' iicount='28238' decompiles='1' stamp='4.738'/>
+<make_not_entrant thread='5480' compile_id='143' compiler='C1' level='3' stamp='4.738'/>
+   4738  143   !   3       sun.nio.cs.StreamEncoder::write (78 bytes)   made not entrant
+   4738  147       4       sun.nio.cs.StreamEncoder::implWrite (156 bytes)
+<writer thread='7104'/>
+<nmethod compile_id='145' compiler='C2' level='4' entry='0x0000000002aca5e0' size='11896' address='0x0000000002aca450' relocation_offset='288' insts_offset='400' stub_offset='4368' scopes_data_offset='4664' scopes_pcs_offset='9400' dependencies_offset='11784' nul_chk_table_offset='11808' oops_offset='4392' method='java/io/BufferedWriter flushBuffer ()V' bytes='53' count='29109' iicount='29109' decompiles='1' stamp='4.738'/>
+<make_not_entrant thread='7104' compile_id='142' compiler='C1' level='3' stamp='4.738'/>
+   4739  142   !   3       java.io.BufferedWriter::flushBuffer (53 bytes)   made not entrant
+   4739  149   !   4       java.nio.charset.CharsetEncoder::encode (285 bytes)
+<nmethod compile_id='149' compiler='C2' level='4' entry='0x0000000002ad3aa0' size='6752' address='0x0000000002ad3910' relocation_offset='288' insts_offset='400' stub_offset='2160' scopes_data_offset='2368' scopes_pcs_offset='4368' dependencies_offset='6592' handler_table_offset='6608' nul_chk_table_offset='6680' oops_offset='2200' method='java/nio/charset/CharsetEncoder encode (Ljava/nio/CharBuffer;Ljava/nio/ByteBuffer;Z)Ljava/nio/charset/CoderResult;' bytes='285' count='28238' iicount='28238' unstable_if_traps='2' stamp='4.756'/>
+<make_not_entrant thread='7104' compile_id='50' compiler='C1' level='3' stamp='4.756'/>
+   4757   50   !   3       java.nio.charset.CharsetEncoder::encode (285 bytes)   made not entrant
+   4757  148       4       java.io.OutputStreamWriter::write (11 bytes)
+<nmethod compile_id='148' compiler='C2' level='4' entry='0x0000000002ac69a0' size='752' address='0x0000000002ac6850' relocation_offset='288' insts_offset='336' stub_offset='464' scopes_data_offset='520' scopes_pcs_offset='576' dependencies_offset='720' handler_table_offset='728' method='java/io/OutputStreamWriter write ([CII)V' bytes='11' count='29109' iicount='29109' stamp='4.757'/>
+<make_not_entrant thread='7104' compile_id='60' compiler='C1' level='3' stamp='4.757'/>
+   4758   60       3       java.io.OutputStreamWriter::write (11 bytes)   made not entrant
+<writer thread='5480'/>
+<nmethod compile_id='147' compiler='C2' level='4' entry='0x0000000002ad5500' size='8880' address='0x0000000002ad5390' relocation_offset='288' insts_offset='368' stub_offset='2544' scopes_data_offset='2792' scopes_pcs_offset='6792' dependencies_offset='8808' nul_chk_table_offset='8824' oops_offset='2568' method='sun/nio/cs/StreamEncoder implWrite ([CII)V' bytes='156' count='28238' iicount='28238' stamp='4.767'/>
+<make_not_entrant thread='5480' compile_id='63' compiler='C1' level='3' stamp='4.767'/>
+   4767   63       3       sun.nio.cs.StreamEncoder::implWrite (156 bytes)   made not entrant

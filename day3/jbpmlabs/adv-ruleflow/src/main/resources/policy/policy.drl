@@ -1,0 +1,63 @@
+package policy
+
+dialect "mvel"
+
+import model.*
+import java.math.BigDecimal
+
+rule "calc discount" 
+ruleflow-group "discount"
+lock-on-active // only give discount once
+when
+	policy : Policy( vehicleYear > 2010 )
+then
+	policy.giveDiscount(new BigDecimal(0.10));
+	System.out.println("Discount given");
+end
+
+rule "debug"
+when
+	policy : Policy( )
+then
+	System.out.println("fact:  " + policy);
+end
+
+rule "debug2"
+when
+	r : Rejection( )
+then
+	System.out.println("fact:  " + r);
+end
+
+rule "moderate risk" 
+ruleflow-group "price"
+no-loop 
+when
+	policy : Policy( risk > 400 && < 500 )
+then
+	modify(policy) { price = 756; }
+end
+
+rule "low risk" 
+ruleflow-group "price"
+no-loop 
+when
+	policy : Policy( risk < 400 )
+then
+	modify(policy) { price = 535; }
+end
+
+rule "unacceptable risk" 
+ruleflow-group "price"
+no-loop
+when
+	policy : Policy( risk >= 500 )
+then
+	insert(new Rejection("Risk > 500", RejectionLevel.ERROR));
+end
+
+
+
+
+
+

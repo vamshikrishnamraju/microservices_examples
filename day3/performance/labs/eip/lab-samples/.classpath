@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/activemq-all-5.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="camel-saxon-1.6.4.jar"/>
+	<classpathentry kind="lib" path="camel-jaxb-2.10.0.fuse-71-047.jar"/>
+	<classpathentry kind="lib" path="camel-core-2.10.0.fuse-71-047.jar"/>
+	<classpathentry kind="lib" path="camel-jms-2.10.0.fuse-71-047.jar"/>
+	<classpathentry kind="lib" path="camel-http-2.10.0.fuse-71-047.jar"/>
+	<classpathentry kind="lib" path="org.apache.commons.httpclient.jar"/>
+	<classpathentry kind="lib" path="javax.servlet-1.4.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

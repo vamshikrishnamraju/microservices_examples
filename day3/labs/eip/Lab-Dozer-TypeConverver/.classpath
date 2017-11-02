@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-1.7"/>
+	<classpathentry kind="lib" path="lib/activemq-all-5.8.0.jar"/>
+	<classpathentry kind="lib" path="lib/apache-commons-lang.jar"/>
+	<classpathentry kind="lib" path="lib/camel-core-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/camel-dozer-2.8.1.jar"/>
+	<classpathentry kind="lib" path="lib/camel-jms-2.11.1.jar"/>
+	<classpathentry kind="lib" path="lib/commons-logging.jar"/>
+	<classpathentry kind="lib" path="lib/dozer-5.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.7.5.jar"/>
+	<classpathentry kind="lib" path="lib/spring-aop-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-beans-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-context-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-core-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-jms-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/spring-tx-3.1.4.RELEASE.jar"/>
+	<classpathentry kind="lib" path="lib/org.apache.commons.beanutils.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>

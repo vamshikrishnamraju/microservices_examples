@@ -1,0 +1,26 @@
+package price
+
+import com.sample.Account
+
+
+//list any import classes here.
+
+
+
+//declare any global variables here
+
+
+
+
+rule "Your First Rule"
+
+ruleflow-group "price"
+
+    when
+        Account();
+    then
+       System.out.println("###good");
+
+end
+
+

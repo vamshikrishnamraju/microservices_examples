@@ -1,0 +1,14 @@
+When a boundary Compensation event is added (or processed in an existing BPMN2 file), the waitforCompletion attribute seems to be added automatically, with the value of false.
+
+Given that this attribute indicates support for asynchronous compensation (which we do not yet have), I think it would be better to
+
+    Not add the attribute at all, unless the user chooses asynchronous compensation (e.g. for waitForCompletion=false)
+
+Otherwise, adding the attribute by default with a value of true would also be fine. 
+
+
+
+isForCompensation="true"
+-----------------------
+
+Any task for compensation purpose need the above attribute to be set

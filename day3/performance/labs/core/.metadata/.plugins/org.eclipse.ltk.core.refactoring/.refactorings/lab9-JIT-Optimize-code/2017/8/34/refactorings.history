@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring accessors="true" comment="Delete 3 elements from project &apos;lab9-JIT-Optimize-code&apos;&#x0D;&#x0A;- Original project: &apos;lab9-JIT-Optimize-code&apos;&#x0D;&#x0A;- Original elements:&#x0D;&#x0A;     hotspot_pid1192.log&#x0D;&#x0A;     hotspot_pid2000.log&#x0D;&#x0A;     hotspot_pid2392.log" description="Delete elements" element1="hotspot_pid1192.log" element2="hotspot_pid2000.log" element3="hotspot_pid2392.log" elements="0" flags="589830" id="org.eclipse.jdt.ui.delete" resources="3" stamp="1503368190145" subPackages="false" version="1.0"/>
+</session>

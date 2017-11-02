@@ -1,0 +1,47 @@
+package policy
+
+import model.Driver;
+import model.Policy;
+
+dialect "mvel"
+
+rule "Compute Youth Price" ruleflow-group "price"
+
+    when
+        policy : Policy( price == 0 )
+        Driver( age > 15 && < 25, numberOfAccidents == 0, numberOfTickets <= 1)
+    then
+        modify(policy) { price = 895, approved = true; }
+
+end
+
+rule "Compute Mature Price" ruleflow-group "price"
+
+    when
+        policy : Policy( price == 0 ) 
+        driver : Driver( age > 25, numberOfAccidents == 0, numberOfTickets <= 1)
+    then
+        modify(policy) { price = 650, approved = true; }
+
+end
+
+rule "Compute Risk Price" ruleflow-group "price"
+
+	when
+		policy : Policy(  price == 0)
+		Driver( age > 14,  numberOfAccidents > 0 && < 2, numberOfTickets > 1  && < 3)
+	then
+		modify(policy) { price = 1050, approved = true; }
+		
+end
+
+rule "print" ruleflow-group "price" salience -5
+	when
+		driver : Driver()
+	then
+		System.out.println("fact: " + driver);
+end
+
+
+
+

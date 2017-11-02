@@ -1,203 +1,296 @@
-!SESSION 2017-11-01 11:39:51.565 -----------------------------------------------
+!SESSION 2017-11-02 14:14:53.302 -----------------------------------------------
 eclipse.buildId=3.9.0.201707061823-RELEASE-e47
 java.version=1.8.0_121
 java.vendor=Oracle Corporation
 BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
-Framework arguments:  -product org.springsource.sts.ide -product org.springsource.sts.ide -product org.springsource.sts.ide
-Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide -product org.springsource.sts.ide -data C:\mst\labs\spring-cloud -product org.springsource.sts.ide
+Framework arguments:  -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide
 
-!ENTRY org.eclipse.ui 2 2 2017-11-01 11:39:58.228
+!ENTRY org.eclipse.ui 2 2 2017-11-02 14:15:37.890
 !MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
 
-!ENTRY org.eclipse.ui 2 2 2017-11-01 11:39:58.228
+!ENTRY org.eclipse.ui 2 2 2017-11-02 14:15:37.890
 !MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
 
-!ENTRY org.eclipse.ui 2 2 2017-11-01 11:39:58.228
+!ENTRY org.eclipse.ui 2 2 2017-11-02 14:15:37.890
 !MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
 
-!ENTRY org.eclipse.jface.text 2 0 2017-11-01 11:39:59.008
+!ENTRY org.eclipse.jface.text 2 0 2017-11-02 14:15:38.451
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
 
-!ENTRY org.eclipse.jface.text 2 0 2017-11-01 11:39:59.008
+!ENTRY org.eclipse.jface.text 2 0 2017-11-02 14:15:38.451
 !MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
 
-!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 11:40:01.254
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-02 14:15:40.978
 !MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
 user global configuration and to define the default location to store repositories: 'C:\Users\Abridge.Abridge-PC'. If this is
 not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
 EGit might behave differently since they see different configuration options.
 This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:24.147
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:49.691
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:24.191
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:49.718
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:24.488
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:50.029
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:24.943
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:50.030
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:24.944
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:50.274
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.229
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:50.274
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.253
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:56.098
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.475
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:16:56.098
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.485
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:00.270
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.615
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:00.271
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.622
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:00.389
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.796
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:00.390
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:25.850
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.437
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.091
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.457
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.091
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.558
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.339
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.558
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.362
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.927
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.517
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:01.949
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.564
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.061
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.627
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.062
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.627
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.268
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.760
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.268
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:26.918
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.318
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.087
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.318
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.091
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.477
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.320
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:02.477
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.338
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:13.452
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.560
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:13.453
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.561
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.001
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.818
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.001
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:27.821
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.660
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.161
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.660
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.161
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.760
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.347
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.809
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.403
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.928
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.792
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:21.977
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:28.793
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:22.131
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:29.050
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:22.131
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:29.050
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:22.409
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:29.155
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:22.409
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:41:29.166
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:25.760
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:42:04.569
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:25.760
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:42:05.494
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:25.868
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.jface.text 2 0 2017-11-01 13:31:53.281
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
-
-!ENTRY org.eclipse.jface.text 2 0 2017-11-01 13:31:53.281
-!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
-
-!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 13:36:30.349
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:25.868
 !MESSAGE Non IFiles not supported yet
 
-!ENTRY org.eclipse.ui 4 0 2017-11-01 16:22:34.122
-!MESSAGE Unhandled event loop exception
-!STACK 0
-java.lang.IllegalArgumentException: Widget has the wrong parent
-	at org.eclipse.swt.SWT.error(SWT.java:4514)
-	at org.eclipse.swt.SWT.error(SWT.java:4448)
-	at org.eclipse.swt.SWT.error(SWT.java:4419)
-	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
-	at org.eclipse.swt.widgets.MenuItem.setMenu(MenuItem.java:899)
-	at org.eclipse.jface.action.ActionContributionItem.lambda$9(ActionContributionItem.java:1311)
-	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
-	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
-	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
-	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
-	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
-	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
-	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
-	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
-	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
-	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
-	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
-	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
-	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
-	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
-	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
-	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
-	at java.lang.reflect.Method.invoke(Unknown Source)
-	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
-	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
-	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.037
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.038
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.078
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.078
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.214
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.214
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.331
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.331
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.463
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.463
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.574
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.574
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.697
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.698
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.787
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.789
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.901
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.902
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.964
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:26.964
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.020
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.020
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.113
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.114
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.232
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.232
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.379
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.379
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.481
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.483
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.629
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.630
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.804
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.804
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.910
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:27.912
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.127
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.127
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.242
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.242
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.342
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:17:28.377
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:24:30.752
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:25:33.825
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-02 14:25:34.791
+!MESSAGE Non IFiles not supported yet

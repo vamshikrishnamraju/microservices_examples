@@ -1,0 +1,9 @@
+1. To Enable NMT
+
+-XX:NativeMemoryTracking=[off | summary | detail]
+
+
+2. Use jcmd to Access NMT Data
+
+jcmd <pid> VM.native_memory [summary | detail | baseline | summary.diff | detail.diff | shutdown] 
+

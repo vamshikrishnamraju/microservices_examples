@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+   <!--
+      Define the message aware Bean
+   -->
+	<bean id="bean1" class="ex01_bean.ex08_messages.Bean1">
+      
+      <property name="string">
+         <value>Bean1</value>
+      </property>
+      
+      <!--
+         Initialise Message Source by referring to another Bean in the usual way
+      -->
+	   <property name="messageSource">
+         <ref bean="messageSource"/>
+      </property>
+      
+	</bean>
+
+
+   <!--
+      Define the Message Source Bean
+      
+      Note: Spring provides an implementation that sits on top of Resource Bundles.
+   -->
+   <bean id="messageSource" class="org.springframework.context.support.ResourceBundleMessageSource">
+      
+      <!--
+         Let the Message Source know which Resource Bundles to use
+      -->
+      <property name="basenames">
+         <list>
+            <value>ex01_bean/ex08_messages/message</value>
+         </list>
+      </property>
+   </bean>
+
+</beans>

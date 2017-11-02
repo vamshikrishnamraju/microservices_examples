@@ -1,0 +1,31 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1491558867309
+Build-Jdk: 1.8.0_65
+Built-By: dell
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Exercises :: JDBC - JMS Transactional Route
+Bundle-SymbolicName: com.fusesource.training.jdbc-jms-transaction
+Bundle-Version: 2010.07.12
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fusesource.training.transaction.mysql;uses:="org.slf
+ 4j,org.apache.camel.spi,javax.sql,org.springframework.jdbc.core,org.apa
+ che.camel,org.apache.camel.spring,org.apache.camel.model,org.apache.cam
+ el.spring.spi,org.springframework.transaction.support,org.apache.camel.
+ builder,org.springframework.beans.factory,org.apache.camel.converter.ja
+ xb";version="2010.07.12",com.fusesource.training.transaction.postgresql
+ ;uses:="org.slf4j,org.apache.camel.spi,javax.sql,org.springframework.jd
+ bc.core,org.apache.camel,org.apache.camel.spring,org.apache.camel.model
+ ,org.apache.camel.spring.spi,org.springframework.transaction.support,or
+ g.apache.camel.builder,org.springframework.beans.factory,org.apache.cam
+ el.converter.jaxb";version="2010.07.12"
+Import-Package: javax.sql,org.apache.activemq,org.apache.camel;version="
+ [2.10,3)",org.apache.camel.builder;version="[2.10,3)",org.apache.camel.
+ component.jms;version="[2.10,3)",org.apache.camel.converter.jaxb;versio
+ n="[2.10,3)",org.apache.camel.model;version="[2.10,3)",org.apache.camel
+ .spi;version="[2.10,3)",org.apache.camel.spring;version="[2.10,3)",org.
+ apache.camel.spring.spi;version="[2.10,3)",org.postgresql.ds,org.slf4j;
+ version="1.6.1",org.springframework.beans.factory;version="[3.1,4)",org
+ .springframework.jdbc.core;version="[3.1,4)",org.springframework.jdbc.d
+ atasource;version="[3.1,4)",org.springframework.jms.connection;version=
+ "[3.1,4)",org.springframework.transaction.support;version="[3.1,4)"
+Tool: Bnd-1.50.0

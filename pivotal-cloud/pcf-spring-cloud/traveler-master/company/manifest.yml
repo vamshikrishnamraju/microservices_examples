@@ -2,7 +2,7 @@
 memory: 1G
 applications:
   - name: company
-    host: company2
+    host: company2-vamshi
     services:
       - service-registry
     env:

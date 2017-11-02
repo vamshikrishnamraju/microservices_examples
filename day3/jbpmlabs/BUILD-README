@@ -1,0 +1,12 @@
+To build a ~/.m2/repository to capture:
+0.  Temporarily uncomment the 2 techpreview profiles in ~/.m2/settings.xml and make sure your workstation can get to the Internet
+1.  start BPMS server:  cd $JBOSS_HOME/bin; ./standalone.sh
+2.  cd ~/JB427/support/solutions; mvn clean install -fae (fail at end)
+3.  cd ~/JB427/support/solutions/integrate-cdi ; mvn jboss-as:deploy (should deploy)
+4.  cd ~/JB427/support/solutions/integrate-api; mvn exec:java 
+5.  cd ~/JB427/support/solutions/integrate-bc-remote; mvn clean package 
+6.  open JBDS, import integrate-cdi and let it build fully
+7.  cd ~/.m2; zip -r maven-class-repository-427.zip repository
+8.  generate the RPM and replace the one on elvis
+
+The best way to capture the repository is after doing all the labs but this should get all plugins and dependencies needed by the labs.

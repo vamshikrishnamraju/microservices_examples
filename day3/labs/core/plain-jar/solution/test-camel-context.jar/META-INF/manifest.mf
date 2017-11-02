@@ -1,0 +1,1 @@
+Dependencies: deployment.plain-jar-1.0.0.jar, org.springframework.spring

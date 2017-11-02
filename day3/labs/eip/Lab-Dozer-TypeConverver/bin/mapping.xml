@@ -1,0 +1,15 @@
+<mappings xmlns="http://dozer.sourceforge.net" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+  xsi:schemaLocation="http://dozer.sourceforge.net  http://dozer.sourceforge.net/schema/beanmapping.xsd">
+  <mapping>
+    <class-a>dozerconverter.Customer</class-a>
+    <class-b>dozerconverter.domain.Customer</class-b>
+    <field>
+      <a>street</a>
+      <b>address.streetName</b>
+    </field>
+    <field>
+      <a>zip</a>
+      <b>address.zipCode</b>
+    </field>
+  </mapping>
+</mappings>

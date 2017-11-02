@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+ <!--
+      Define a Property Placeholder.  This is the equivalent of the programmatic
+      example in ex01_bean.ex05_postprocessor.
+   -->
+   <bean  class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+      <property name="location">
+         <value>ex01_bean/ex05_postprocessor/example.properties</value>
+      </property>
+   </bean>
+
+<!-- spring 3.0<context:property-placeholder location="classpath:jdbc.properties"/> -->
+
+
+   <!--
+      Define a simple Bean
+   -->
+	<bean id="bean1" class="ex01_bean.ex09_propertyplaceholder.Bean1">
+      
+      <!--
+         Reference a values in the property file
+      -->
+	   <property name="name">
+	      <value>${example.string}</value>
+      </property>
+      <property name="no">
+         <value>${example.int}</value>
+      </property>
+      
+	</bean>
+<bean id="bean2" class="ex01_bean.ex09_propertyplaceholder.Bean1">
+      
+      <!--
+         Reference a values in the property file
+      -->
+	   <property name="string">
+	      <value>${example.string}</value>
+      </property>
+    
+      
+	</bean>
+	
+	<bean id="bean3" class="ex01_bean.ex09_propertyplaceholder.Bean1">
+      
+            
+	</bean>
+</beans>

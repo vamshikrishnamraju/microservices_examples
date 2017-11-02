@@ -1,0 +1,15 @@
+ There are a many more WorkItemHandler implementations present in the jbpm-workitems module. If you're looking for specific integration logic 
+ with Twitter, for example, we recommend you take a look at the classes made available there.
+
+In general, a WorkItemHandler's .executeWorkItem(...) and .abortWorkItem(...) methods will do the following:
+
+    Extract information about the task being executed (or aborted) from the WorkItem instance
+    Execute the necessary business logic. This might be mean interacting with a web service, database, or other technical component.
+    Inform the process engine that the work item has been completed (or aborted) by calling one of the following two mtehods on 
+    the WorkItemManager instance passed to the method: 
+
+WorkItemManager.completeWorkItem(long workItemId, Map<String, Object> results)
+
+WorkItemManager.abortWorkItem(long workItemId)
+
+

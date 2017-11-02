@@ -1,0 +1,16 @@
+Manifest-Version: 1.0
+Bnd-LastModified: 1428912934964
+Build-Jdk: 1.7.0_51
+Built-By: ramana
+Bundle-ManifestVersion: 2
+Bundle-Name: Camel Exercises :: Custom File Component
+Bundle-SymbolicName: com.fusesource.training.custom-file-component
+Bundle-Version: 2010.07.12
+Created-By: Apache Maven Bundle Plugin
+Export-Package: com.fusesource.camel.exercises.component.file;uses:="org
+ .apache.camel.impl,org.apache.camel,org.apache.camel.util";version="201
+ 0.07.12"
+Import-Package: org.apache.camel;version="[2.10,3)",org.apache.camel.imp
+ l;version="[2.10,3)",org.apache.camel.util;version="[2.10,3)",org.slf4j
+ ;version="1.6.1"
+Tool: Bnd-1.50.0

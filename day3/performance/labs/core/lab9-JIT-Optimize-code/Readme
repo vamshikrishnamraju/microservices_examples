@@ -1,0 +1,40 @@
+
+Reading the compiler's mind
+===========================
+
+The -XX:+LogCompilation flag produces a low-level XML file about compiler and 
+runtime decisions
+
+-XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation -XX:+PrintInlining -XX:+PrintCompilation
+
+
+Print Assembly:
+==============
+
+-XX:+UnlockDiagnosticVMOptions -XX:+PrintAssembly
+
+
+Exception:
+=========
+
+“Could not load hsdis-amd64.dll; library not loadable; PrintAssembly is disabled“. 
+
+Solution:
+
+Download hsdis-1.1.1-win32-amd64.zip file from http://fcml-lib.com/download.html
+and copy hsdis-amd64.dll file in jre/jdk bin folder.
+
+(or) copy from this example lib folder
+
+
+Ref : x86_64 Assembly  to understand generate code
+
+
+
+
+
+
+
+
+
+

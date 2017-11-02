@@ -3,7 +3,7 @@ instances: 1
 memory: 1G
 applications:
   - name: agency
-    host: agency2
+    host: agency2-vamshi
     services:
       - service-registry
       - circuit-breaker-dashboard

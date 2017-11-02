@@ -1,0 +1,34 @@
+package policy
+
+dialect "mvel"
+
+rule "Young Driver" ruleflow-group "price-policy"
+
+    when
+        p : Policy( price == 0 )
+        Driver( age < 25 )
+    then
+        modify (p) { price = 900; }
+
+end
+
+rule "Mature Driver" ruleflow-group "price-policy"
+
+    when
+        p : Policy( price == 0 )
+        Driver( age >= 25 )
+    then
+        modify (p) { price = 745; }
+
+end
+
+rule "Safe Driver Discount" ruleflow-group "price-policy"
+	when
+		p : Policy( priceDiscount == 0)
+		Driver( numberOfAccidents == 0, numberOfTickets <= 1)
+	then
+		modify (p) { priceDiscount = 5; }
+end
+
+
+

@@ -1,0 +1,32 @@
+package demo;
+
+public class Sample {
+	
+	String msg;
+
+	
+	String msg2="xyz";
+	public String getMsg() {
+		return msg;
+	}
+
+	public void setMsg(String msg) {
+		this.msg = msg;
+	}
+
+	float a;
+
+	public float getA() {
+		return a;
+	}
+
+	public void setA(float a) {
+		this.a = a;
+	}
+	
+	protected void finalize()
+	{
+		System.out.println("this method is called");
+	}
+	
+}

@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cxf="http://camel.apache.org/schema/cxf"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+  		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+  		http://www.springframework.org/schema/context/spring-context.xsd
+  		http://camel.apache.org/schema/spring
+		http://camel.apache.org/schema/spring/camel-spring.xsd
+		http://camel.apache.org/schema/cxf
+		http://camel.apache.org/schema/cxf/camel-cxf.xsd">
+
+
+    <bean id="enrich" class="com.fusesource.training.camel.Enrich" />
+
+    <bean id="elStrategy" class="org.apache.camel.dataformat.soap.name.TypeNameStrategy"/>
+    
+
+    <camelContext trace="false" xmlns="http://camel.apache.org/schema/spring">
+    
+    <dataFormats>
+        <soapjaxb contextPath="com.mycompany.cxf.jaxws.javafirst" elementNameStrategyRef="elStrategy" id="soapFormat"/>
+    </dataFormats>
+    
+    <route>
+        <from uri="file:/camel-exercises/webservices?noop=true"/>
+     <convertBodyTo type="String"/>
+        <log message="Name of the client to be created received : ${body}"/>
+        <bean ref="enrich" method="createCustomer"/>
+        <marshal ref="soapFormat"/>
+           <setHeader headerName="SOAPAction">
+            <constant>http://sample.com/Hello/sayHi2</constant>
+        </setHeader>
+       
+        <to uri="http://localhost:8080/cxf-jaxws-javafirst/HelloWorld"/>
+        <log message="SOAP Response received : ${body}">
+            <description>Call Web Service to save the client</description>
+        </log>
+    </route>
+   
+</camelContext>
+
+
+</beans>

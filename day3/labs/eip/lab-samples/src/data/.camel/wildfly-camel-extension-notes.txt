@@ -1,0 +1,1 @@
+http://wildfly-extras.github.io/wildfly-camel/#_getting_started

@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<bpmn2:definitions xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:bpmn2="http://www.omg.org/spec/BPMN/20100524/MODEL" xmlns:bpmndi="http://www.omg.org/spec/BPMN/20100524/DI" xmlns:dc="http://www.omg.org/spec/DD/20100524/DC" xmlns:di="http://www.omg.org/spec/DD/20100524/DI" xmlns:tns="http://www.jboss.org/drools" xmlns="http://www.jboss.org/drools" xsi:schemaLocation="http://www.omg.org/spec/BPMN/20100524/MODEL BPMN20.xsd http://www.jboss.org/drools drools.xsd http://www.bpsim.org/schemas/1.0 bpsim.xsd" id="Definition" expressionLanguage="http://www.mvel.org/2.0" targetNamespace="http://www.jboss.org/drools" typeLanguage="http://www.java.com/javaTypes">
+  <bpmn2:itemDefinition id="ItemDefinition_1" structureRef="model.Policy"/>
+  <bpmn2:itemDefinition id="_ItemDefinition_3" structureRef="model.Driver"/>
+  <bpmn2:itemDefinition id="_ItemDefinition_14" structureRef="java.util.Date"/>
+  <bpmn2:itemDefinition id="_ItemDefinition_20" structureRef="model.Rejection"/>
+  <bpmn2:itemDefinition id="ItemDefinition_2" structureRef="String"/>
+  <bpmn2:itemDefinition id="ItemDefinition_3" structureRef="Integer"/>
+  <bpmn2:itemDefinition id="ItemDefinition_4" structureRef="Boolean"/>
+  <bpmn2:itemDefinition id="_Float" structureRef="Float"/>
+  <bpmn2:itemDefinition id="_ItemDefinition_82" structureRef="java.lang.Integer"/>
+  <bpmn2:itemDefinition id="ItemDefinition_5" structureRef="org.kie.api.runtime.process.WorkItem"/>
+  <bpmn2:itemDefinition id="_ItemDefinition_182" structureRef="service.ExceptionHandler"/>
+  <bpmn2:error id="Error_1" errorCode="90277" name="High Risk" structureRef="ItemDefinition_1"/>
+  <bpmn2:message id="policy_1" itemRef="ItemDefinition_1" name="policy_1"/>
+  <bpmn2:message id="exception" itemRef="ItemDefinition_5" name="exception"/>
+  <bpmn2:interface id="Interface_2" implementationRef="service.PolicyService" name="service.PolicyService">
+    <bpmn2:operation id="_Operation_2" name="processRequest">
+      <bpmn2:inMessageRef>policy_1</bpmn2:inMessageRef>
+    </bpmn2:operation>
+  </bpmn2:interface>
+  <bpmn2:interface id="Interface_1" implementationRef="service.ExceptionHandler" name="service.ExceptionHandler">
+    <bpmn2:operation id="_Operation_28" name="handleException">
+      <bpmn2:inMessageRef>exception</bpmn2:inMessageRef>
+    </bpmn2:operation>
+  </bpmn2:interface>
+  <bpmn2:process id="policy.Risk" tns:version="1" tns:packageName="policy" tns:adHoc="false" name="Risk Process" isExecutable="true" processType="Private">
+    <bpmn2:documentation id="Documentation_25">Determine whether policy risk is too great for coverage</bpmn2:documentation>
+    <bpmn2:extensionElements>
+      <tns:import name="model.Policy"/>
+      <tns:import name="model.Driver"/>
+      <tns:import name="java.lang.String"/>
+      <tns:import name="java.lang.Integer"/>
+      <tns:import name="java.util.Date"/>
+      <tns:import name="model.Rejection"/>
+      <tns:import name="service.PolicyService"/>
+      <tns:import name="org.kie.api.runtime.process.WorkItem"/>
+      <tns:import name="service.ExceptionHandler"/>
+    </bpmn2:extensionElements>
+    <bpmn2:property id="request" itemSubjectRef="ItemDefinition_1"/>
+    <bpmn2:property id="policy" itemSubjectRef="ItemDefinition_1"/>
+    <bpmn2:property id="errorItem" itemSubjectRef="ItemDefinition_5"/>
+    <bpmn2:startEvent id="StartEvent_1" name="Start">
+      <bpmn2:outgoing>SequenceFlow_2</bpmn2:outgoing>
+    </bpmn2:startEvent>
+    <bpmn2:businessRuleTask id="BusinessRuleTask_1" tns:ruleFlowGroup="price" name="Calc Price">
+      <bpmn2:extensionElements>
+        <tns:onEntry-script scriptFormat="http://www.java.com/java">
+          <tns:script>kcontext.getKnowledgeRuntime().insert(request);
+kcontext.getKnowledgeRuntime().insert(kcontext.getProcessInstance());</tns:script>
+        </tns:onEntry-script>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_2</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_1</bpmn2:outgoing>
+    </bpmn2:businessRuleTask>
+    <bpmn2:sequenceFlow id="SequenceFlow_2" tns:priority="1" name="" sourceRef="StartEvent_1" targetRef="BusinessRuleTask_1"/>
+    <bpmn2:sequenceFlow id="SequenceFlow_1" tns:priority="1" name="" sourceRef="BusinessRuleTask_1" targetRef="ServiceTask_1"/>
+    <bpmn2:serviceTask id="ServiceTask_1" name="Process Request" implementation="##unspecified" operationRef="_Operation_2">
+      <bpmn2:extensionElements>
+        <tns:onEntry-script scriptFormat="http://www.java.com/java">
+          <tns:script></tns:script>
+        </tns:onEntry-script>
+        <tns:onExit-script scriptFormat="http://www.java.com/java">
+          <tns:script></tns:script>
+        </tns:onExit-script>
+      </bpmn2:extensionElements>
+      <bpmn2:incoming>SequenceFlow_1</bpmn2:incoming>
+      <bpmn2:outgoing>SequenceFlow_3</bpmn2:outgoing>
+      <bpmn2:ioSpecification id="InputOutputSpecification_4">
+        <bpmn2:dataInput id="DataInput_20" itemSubjectRef="ItemDefinition_1" name="Parameter"/>
+        <bpmn2:inputSet id="InputSet_1" name="Input Set 1">
+          <bpmn2:dataInputRefs>DataInput_20</bpmn2:dataInputRefs>
+        </bpmn2:inputSet>
+        <bpmn2:outputSet id="OutputSet_1" name="Output Set 1"/>
+      </bpmn2:ioSpecification>
+      <bpmn2:dataInputAssociation id="DataInputAssociation_6">
+        <bpmn2:sourceRef>policy</bpmn2:sourceRef>
+        <bpmn2:targetRef>DataInput_20</bpmn2:targetRef>
+      </bpmn2:dataInputAssociation>
+    </bpmn2:serviceTask>
+    <bpmn2:sequenceFlow id="SequenceFlow_3" tns:priority="1" name="" sourceRef="ServiceTask_1" targetRef="EndEvent_1"/>
+    <bpmn2:endEvent id="EndEvent_1" name="End">
+      <bpmn2:incoming>SequenceFlow_3</bpmn2:incoming>
+      <bpmn2:terminateEventDefinition id="TerminateEventDefinition_2"/>
+    </bpmn2:endEvent>
+    <bpmn2:subProcess id="SubProcess_2" name="Handle Error 90277" triggeredByEvent="true">
+      <bpmn2:extensionElements>
+        <tns:onEntry-script scriptFormat="http://www.java.com/java">
+          <tns:script></tns:script>
+        </tns:onEntry-script>
+        <tns:onExit-script scriptFormat="http://www.java.com/java">
+          <tns:script></tns:script>
+        </tns:onExit-script>
+      </bpmn2:extensionElements>
+      <bpmn2:startEvent id="StartEvent_3" name="StartExcp">
+        <bpmn2:outgoing>SequenceFlow_5</bpmn2:outgoing>
+        <bpmn2:dataOutput id="DataOutput_2" name="Error_2_Output"/>
+        <bpmn2:dataOutputAssociation id="DataOutputAssociation_2">
+          <bpmn2:sourceRef>DataOutput_2</bpmn2:sourceRef>
+          <bpmn2:targetRef>errorItem</bpmn2:targetRef>
+        </bpmn2:dataOutputAssociation>
+        <bpmn2:outputSet id="OutputSet_4" name="Output Set 4">
+          <bpmn2:dataOutputRefs>DataOutput_2</bpmn2:dataOutputRefs>
+        </bpmn2:outputSet>
+        <bpmn2:errorEventDefinition id="ErrorEventDefinition_2" errorRef="Error_1"/>
+      </bpmn2:startEvent>
+      <bpmn2:serviceTask id="ServiceTask_3" name="Handle Error" operationRef="_Operation_28">
+        <bpmn2:extensionElements>
+          <tns:onEntry-script scriptFormat="http://www.java.com/java">
+            <tns:script></tns:script>
+          </tns:onEntry-script>
+          <tns:onExit-script scriptFormat="http://www.java.com/java">
+            <tns:script></tns:script>
+          </tns:onExit-script>
+        </bpmn2:extensionElements>
+        <bpmn2:incoming>SequenceFlow_5</bpmn2:incoming>
+        <bpmn2:outgoing>SequenceFlow_7</bpmn2:outgoing>
+        <bpmn2:ioSpecification id="InputOutputSpecification_3">
+          <bpmn2:dataInput id="DataInput_2" itemSubjectRef="ItemDefinition_5" name="Parameter"/>
+          <bpmn2:inputSet id="InputSet_3" name="Input Set 3">
+            <bpmn2:dataInputRefs>DataInput_2</bpmn2:dataInputRefs>
+          </bpmn2:inputSet>
+          <bpmn2:outputSet id="OutputSet_5" name="Output Set 5"/>
+        </bpmn2:ioSpecification>
+        <bpmn2:dataInputAssociation id="DataInputAssociation_2">
+          <bpmn2:sourceRef>errorItem</bpmn2:sourceRef>
+          <bpmn2:targetRef>DataInput_2</bpmn2:targetRef>
+        </bpmn2:dataInputAssociation>
+      </bpmn2:serviceTask>
+      <bpmn2:sequenceFlow id="SequenceFlow_5" tns:priority="1" name="" sourceRef="StartEvent_3" targetRef="ServiceTask_3"/>
+      <bpmn2:endEvent id="EndEvent_4" name="EndExcp">
+        <bpmn2:incoming>SequenceFlow_7</bpmn2:incoming>
+      </bpmn2:endEvent>
+      <bpmn2:sequenceFlow id="SequenceFlow_7" tns:priority="1" sourceRef="ServiceTask_3" targetRef="EndEvent_4"/>
+    </bpmn2:subProcess>
+  </bpmn2:process>
+  <bpmndi:BPMNDiagram id="BPMNDiagram_1">
+    <bpmndi:BPMNPlane id="BPMNPlane_Process_1" bpmnElement="policy.Risk">
+      <bpmndi:BPMNShape id="BPMNShape_SubProcess_2" bpmnElement="SubProcess_2" isExpanded="true">
+        <dc:Bounds height="151.0" width="531.0" x="310.0" y="160.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_StartEvent_1" bpmnElement="StartEvent_1">
+        <dc:Bounds height="0.0" width="0.0" x="45.0" y="45.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_BusinessRuleTask_1" bpmnElement="BusinessRuleTask_1">
+        <dc:Bounds height="50.0" width="110.0" x="160.0" y="38.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_EndEvent_1" bpmnElement="EndEvent_1">
+        <dc:Bounds height="36.0" width="36.0" x="502.0" y="45.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ServiceTask_1" bpmnElement="ServiceTask_1">
+        <dc:Bounds height="50.0" width="136.0" x="323.0" y="38.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_StartEvent_3" bpmnElement="StartEvent_3">
+        <dc:Bounds height="36.0" width="36.0" x="352.0" y="202.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_ServiceTask_3" bpmnElement="ServiceTask_3">
+        <dc:Bounds height="50.0" width="110.0" x="493.0" y="195.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNShape id="BPMNShape_EndEvent_4" bpmnElement="EndEvent_4">
+        <dc:Bounds height="36.0" width="36.0" x="671.0" y="202.0"/>
+      </bpmndi:BPMNShape>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_2" bpmnElement="SequenceFlow_2" sourceElement="BPMNShape_StartEvent_1" targetElement="BPMNShape_BusinessRuleTask_1">
+        <di:waypoint xsi:type="dc:Point" x="81.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="116.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="116.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="160.0" y="63.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_1" bpmnElement="SequenceFlow_1" sourceElement="BPMNShape_BusinessRuleTask_1" targetElement="BPMNShape_ServiceTask_1">
+        <di:waypoint xsi:type="dc:Point" x="270.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="293.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="293.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="323.0" y="63.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_3" bpmnElement="SequenceFlow_3" sourceElement="BPMNShape_ServiceTask_1" targetElement="BPMNShape_EndEvent_1">
+        <di:waypoint xsi:type="dc:Point" x="459.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="478.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="478.0" y="63.0"/>
+        <di:waypoint xsi:type="dc:Point" x="502.0" y="63.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_5" bpmnElement="SequenceFlow_5" sourceElement="BPMNShape_StartEvent_3" targetElement="BPMNShape_ServiceTask_3">
+        <di:waypoint xsi:type="dc:Point" x="388.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="435.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="435.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="493.0" y="220.0"/>
+      </bpmndi:BPMNEdge>
+      <bpmndi:BPMNEdge id="BPMNEdge_SequenceFlow_7" bpmnElement="SequenceFlow_7" sourceElement="BPMNShape_ServiceTask_3" targetElement="BPMNShape_EndEvent_4">
+        <di:waypoint xsi:type="dc:Point" x="603.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="633.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="633.0" y="220.0"/>
+        <di:waypoint xsi:type="dc:Point" x="671.0" y="220.0"/>
+      </bpmndi:BPMNEdge>
+    </bpmndi:BPMNPlane>
+  </bpmndi:BPMNDiagram>
+</bpmn2:definitions>

@@ -1,0 +1,7 @@
+INDEX VERSION 1.3+F:\fuse-eap-apr-2017\jboss-fuse-eap-6.3.0\labs\core\.metadata\.plugins\org.eclipse.wst.jsdt.core\indexes
+3395065901.index
+742694364.index
+3346260173.index
+1622989035.index
+548053514.index
+3560750869.index

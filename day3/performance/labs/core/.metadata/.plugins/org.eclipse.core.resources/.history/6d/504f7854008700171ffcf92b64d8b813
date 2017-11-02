@@ -1,0 +1,9 @@
+package demo;
+
+public interface HeapManagementMBean {
+
+	public void display();
+	 public void clear();
+	 
+	 
+}

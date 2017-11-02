@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+ 
+ <!--
+      Define a simple bean, but this time provide initial values for properties
+      on the JavaBean
+   -->
+   
+   		<bean id="bean1"  class="ex01_bean.ex03_constructor.Bean1"   >
+      
+      <!--
+         Assign initial value to each property
+      -->
+     
+      <property name="no">
+         <value>101</value>
+      </property>
+      
+    <constructor-arg index="0">
+	      <value>boss</value>
+      </constructor-arg>
+      
+      <property name="hobbies">
+         <list>
+            <value>chess</value>
+            <value>cricket</value>
+            <value>reading</value>
+         </list>
+      </property>
+      
+	</bean>
+
+</beans>

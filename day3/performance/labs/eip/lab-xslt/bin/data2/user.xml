@@ -1,0 +1,19 @@
+<html>
+<body>
+<h2>User Details</h2>
+<table border="1">
+<tr bgcolor="#9acd32">
+<th>FirstName</th><th>LastName</th><th>Job</th><th>Address</th>
+</tr>
+<tr>
+<td>Ganesh</td><td>Tiwari</td><td>Software Developer</td><td>Chitwan Nepal</td>
+</tr>
+<tr>
+<td>Ramesh</td><td>Tiwari</td><td></td><td>Kathmandu Nepal</td>
+</tr>
+<tr>
+<td>Hari</td><td>Tiwari</td><td></td><td>Kathmandu Nepal</td>
+</tr>
+</table>
+</body>
+</html>

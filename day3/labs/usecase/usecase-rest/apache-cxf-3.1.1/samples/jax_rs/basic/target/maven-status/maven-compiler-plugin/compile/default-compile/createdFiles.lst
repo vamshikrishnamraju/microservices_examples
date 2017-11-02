@@ -1,0 +1,6 @@
+demo\jaxrs\server\CustomerService.class
+demo\jaxrs\server\Server.class
+demo\jaxrs\server\Order.class
+demo\jaxrs\server\Customer.class
+demo\jaxrs\client\Client.class
+demo\jaxrs\server\Product.class

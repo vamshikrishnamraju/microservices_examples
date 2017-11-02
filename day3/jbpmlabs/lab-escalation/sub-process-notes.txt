@@ -1,0 +1,5 @@
+If sub-process's start element is an event, then we need to select Trigger by event attribute as true
+(double-click the sub-process icon and select the option)
+
+>>>> add the below attribute in the xml file for subprocess
+ triggeredByEvent="true"

@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+<bean class="org.springframework.aop.framework.autoproxy.DefaultAdvisorAutoProxyCreator"/>
+
+   <bean id="bean1" class="ex02_aop.ex03_advisor.Bean1">
+      
+            <property name="string">
+               <value>a string value</value>
+            </property>
+         </bean>
+     
+   
+   <bean id="afterreturnadvice" class="ex02_aop.ex01_simpleadvice.SimpleAfterReturnAdvice">
+   </bean>
+   
+   <bean id="aroundadvice" class="ex02_aop.ex01_simpleadvice.SimpleAroundAdvice">
+   </bean>
+   
+   <bean id="throwsadvice" class="ex02_aop.ex01_simpleadvice.SimpleThrowsAdvice">
+   </bean>
+   
+   <bean id="beforeadvice" class="ex02_aop.ex01_simpleadvice.SimpleBeforeAdvice">
+   </bean>
+
+   <bean id="beforeGettersAdvisor" class="org.springframework.aop.support.RegexpMethodPointcutAdvisor">
+      <property name="advice">
+         <ref bean="beforeadvice"/>
+      </property>
+      <property name="patterns">
+         <list>
+            <value>.*get.*</value>
+         </list>
+      </property>
+   </bean>
+   
+</beans>

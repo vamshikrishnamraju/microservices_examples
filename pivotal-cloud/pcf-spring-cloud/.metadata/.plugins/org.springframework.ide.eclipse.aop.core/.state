@@ -1,13 +1,2 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<aop-reference-model>
-<aop-project name="agency"/>
-<aop-project name="fortune-teller-eureka"/>
-<aop-project name="company"/>
-<aop-project name="fortune-teller-fortune-service"/>
-<aop-project name="greeter"/>
-<aop-project name="cook-1.4.x"/>
-<aop-project name="fortune-teller-config-server"/>
-<aop-project name="message-generation"/>
-<aop-project name="fortune-teller-hystrix-dashboard"/>
-<aop-project name="fortune-teller-ui"/>
-</aop-reference-model>
+<aop-reference-model/>

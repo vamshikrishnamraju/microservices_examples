@@ -1,0 +1,1130 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<hotspot_log version='160 1' process='3276' time_ms='1500651070374'>
+<vm_version>
+<name>
+Java HotSpot(TM) 64-Bit Server VM
+</name>
+<release>
+25.92-b14
+</release>
+<info>
+Java HotSpot(TM) 64-Bit Server VM (25.92-b14) for windows-amd64 JRE (1.8.0_92-b14), built on Mar 31 2016 21:03:04 by &quot;java_re&quot; with MS VC++ 10.0 (VS2010)
+</info>
+</vm_version>
+<vm_arguments>
+<args>
+-XX:+UnlockDiagnosticVMOptions -XX:+LogCompilation -XX:CompileThreshold=1 -Dfile.encoding=Cp1252 
+</args>
+<command>
+demo.test
+</command>
+<launcher>
+SUN_STANDARD
+</launcher>
+<properties>
+java.vm.specification.name=Java Virtual Machine Specification
+java.vm.version=25.92-b14
+java.vm.name=Java HotSpot(TM) 64-Bit Server VM
+java.vm.info=mixed mode, sharing
+java.ext.dirs=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+java.endorsed.dirs=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\endorsed
+sun.boot.library.path=C:\jboss\installed\Java\jdk1.8.0_92\jre\bin
+java.library.path=C:\jboss\installed\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/bin/server;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/bin;C:/jboss/installed/Java/jdk1.8.0_92/bin/../jre/lib/amd64;C:\Ruby24-x64\bin;c:\windows\system32;C:\Windows\System32;C:\spring\software\apache-maven-3.3.1\bin;C:\Ruby24-x64\bin;c:\windows\system32;C:\Windows\System32;C:\spring\software\apache-maven-3.3.1\bin;C:\Git\bin;C:\jboss\installed\Java\jdk1.8.0_92\bin;F:\java-performance-2017\softwares\eclipse;;.
+java.home=C:\jboss\installed\Java\jdk1.8.0_92\jre
+java.class.path=F:\java-performance-2017\labs\JMC\01_JFR_HotMethods\bin
+sun.boot.class.path=C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\jboss\installed\Java\jdk1.8.0_92\jre\classes
+java.vm.specification.vendor=Oracle Corporation
+java.vm.specification.version=1.8
+java.vm.vendor=Oracle Corporation
+file.encoding=Cp1252
+sun.java.command=demo.test
+sun.java.launcher=SUN_STANDARD
+</properties>
+</vm_arguments>
+<tty>
+<writer thread='2884'/>
+<thread_logfile thread='2884' filename='C:\Windows\TEMP\\hs_c2884_pid3276.log'/>
+<writer thread='1680'/>
+<thread_logfile thread='1680' filename='C:\Windows\TEMP\\hs_c1680_pid3276.log'/>
+<writer thread='7276'/>
+<thread_logfile thread='7276' filename='C:\Windows\TEMP\\hs_c7276_pid3276.log'/>
+<blob name='MethodHandlesAdapterBlob' size='32000'>
+<sect index='1' size='32000' free='31632'/>
+</blob>
+<writer thread='4684'/>
+<task_queued compile_id='1' method='java/lang/String indexOf (II)I' bytes='70' count='121' backedge_count='3072' iicount='121' level='3' stamp='0.076' comment='tiered' hot_count='121'/>
+<writer thread='1680'/>
+<nmethod compile_id='1' compiler='C1' level='3' entry='0x000000000284f0e0' size='1592' address='0x000000000284ef50' relocation_offset='288' insts_offset='400' stub_offset='1136' scopes_data_offset='1312' scopes_pcs_offset='1440' dependencies_offset='1568' nul_chk_table_offset='1576' method='java/lang/String indexOf (II)I' bytes='70' count='121' backedge_count='3072' iicount='121' stamp='0.077'/>
+<writer thread='4684'/>
+<task_queued compile_id='2' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='256' iicount='256' level='3' stamp='0.077' comment='tiered' hot_count='256'/>
+<task_queued compile_id='3' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='256' iicount='256' level='3' stamp='0.077' comment='tiered' hot_count='256'/>
+<task_queued compile_id='4' method='java/lang/String hashCode ()I' bytes='55' count='425' backedge_count='6144' iicount='425' level='3' stamp='0.077' comment='tiered' hot_count='425'/>
+<nmethod compile_id='5' compile_kind='c2n' level='0' entry='0x0000000002851d40' size='904' address='0x0000000002851bd0' relocation_offset='288' consts_offset='904' insts_offset='368' method='java/lang/System arraycopy (Ljava/lang/Object;ILjava/lang/Object;II)V' bytes='0' count='640' iicount='640' stamp='0.078'/>
+<task_queued compile_id='6' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1536' iicount='1536' level='3' stamp='0.078' comment='tiered' hot_count='1536'/>
+<writer thread='1680'/>
+<nmethod compile_id='2' compiler='C1' level='3' entry='0x0000000002851460' size='2336' address='0x0000000002851290' relocation_offset='288' insts_offset='464' stub_offset='1520' scopes_data_offset='1752' scopes_pcs_offset='2024' dependencies_offset='2296' nul_chk_table_offset='2304' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='322' iicount='322' stamp='0.078'/>
+<nmethod compile_id='4' compiler='C1' level='3' entry='0x0000000002850f00' size='1224' address='0x0000000002850d90' relocation_offset='288' insts_offset='368' stub_offset='880' scopes_data_offset='1032' scopes_pcs_offset='1104' dependencies_offset='1200' nul_chk_table_offset='1208' method='java/lang/String hashCode ()I' bytes='55' count='458' backedge_count='6571' iicount='458' stamp='0.079'/>
+<nmethod compile_id='6' compiler='C1' level='3' entry='0x0000000002853720' size='776' address='0x00000000028535d0' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='704' dependencies_offset='768' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1577' iicount='1577' stamp='0.079'/>
+<writer thread='4684'/>
+<task_queued compile_id='7' method='java/lang/String charAt (I)C' bytes='29' count='1664' iicount='1664' level='3' stamp='0.080' comment='tiered' hot_count='1664'/>
+<task_queued compile_id='8' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='896' iicount='896' level='3' stamp='0.080' comment='tiered' hot_count='896'/>
+<task_queued compile_id='9' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='896' iicount='896' level='3' stamp='0.080' comment='tiered' hot_count='896'/>
+<task_queued compile_id='10' method='java/lang/String length ()I' bytes='6' count='512' iicount='512' level='3' stamp='0.080' comment='tiered' hot_count='512'/>
+<writer thread='1680'/>
+<nmethod compile_id='3' compiler='C1' level='3' entry='0x0000000002852560' size='4704' address='0x0000000002852350' relocation_offset='288' insts_offset='528' stub_offset='3152' scopes_data_offset='3472' scopes_pcs_offset='4280' dependencies_offset='4680' nul_chk_table_offset='4688' oops_offset='3400' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='322' iicount='322' stamp='0.080'/>
+<writer thread='4684'/>
+<task_queued compile_id='11' method='java/lang/Math min (II)I' bytes='11' count='617' iicount='617' level='3' stamp='0.080' comment='tiered' hot_count='617'/>
+<task_queued compile_id='12' method='java/lang/Character toUpperCase (C)C' bytes='6' count='384' iicount='384' level='3' stamp='0.080' comment='tiered' hot_count='384'/>
+<writer thread='1680'/>
+<nmethod compile_id='7' compiler='C1' level='3' entry='0x000000000285b900' size='1192' address='0x000000000285b790' relocation_offset='288' insts_offset='368' stub_offset='816' scopes_data_offset='992' scopes_pcs_offset='1056' dependencies_offset='1168' nul_chk_table_offset='1176' method='java/lang/String charAt (I)C' bytes='29' count='2680' iicount='2680' stamp='0.080'/>
+<nmethod compile_id='11' compiler='C1' level='3' entry='0x000000000285bda0' size='816' address='0x000000000285bc50' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='760' dependencies_offset='808' method='java/lang/Math min (II)I' bytes='11' count='674' iicount='674' stamp='0.081'/>
+<nmethod compile_id='8' compiler='C1' level='3' entry='0x000000000285c140' size='2408' address='0x000000000285bf90' relocation_offset='288' insts_offset='432' stub_offset='1680' scopes_data_offset='1832' scopes_pcs_offset='2008' dependencies_offset='2344' nul_chk_table_offset='2352' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='1207' iicount='1207' stamp='0.081'/>
+<nmethod compile_id='9' compiler='C1' level='3' entry='0x000000000285cc60' size='936' address='0x000000000285cb10' relocation_offset='288' insts_offset='336' stub_offset='592' scopes_data_offset='744' scopes_pcs_offset='808' dependencies_offset='904' nul_chk_table_offset='912' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1207' iicount='1207' stamp='0.082'/>
+<nmethod compile_id='10' compiler='C1' level='3' entry='0x000000000285d020' size='792' address='0x000000000285ced0' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='704' dependencies_offset='768' nul_chk_table_offset='776' method='java/lang/String length ()I' bytes='6' count='823' iicount='823' stamp='0.082'/>
+<nmethod compile_id='12' compiler='C1' level='3' entry='0x000000000285d380' size='1272' address='0x000000000285d210' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1048' scopes_pcs_offset='1136' dependencies_offset='1248' nul_chk_table_offset='1256' method='java/lang/Character toUpperCase (C)C' bytes='6' count='388' iicount='388' stamp='0.082'/>
+<writer thread='4684'/>
+<task_queued compile_id='13' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='256' iicount='256' level='3' stamp='0.085' comment='tiered' hot_count='256'/>
+<task_queued compile_id='14' method='java/lang/Character toLowerCase (I)I' bytes='9' count='896' iicount='896' level='3' stamp='0.086' comment='tiered' hot_count='896'/>
+<task_queued compile_id='15' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='896' iicount='896' level='3' stamp='0.086' comment='tiered' hot_count='896'/>
+<writer thread='1680'/>
+<nmethod compile_id='13' compiler='C1' level='3' entry='0x000000000285e0c0' size='1112' address='0x000000000285df50' relocation_offset='288' insts_offset='368' stub_offset='784' scopes_data_offset='968' scopes_pcs_offset='1008' dependencies_offset='1088' nul_chk_table_offset='1096' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='347' iicount='347' stamp='0.086'/>
+<writer thread='4684'/>
+<task_queued compile_id='16' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='256' iicount='256' level='3' stamp='0.086' comment='tiered' hot_count='256'/>
+<writer thread='1680'/>
+<nmethod compile_id='14' compiler='C1' level='3' entry='0x000000000285e540' size='1104' address='0x000000000285e3d0' relocation_offset='288' insts_offset='368' stub_offset='752' scopes_data_offset='944' scopes_pcs_offset='984' dependencies_offset='1080' nul_chk_table_offset='1088' method='java/lang/Character toLowerCase (I)I' bytes='9' count='1061' iicount='1063' stamp='0.086'/>
+<writer thread='4684'/>
+<task_queued compile_id='17' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='256' iicount='256' level='3' stamp='0.086' comment='tiered' hot_count='256'/>
+<task_queued compile_id='18' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1536' iicount='1536' level='1' stamp='0.086' comment='tiered' hot_count='1536'/>
+<task_queued compile_id='19' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='384' iicount='384' level='3' stamp='0.086' comment='tiered' hot_count='384'/>
+<writer thread='1680'/>
+<nmethod compile_id='15' compiler='C1' level='3' entry='0x000000000285e9c0' size='1320' address='0x000000000285e850' relocation_offset='288' insts_offset='368' stub_offset='848' scopes_data_offset='1016' scopes_pcs_offset='1176' dependencies_offset='1288' nul_chk_table_offset='1296' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='1237' iicount='1237' stamp='0.087'/>
+<nmethod compile_id='18' compiler='C1' level='1' entry='0x000000000285eee0' size='840' address='0x000000000285ed90' relocation_offset='288' insts_offset='336' stub_offset='528' scopes_data_offset='680' scopes_pcs_offset='728' dependencies_offset='808' nul_chk_table_offset='816' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1757' iicount='1757' stamp='0.087'/>
+<make_not_entrant thread='1680' compile_id='9' compiler='C1' level='3' stamp='0.087'/>
+<nmethod compile_id='16' compiler='C1' level='3' entry='0x000000000285f280' size='1472' address='0x000000000285f110' relocation_offset='288' insts_offset='368' stub_offset='976' scopes_data_offset='1168' scopes_pcs_offset='1288' dependencies_offset='1432' nul_chk_table_offset='1440' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='783' iicount='783' stamp='0.087'/>
+<writer thread='4684'/>
+<task_queued compile_id='20' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='256' backedge_count='1415' iicount='256' level='3' stamp='0.088' comment='tiered' hot_count='256'/>
+<writer thread='1680'/>
+<nmethod compile_id='19' compiler='C1' level='3' entry='0x000000000285f860' size='912' address='0x000000000285f710' relocation_offset='288' insts_offset='336' stub_offset='688' scopes_data_offset='840' scopes_pcs_offset='856' dependencies_offset='904' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='882' iicount='882' stamp='0.088'/>
+<nmethod compile_id='20' compiler='C1' level='3' entry='0x000000000285fc60' size='2184' address='0x000000000285fad0' relocation_offset='288' insts_offset='400' stub_offset='1616' scopes_data_offset='1768' scopes_pcs_offset='1968' dependencies_offset='2144' nul_chk_table_offset='2152' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='258' backedge_count='1470' iicount='258' stamp='0.088'/>
+<nmethod compile_id='17' compiler='C1' level='3' entry='0x0000000002860520' size='2192' address='0x0000000002860390' relocation_offset='288' insts_offset='400' stub_offset='1488' scopes_data_offset='1680' scopes_pcs_offset='1976' dependencies_offset='2152' nul_chk_table_offset='2160' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='780' iicount='780' stamp='0.089'/>
+<writer thread='4684'/>
+<task_queued compile_id='21' method='java/lang/String charAt (I)C' bytes='29' count='5632' iicount='5632' stamp='0.092' comment='tiered' hot_count='5632'/>
+<task_queued compile_id='22' method='java/lang/String indexOf (I)I' bytes='7' count='256' iicount='256' level='3' stamp='0.093' comment='tiered' hot_count='256'/>
+<writer thread='2884'/>
+<nmethod compile_id='21' compiler='C2' level='4' entry='0x0000000002864260' size='720' address='0x0000000002864110' relocation_offset='288' insts_offset='336' stub_offset='496' scopes_data_offset='528' scopes_pcs_offset='600' dependencies_offset='696' nul_chk_table_offset='704' method='java/lang/String charAt (I)C' bytes='29' count='5675' iicount='5675' stamp='0.093'/>
+<make_not_entrant thread='2884' compile_id='7' compiler='C1' level='3' stamp='0.093'/>
+<writer thread='1680'/>
+<nmethod compile_id='22' compiler='C1' level='3' entry='0x0000000002863e80' size='992' address='0x0000000002863d10' relocation_offset='288' insts_offset='368' stub_offset='720' scopes_data_offset='896' scopes_pcs_offset='920' dependencies_offset='984' method='java/lang/String indexOf (I)I' bytes='7' count='258' iicount='258' stamp='0.094'/>
+<writer thread='7836'/>
+<destroy_vm stamp='0.096'/>
+<tty_done stamp='0.096'/>
+</tty>
+<compilation_log thread='7276'>
+<fragment>
+<![CDATA[
+<start_compile_thread name='C2 CompilerThread0' thread='7276' process='3276' stamp='0.073'/>
+]]>
+</fragment>
+</compilation_log>
+<compilation_log thread='1680'>
+<start_compile_thread name='C1 CompilerThread2' thread='1680' process='3276' stamp='0.073'/>
+<task compile_id='1' method='java/lang/String indexOf (II)I' bytes='70' count='121' backedge_count='3072' iicount='121' level='3' stamp='0.076'>
+<phase name='buildIR' stamp='0.076'>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='indexOf' return='713' arguments='713 713' flags='1' bytes='70' iicount='121'/>
+<parse method='823'  stamp='0.076'>
+<bc code='183' bci='66'/>
+<method id='825' holder='721' name='indexOfSupplementary' return='713' arguments='713 713' flags='2' bytes='71' iicount='1'/>
+<call method='825' instr='invokespecial'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.077'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.077'>
+<phase_done name='optimize_blocks' stamp='0.077'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.077'>
+<phase_done name='rangeCheckElimination' stamp='0.077'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.077'>
+<phase_done name='optimize_null_checks' stamp='0.077'/>
+</phase>
+<phase_done name='buildIR' stamp='0.077'/>
+</phase>
+<phase name='emit_lir' stamp='0.077'>
+<phase name='lirGeneration' stamp='0.077'>
+<phase_done name='lirGeneration' stamp='0.077'/>
+</phase>
+<phase name='linearScan' stamp='0.077'>
+<phase_done name='linearScan' stamp='0.077'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.077'/>
+</phase>
+<phase name='codeemit' stamp='0.077'>
+<phase_done name='codeemit' stamp='0.077'/>
+</phase>
+<phase name='codeinstall' stamp='0.077'>
+<phase_done name='codeinstall' stamp='0.077'/>
+</phase>
+<code_cache total_blobs='219' nmethods='1' adapters='135' free_code_cache='250574656'/>
+<task_done success='1' nmsize='904' count='121' backedge_count='3072' stamp='0.077'/>
+</task>
+<task compile_id='2' method='java/lang/String &lt;init&gt; ([CII)V' bytes='82' count='256' iicount='256' level='3' stamp='0.077'>
+<phase name='buildIR' stamp='0.077'>
+<type id='715' name='void'/>
+<klass id='812' name='[C' flags='1041'/>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='&lt;init&gt;' return='715' arguments='812 713 713' flags='1' bytes='82' iicount='256'/>
+<parse method='823'  stamp='0.077'>
+<bc code='183' bci='1'/>
+<klass id='720' name='java/lang/Object' flags='1'/>
+<method id='825' holder='720' name='&lt;init&gt;' return='715' flags='1' bytes='1' iicount='1476'/>
+<call method='825' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='825'>
+<parse_done stamp='0.077'/>
+</parse>
+<bc code='183' bci='13'/>
+<klass id='827' name='java/lang/StringIndexOutOfBoundsException' unloaded='1'/>
+<method id='828' holder='827' name='&lt;init&gt;' return='715' arguments='713' unloaded='1'/>
+<call method='828' instr='invokespecial'/>
+<inline_fail reason='not inlineable'/>
+<bc code='183' bci='30'/>
+<call method='828' instr='invokespecial'/>
+<inline_fail reason='not inlineable'/>
+<bc code='183' bci='65'/>
+<call method='828' instr='invokespecial'/>
+<inline_fail reason='not inlineable'/>
+<bc code='184' bci='75'/>
+<klass id='830' name='java/util/Arrays' flags='1'/>
+<method id='831' holder='830' name='copyOfRange' return='812' arguments='812 713 713' flags='9' bytes='63' iicount='256'/>
+<call method='831' instr='invokestatic'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.078'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.078'>
+<phase_done name='optimize_blocks' stamp='0.078'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.078'>
+<phase_done name='rangeCheckElimination' stamp='0.078'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.078'>
+<phase_done name='optimize_null_checks' stamp='0.078'/>
+</phase>
+<phase_done name='buildIR' stamp='0.078'/>
+</phase>
+<phase name='emit_lir' stamp='0.078'>
+<phase name='lirGeneration' stamp='0.078'>
+<phase_done name='lirGeneration' stamp='0.078'/>
+</phase>
+<phase name='linearScan' stamp='0.078'>
+<phase_done name='linearScan' stamp='0.078'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.078'/>
+</phase>
+<phase name='codeemit' stamp='0.078'>
+<phase_done name='codeemit' stamp='0.078'/>
+</phase>
+<phase name='codeinstall' stamp='0.078'>
+<phase_done name='codeinstall' stamp='0.078'/>
+</phase>
+<code_cache total_blobs='223' nmethods='3' adapters='135' free_code_cache='250570752'/>
+<task_done success='1' nmsize='1272' count='322' inlined_bytes='1' stamp='0.078'/>
+</task>
+<task compile_id='4' method='java/lang/String hashCode ()I' bytes='55' count='458' backedge_count='6571' iicount='458' level='3' stamp='0.078'>
+<phase name='buildIR' stamp='0.078'>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='hashCode' return='713' flags='1' bytes='55' iicount='458'/>
+<parse method='823'  stamp='0.078'>
+<parse_done stamp='0.078'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.078'>
+<phase_done name='optimize_blocks' stamp='0.078'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.078'>
+<phase_done name='rangeCheckElimination' stamp='0.078'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.078'>
+<phase_done name='optimize_null_checks' stamp='0.078'/>
+</phase>
+<phase_done name='buildIR' stamp='0.078'/>
+</phase>
+<phase name='emit_lir' stamp='0.078'>
+<phase name='lirGeneration' stamp='0.078'>
+<phase_done name='lirGeneration' stamp='0.078'/>
+</phase>
+<phase name='linearScan' stamp='0.078'>
+<phase_done name='linearScan' stamp='0.078'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.078'/>
+</phase>
+<phase name='codeemit' stamp='0.078'>
+<phase_done name='codeemit' stamp='0.078'/>
+</phase>
+<phase name='codeinstall' stamp='0.078'>
+<phase_done name='codeinstall' stamp='0.079'/>
+</phase>
+<code_cache total_blobs='224' nmethods='4' adapters='135' free_code_cache='250569472'/>
+<task_done success='1' nmsize='656' count='458' backedge_count='6571' stamp='0.079'/>
+</task>
+<task compile_id='6' method='java/lang/Object &lt;init&gt; ()V' bytes='1' count='1577' iicount='1577' level='3' stamp='0.079'>
+<phase name='buildIR' stamp='0.079'>
+<type id='715' name='void'/>
+<klass id='720' name='java/lang/Object' flags='1'/>
+<method id='823' holder='720' name='&lt;init&gt;' return='715' flags='1' bytes='1' iicount='1577'/>
+<parse method='823'  stamp='0.079'>
+<parse_done stamp='0.079'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.079'>
+<phase_done name='optimize_blocks' stamp='0.079'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.079'>
+<phase_done name='rangeCheckElimination' stamp='0.079'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.079'>
+<phase_done name='optimize_null_checks' stamp='0.079'/>
+</phase>
+<phase_done name='buildIR' stamp='0.079'/>
+</phase>
+<phase name='emit_lir' stamp='0.079'>
+<phase name='lirGeneration' stamp='0.079'>
+<phase_done name='lirGeneration' stamp='0.079'/>
+</phase>
+<phase name='linearScan' stamp='0.079'>
+<phase_done name='linearScan' stamp='0.079'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.079'/>
+</phase>
+<phase name='codeemit' stamp='0.079'>
+<phase_done name='codeemit' stamp='0.079'/>
+</phase>
+<phase name='codeinstall' stamp='0.079'>
+<phase_done name='codeinstall' stamp='0.079'/>
+</phase>
+<code_cache total_blobs='226' nmethods='5' adapters='136' free_code_cache='250567872'/>
+<task_done success='1' nmsize='336' count='1577' stamp='0.079'/>
+</task>
+<task compile_id='3' method='java/util/Arrays copyOfRange ([CII)[C' bytes='63' count='322' iicount='322' level='3' stamp='0.079'>
+<phase name='buildIR' stamp='0.079'>
+<klass id='812' name='[C' flags='1041'/>
+<type id='713' name='int'/>
+<klass id='823' name='java/util/Arrays' flags='1'/>
+<method id='824' holder='823' name='copyOfRange' return='812' arguments='812 713 713' flags='9' bytes='63' iicount='322'/>
+<parse method='824'  stamp='0.079'>
+<bc code='183' bci='16'/>
+<type id='715' name='void'/>
+<klass id='786' name='java/lang/StringBuilder' flags='17'/>
+<method id='827' holder='786' name='&lt;init&gt;' return='715' flags='1' bytes='7' iicount='77'/>
+<call method='827' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='827'>
+<bc code='183' bci='3'/>
+<klass id='784' name='java/lang/AbstractStringBuilder' flags='1024'/>
+<method id='829' holder='784' name='&lt;init&gt;' return='715' arguments='713' flags='0' bytes='12' iicount='78'/>
+<call method='829' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='829'>
+<bc code='183' bci='1'/>
+<klass id='720' name='java/lang/Object' flags='1'/>
+<method id='831' holder='720' name='&lt;init&gt;' return='715' flags='1' bytes='1' compile_id='6' compiler='C1' level='3' iicount='1579'/>
+<call method='831' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='831'>
+<parse_done stamp='0.079'/>
+</parse>
+<parse_done stamp='0.079'/>
+</parse>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='182' bci='20'/>
+<method id='833' holder='786' name='append' return='786' arguments='713' flags='1' bytes='8' iicount='1'/>
+<call method='833' instr='invokevirtual'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='833'>
+<bc code='183' bci='2'/>
+<method id='835' holder='784' name='append' return='784' arguments='713' flags='1' bytes='62' iicount='1'/>
+<call method='835' instr='invokespecial'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='182' bci='25'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='838' holder='786' name='append' return='786' arguments='721' flags='1' bytes='8' iicount='121'/>
+<call method='838' instr='invokevirtual'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='838'>
+<bc code='183' bci='2'/>
+<method id='840' holder='784' name='append' return='784' arguments='721' flags='1' bytes='50' iicount='121'/>
+<call method='840' instr='invokespecial'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='182' bci='29'/>
+<call method='833' instr='invokevirtual'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='833'>
+<bc code='183' bci='2'/>
+<call method='835' instr='invokespecial'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='182' bci='32'/>
+<method id='842' holder='786' name='toString' return='721' flags='1' bytes='17' iicount='77'/>
+<call method='842' instr='invokevirtual'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='842'>
+<bc code='183' bci='13'/>
+<method id='844' holder='721' name='&lt;init&gt;' return='715' arguments='812 713 713' flags='1' bytes='82' compile_id='2' compiler='C1' level='3' iicount='322'/>
+<call method='844' instr='invokespecial'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='183' bci='35'/>
+<klass id='826' name='java/lang/IllegalArgumentException' flags='1'/>
+<method id='846' holder='826' name='&lt;init&gt;' return='715' arguments='721' flags='1' bytes='6' iicount='1'/>
+<call method='846' instr='invokespecial'/>
+<inline_fail reason='don&apos;t inline Throwable constructors'/>
+<bc code='184' bci='54'/>
+<klass id='848' name='java/lang/Math' flags='17'/>
+<method id='849' holder='848' name='min' return='713' arguments='713 713' flags='9' bytes='11' iicount='489'/>
+<call method='849' instr='invokestatic'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='849'>
+<parse_done stamp='0.079'/>
+</parse>
+<bc code='184' bci='57'/>
+<klass id='726' name='java/lang/System' flags='17'/>
+<method id='851' holder='726' name='arraycopy' return='715' arguments='720 713 720 713 713' flags='265' bytes='0' compile_id='5' compile_kind='c2n' level='0' iicount='640'/>
+<call method='851' instr='invokestatic'/>
+<inline_success reason='intrinsic'/>
+<parse_done stamp='0.080'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.080'>
+<phase_done name='optimize_blocks' stamp='0.080'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.080'>
+<phase_done name='rangeCheckElimination' stamp='0.080'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.080'>
+<phase_done name='optimize_null_checks' stamp='0.080'/>
+</phase>
+<phase_done name='buildIR' stamp='0.080'/>
+</phase>
+<phase name='emit_lir' stamp='0.080'>
+<phase name='lirGeneration' stamp='0.080'>
+<phase_done name='lirGeneration' stamp='0.080'/>
+</phase>
+<phase name='linearScan' stamp='0.080'>
+<phase_done name='linearScan' stamp='0.080'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.080'/>
+</phase>
+<phase name='codeemit' stamp='0.080'>
+<phase_done name='codeemit' stamp='0.080'/>
+</phase>
+<phase name='codeinstall' stamp='0.080'>
+<phase_done name='codeinstall' stamp='0.080'/>
+</phase>
+<code_cache total_blobs='227' nmethods='6' adapters='136' free_code_cache='250563136'/>
+<task_done success='1' nmsize='2872' count='322' inlined_bytes='72' stamp='0.080'/>
+</task>
+<task compile_id='7' method='java/lang/String charAt (I)C' bytes='29' count='2287' iicount='2289' level='3' stamp='0.080'>
+<phase name='buildIR' stamp='0.080'>
+<type id='708' name='char'/>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='charAt' return='708' arguments='713' flags='1' bytes='29' iicount='2362'/>
+<parse method='823'  stamp='0.080'>
+<bc code='183' bci='18'/>
+<type id='715' name='void'/>
+<klass id='825' name='java/lang/StringIndexOutOfBoundsException' unloaded='1'/>
+<method id='826' holder='825' name='&lt;init&gt;' return='715' arguments='713' unloaded='1'/>
+<call method='826' instr='invokespecial'/>
+<inline_fail reason='not inlineable'/>
+<parse_done stamp='0.080'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.080'>
+<phase_done name='optimize_blocks' stamp='0.080'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.080'>
+<phase_done name='rangeCheckElimination' stamp='0.080'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.080'>
+<phase_done name='optimize_null_checks' stamp='0.080'/>
+</phase>
+<phase_done name='buildIR' stamp='0.080'/>
+</phase>
+<phase name='emit_lir' stamp='0.080'>
+<phase name='lirGeneration' stamp='0.080'>
+<phase_done name='lirGeneration' stamp='0.080'/>
+</phase>
+<phase name='linearScan' stamp='0.080'>
+<phase_done name='linearScan' stamp='0.080'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.080'/>
+</phase>
+<phase name='codeemit' stamp='0.080'>
+<phase_done name='codeemit' stamp='0.080'/>
+</phase>
+<phase name='codeinstall' stamp='0.080'>
+<phase_done name='codeinstall' stamp='0.080'/>
+</phase>
+<code_cache total_blobs='228' nmethods='7' adapters='136' free_code_cache='250561920'/>
+<task_done success='1' nmsize='616' count='2753' stamp='0.081'/>
+</task>
+<task compile_id='11' method='java/lang/Math min (II)I' bytes='11' count='672' iicount='672' level='3' stamp='0.081'>
+<phase name='buildIR' stamp='0.081'>
+<type id='713' name='int'/>
+<klass id='823' name='java/lang/Math' flags='17'/>
+<method id='824' holder='823' name='min' return='713' arguments='713 713' flags='9' bytes='11' iicount='672'/>
+<parse method='824'  stamp='0.081'>
+<parse_done stamp='0.081'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.081'>
+<phase_done name='optimize_blocks' stamp='0.081'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.081'>
+<phase_done name='rangeCheckElimination' stamp='0.081'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.081'>
+<phase_done name='optimize_null_checks' stamp='0.081'/>
+</phase>
+<phase_done name='buildIR' stamp='0.081'/>
+</phase>
+<phase name='emit_lir' stamp='0.081'>
+<phase name='lirGeneration' stamp='0.081'>
+<phase_done name='lirGeneration' stamp='0.081'/>
+</phase>
+<phase name='linearScan' stamp='0.081'>
+<phase_done name='linearScan' stamp='0.081'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.081'/>
+</phase>
+<phase name='codeemit' stamp='0.081'>
+<phase_done name='codeemit' stamp='0.081'/>
+</phase>
+<phase name='codeinstall' stamp='0.081'>
+<phase_done name='codeinstall' stamp='0.081'/>
+</phase>
+<code_cache total_blobs='229' nmethods='8' adapters='136' free_code_cache='250561088'/>
+<task_done success='1' nmsize='400' count='674' stamp='0.081'/>
+</task>
+<task compile_id='8' method='java/lang/CharacterData of (I)Ljava/lang/CharacterData;' bytes='120' count='1207' iicount='1207' level='3' stamp='0.081'>
+<phase name='buildIR' stamp='0.081'>
+<klass id='823' name='java/lang/CharacterData' flags='1024'/>
+<type id='713' name='int'/>
+<method id='824' holder='823' name='of' return='823' arguments='713' flags='24' bytes='120' iicount='1207'/>
+<parse method='824'  stamp='0.081'>
+<parse_done stamp='0.081'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.081'>
+<phase_done name='optimize_blocks' stamp='0.081'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.081'>
+<phase_done name='rangeCheckElimination' stamp='0.081'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.081'>
+<phase_done name='optimize_null_checks' stamp='0.081'/>
+</phase>
+<phase_done name='buildIR' stamp='0.081'/>
+</phase>
+<phase name='emit_lir' stamp='0.081'>
+<phase name='lirGeneration' stamp='0.081'>
+<phase_done name='lirGeneration' stamp='0.081'/>
+</phase>
+<phase name='linearScan' stamp='0.081'>
+<phase_done name='linearScan' stamp='0.081'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.081'/>
+</phase>
+<phase name='codeemit' stamp='0.081'>
+<phase_done name='codeemit' stamp='0.081'/>
+</phase>
+<phase name='codeinstall' stamp='0.081'>
+<phase_done name='codeinstall' stamp='0.081'/>
+</phase>
+<code_cache total_blobs='230' nmethods='9' adapters='136' free_code_cache='250558656'/>
+<task_done success='1' nmsize='1392' count='1207' stamp='0.081'/>
+</task>
+<task compile_id='9' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1207' iicount='1207' level='3' stamp='0.081'>
+<phase name='buildIR' stamp='0.081'>
+<type id='713' name='int'/>
+<klass id='823' name='java/lang/CharacterDataLatin1' flags='0'/>
+<method id='824' holder='823' name='getProperties' return='713' arguments='713' flags='0' bytes='11' iicount='1207'/>
+<parse method='824'  stamp='0.081'>
+<parse_done stamp='0.082'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.082'>
+<phase_done name='optimize_blocks' stamp='0.082'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.082'>
+<phase_done name='rangeCheckElimination' stamp='0.082'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.082'>
+<phase_done name='optimize_null_checks' stamp='0.082'/>
+</phase>
+<phase_done name='buildIR' stamp='0.082'/>
+</phase>
+<phase name='emit_lir' stamp='0.082'>
+<phase name='lirGeneration' stamp='0.082'>
+<phase_done name='lirGeneration' stamp='0.082'/>
+</phase>
+<phase name='linearScan' stamp='0.082'>
+<phase_done name='linearScan' stamp='0.082'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.082'/>
+</phase>
+<phase name='codeemit' stamp='0.082'>
+<phase_done name='codeemit' stamp='0.082'/>
+</phase>
+<phase name='codeinstall' stamp='0.082'>
+<phase_done name='codeinstall' stamp='0.082'/>
+</phase>
+<code_cache total_blobs='232' nmethods='10' adapters='137' free_code_cache='250557184'/>
+<task_done success='1' nmsize='400' count='1207' stamp='0.082'/>
+</task>
+<task compile_id='10' method='java/lang/String length ()I' bytes='6' count='822' iicount='822' level='3' stamp='0.082'>
+<phase name='buildIR' stamp='0.082'>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='length' return='713' flags='1' bytes='6' iicount='822'/>
+<parse method='823'  stamp='0.082'>
+<parse_done stamp='0.082'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.082'>
+<phase_done name='optimize_blocks' stamp='0.082'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.082'>
+<phase_done name='rangeCheckElimination' stamp='0.082'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.082'>
+<phase_done name='optimize_null_checks' stamp='0.082'/>
+</phase>
+<phase_done name='buildIR' stamp='0.082'/>
+</phase>
+<phase name='emit_lir' stamp='0.082'>
+<phase name='lirGeneration' stamp='0.082'>
+<phase_done name='lirGeneration' stamp='0.082'/>
+</phase>
+<phase name='linearScan' stamp='0.082'>
+<phase_done name='linearScan' stamp='0.082'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.082'/>
+</phase>
+<phase name='codeemit' stamp='0.082'>
+<phase_done name='codeemit' stamp='0.082'/>
+</phase>
+<phase name='codeinstall' stamp='0.082'>
+<phase_done name='codeinstall' stamp='0.082'/>
+</phase>
+<code_cache total_blobs='233' nmethods='11' adapters='137' free_code_cache='250556352'/>
+<task_done success='1' nmsize='336' count='826' stamp='0.082'/>
+</task>
+<task compile_id='12' method='java/lang/Character toUpperCase (C)C' bytes='6' count='388' iicount='388' level='3' stamp='0.082'>
+<phase name='buildIR' stamp='0.082'>
+<type id='708' name='char'/>
+<klass id='801' name='java/lang/Character' flags='17'/>
+<method id='823' holder='801' name='toUpperCase' return='708' arguments='708' flags='9' bytes='6' iicount='388'/>
+<parse method='823'  stamp='0.082'>
+<bc code='184' bci='1'/>
+<type id='713' name='int'/>
+<method id='825' holder='801' name='toUpperCase' return='713' arguments='713' flags='9' bytes='9' iicount='388'/>
+<call method='825' instr='invokestatic'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='825'>
+<bc code='184' bci='1'/>
+<klass id='827' name='java/lang/CharacterData' flags='1024'/>
+<method id='828' holder='827' name='of' return='827' arguments='713' flags='24' bytes='120' compile_id='8' compiler='C1' level='3' iicount='1207'/>
+<call method='828' instr='invokestatic'/>
+<inline_fail reason='callee is too large'/>
+<bc code='182' bci='5'/>
+<method id='830' holder='827' name='toUpperCase' return='713' arguments='713' flags='1024' bytes='0' iicount='1'/>
+<call method='830' instr='invokevirtual'/>
+<inline_fail reason='no static binding'/>
+<parse_done stamp='0.082'/>
+</parse>
+<parse_done stamp='0.082'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.082'>
+<phase_done name='optimize_blocks' stamp='0.082'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.082'>
+<phase_done name='rangeCheckElimination' stamp='0.082'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.082'>
+<phase_done name='optimize_null_checks' stamp='0.082'/>
+</phase>
+<phase_done name='buildIR' stamp='0.082'/>
+</phase>
+<phase name='emit_lir' stamp='0.082'>
+<phase name='lirGeneration' stamp='0.082'>
+<phase_done name='lirGeneration' stamp='0.082'/>
+</phase>
+<phase name='linearScan' stamp='0.082'>
+<phase_done name='linearScan' stamp='0.082'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.082'/>
+</phase>
+<phase name='codeemit' stamp='0.082'>
+<phase_done name='codeemit' stamp='0.082'/>
+</phase>
+<phase name='codeinstall' stamp='0.082'>
+<phase_done name='codeinstall' stamp='0.082'/>
+</phase>
+<code_cache total_blobs='234' nmethods='12' adapters='137' free_code_cache='250555008'/>
+<task_done success='1' nmsize='664' count='388' inlined_bytes='9' stamp='0.082'/>
+</task>
+<task compile_id='13' method='java/lang/AbstractStringBuilder ensureCapacityInternal (I)V' bytes='16' count='278' iicount='278' level='3' stamp='0.085'>
+<phase name='buildIR' stamp='0.085'>
+<type id='715' name='void'/>
+<type id='713' name='int'/>
+<klass id='784' name='java/lang/AbstractStringBuilder' flags='1024'/>
+<method id='823' holder='784' name='ensureCapacityInternal' return='715' arguments='713' flags='2' bytes='16' iicount='278'/>
+<parse method='823'  stamp='0.085'>
+<bc code='182' bci='12'/>
+<method id='825' holder='784' name='expandCapacity' return='715' arguments='713' flags='0' bytes='50' iicount='103'/>
+<call method='825' instr='invokevirtual'/>
+<dependency type='unique_concrete_method' ctxk='784' x='825'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.085'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.085'>
+<phase_done name='optimize_blocks' stamp='0.085'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.085'>
+<phase_done name='rangeCheckElimination' stamp='0.085'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.085'>
+<phase_done name='optimize_null_checks' stamp='0.086'/>
+</phase>
+<phase_done name='buildIR' stamp='0.086'/>
+</phase>
+<phase name='emit_lir' stamp='0.086'>
+<phase name='lirGeneration' stamp='0.086'>
+<phase_done name='lirGeneration' stamp='0.086'/>
+</phase>
+<phase name='linearScan' stamp='0.086'>
+<phase_done name='linearScan' stamp='0.086'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.086'/>
+</phase>
+<phase name='codeemit' stamp='0.086'>
+<phase_done name='codeemit' stamp='0.086'/>
+</phase>
+<phase name='codeinstall' stamp='0.086'>
+<dependency type='unique_concrete_method' ctxk='784' x='825'/>
+<phase_done name='codeinstall' stamp='0.086'/>
+</phase>
+<code_cache total_blobs='239' nmethods='13' adapters='141' free_code_cache='250551808'/>
+<task_done success='1' nmsize='584' count='347' stamp='0.086'/>
+</task>
+<task compile_id='14' method='java/lang/Character toLowerCase (I)I' bytes='9' count='963' iicount='963' level='3' stamp='0.086'>
+<phase name='buildIR' stamp='0.086'>
+<type id='713' name='int'/>
+<klass id='801' name='java/lang/Character' flags='17'/>
+<method id='823' holder='801' name='toLowerCase' return='713' arguments='713' flags='9' bytes='9' iicount='963'/>
+<parse method='823'  stamp='0.086'>
+<bc code='184' bci='1'/>
+<klass id='826' name='java/lang/CharacterData' flags='1024'/>
+<method id='827' holder='826' name='of' return='826' arguments='713' flags='24' bytes='120' compile_id='8' compiler='C1' level='3' iicount='1355'/>
+<call method='827' instr='invokestatic'/>
+<inline_fail reason='callee is too large'/>
+<bc code='182' bci='5'/>
+<method id='829' holder='826' name='toLowerCase' return='713' arguments='713' flags='1024' bytes='0' iicount='1'/>
+<call method='829' instr='invokevirtual'/>
+<inline_fail reason='no static binding'/>
+<parse_done stamp='0.086'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.086'>
+<phase_done name='optimize_blocks' stamp='0.086'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.086'>
+<phase_done name='rangeCheckElimination' stamp='0.086'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.086'>
+<phase_done name='optimize_null_checks' stamp='0.086'/>
+</phase>
+<phase_done name='buildIR' stamp='0.086'/>
+</phase>
+<phase name='emit_lir' stamp='0.086'>
+<phase name='lirGeneration' stamp='0.086'>
+<phase_done name='lirGeneration' stamp='0.086'/>
+</phase>
+<phase name='linearScan' stamp='0.086'>
+<phase_done name='linearScan' stamp='0.086'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.086'/>
+</phase>
+<phase name='codeemit' stamp='0.086'>
+<phase_done name='codeemit' stamp='0.086'/>
+</phase>
+<phase name='codeinstall' stamp='0.086'>
+<phase_done name='codeinstall' stamp='0.086'/>
+</phase>
+<code_cache total_blobs='240' nmethods='14' adapters='141' free_code_cache='250550656'/>
+<task_done success='1' nmsize='568' count='1075' stamp='0.086'/>
+</task>
+<task compile_id='15' method='java/lang/CharacterDataLatin1 toLowerCase (I)I' bytes='39' count='1095' iicount='1095' level='3' stamp='0.086'>
+<phase name='buildIR' stamp='0.086'>
+<type id='713' name='int'/>
+<klass id='823' name='java/lang/CharacterDataLatin1' flags='0'/>
+<method id='824' holder='823' name='toLowerCase' return='713' arguments='713' flags='0' bytes='39' iicount='1095'/>
+<parse method='824'  stamp='0.086'>
+<bc code='182' bci='4'/>
+<method id='826' holder='823' name='getProperties' return='713' arguments='713' flags='0' bytes='11' compile_id='9' compiler='C1' level='3' iicount='1490'/>
+<call method='826' instr='invokevirtual'/>
+<dependency type='leaf_type' ctxk='823'/>
+<inline_success reason='receiver is statically known'/>
+<dependency type='leaf_type' ctxk='823'/>
+<parse method='826'>
+<parse_done stamp='0.086'/>
+</parse>
+<parse_done stamp='0.086'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.086'>
+<phase_done name='optimize_blocks' stamp='0.086'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.086'>
+<phase_done name='rangeCheckElimination' stamp='0.086'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.086'>
+<phase_done name='optimize_null_checks' stamp='0.086'/>
+</phase>
+<phase_done name='buildIR' stamp='0.086'/>
+</phase>
+<phase name='emit_lir' stamp='0.086'>
+<phase name='lirGeneration' stamp='0.086'>
+<phase_done name='lirGeneration' stamp='0.086'/>
+</phase>
+<phase name='linearScan' stamp='0.086'>
+<phase_done name='linearScan' stamp='0.086'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.086'/>
+</phase>
+<phase name='codeemit' stamp='0.086'>
+<phase_done name='codeemit' stamp='0.087'/>
+</phase>
+<phase name='codeinstall' stamp='0.087'>
+<dependency type='leaf_type' ctxk='823'/>
+<phase_done name='codeinstall' stamp='0.087'/>
+</phase>
+<code_cache total_blobs='241' nmethods='15' adapters='141' free_code_cache='250549312'/>
+<task_done success='1' nmsize='624' count='1237' inlined_bytes='11' stamp='0.087'/>
+</task>
+<task compile_id='18' method='java/lang/CharacterDataLatin1 getProperties (I)I' bytes='11' count='1685' iicount='1685' level='1' stamp='0.087'>
+<phase name='buildIR' stamp='0.087'>
+<type id='713' name='int'/>
+<klass id='823' name='java/lang/CharacterDataLatin1' flags='0'/>
+<method id='824' holder='823' name='getProperties' return='713' arguments='713' flags='0' bytes='11' compile_id='9' compiler='C1' level='3' iicount='1685'/>
+<parse method='824'  stamp='0.087'>
+<parse_done stamp='0.087'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.087'>
+<phase_done name='optimize_blocks' stamp='0.087'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.087'>
+<phase_done name='rangeCheckElimination' stamp='0.087'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.087'>
+<phase_done name='optimize_null_checks' stamp='0.087'/>
+</phase>
+<phase_done name='buildIR' stamp='0.087'/>
+</phase>
+<phase name='emit_lir' stamp='0.087'>
+<phase name='lirGeneration' stamp='0.087'>
+<phase_done name='lirGeneration' stamp='0.087'/>
+</phase>
+<phase name='linearScan' stamp='0.087'>
+<phase_done name='linearScan' stamp='0.087'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.087'/>
+</phase>
+<phase name='codeemit' stamp='0.087'>
+<phase_done name='codeemit' stamp='0.087'/>
+</phase>
+<phase name='codeinstall' stamp='0.087'>
+<phase_done name='codeinstall' stamp='0.087'/>
+</phase>
+<code_cache total_blobs='242' nmethods='16' adapters='141' free_code_cache='250548416'/>
+<task_done success='1' nmsize='336' count='1825' stamp='0.087'/>
+</task>
+<task compile_id='16' method='java/lang/AbstractStringBuilder append (C)Ljava/lang/AbstractStringBuilder;' bytes='29' count='604' iicount='604' level='3' stamp='0.087'>
+<phase name='buildIR' stamp='0.087'>
+<klass id='784' name='java/lang/AbstractStringBuilder' flags='1024'/>
+<type id='708' name='char'/>
+<method id='823' holder='784' name='append' return='784' arguments='708' flags='1' bytes='29' iicount='604'/>
+<parse method='823'  stamp='0.087'>
+<bc code='183' bci='7'/>
+<type id='715' name='void'/>
+<type id='713' name='int'/>
+<method id='825' holder='784' name='ensureCapacityInternal' return='715' arguments='713' flags='2' bytes='16' compile_id='13' compiler='C1' level='3' iicount='898'/>
+<call method='825' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='825'>
+<bc code='182' bci='12'/>
+<method id='827' holder='784' name='expandCapacity' return='715' arguments='713' flags='0' bytes='50' iicount='131'/>
+<call method='827' instr='invokevirtual'/>
+<dependency type='unique_concrete_method' ctxk='784' x='827'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.087'/>
+</parse>
+<parse_done stamp='0.087'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.087'>
+<phase_done name='optimize_blocks' stamp='0.087'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.087'>
+<phase_done name='rangeCheckElimination' stamp='0.087'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.087'>
+<phase_done name='optimize_null_checks' stamp='0.087'/>
+</phase>
+<phase_done name='buildIR' stamp='0.087'/>
+</phase>
+<phase name='emit_lir' stamp='0.087'>
+<phase name='lirGeneration' stamp='0.087'>
+<phase_done name='lirGeneration' stamp='0.087'/>
+</phase>
+<phase name='linearScan' stamp='0.087'>
+<phase_done name='linearScan' stamp='0.087'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.087'/>
+</phase>
+<phase name='codeemit' stamp='0.087'>
+<phase_done name='codeemit' stamp='0.087'/>
+</phase>
+<phase name='codeinstall' stamp='0.087'>
+<dependency type='unique_concrete_method' ctxk='784' x='827'/>
+<phase_done name='codeinstall' stamp='0.087'/>
+</phase>
+<code_cache total_blobs='243' nmethods='17' adapters='141' free_code_cache='250546880'/>
+<task_done success='1' nmsize='776' count='783' inlined_bytes='16' stamp='0.087'/>
+</task>
+<task compile_id='19' method='java/io/WinNTFileSystem isSlash (C)Z' bytes='18' count='821' iicount='821' level='3' stamp='0.088'>
+<phase name='buildIR' stamp='0.088'>
+<type id='707' name='boolean'/>
+<type id='708' name='char'/>
+<klass id='823' name='java/io/WinNTFileSystem' flags='0'/>
+<method id='824' holder='823' name='isSlash' return='707' arguments='708' flags='2' bytes='18' iicount='821'/>
+<parse method='824'  stamp='0.088'>
+<parse_done stamp='0.088'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.088'>
+<phase_done name='optimize_blocks' stamp='0.088'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.088'>
+<phase_done name='rangeCheckElimination' stamp='0.088'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.088'>
+<phase_done name='optimize_null_checks' stamp='0.088'/>
+</phase>
+<phase_done name='buildIR' stamp='0.088'/>
+</phase>
+<phase name='emit_lir' stamp='0.088'>
+<phase name='lirGeneration' stamp='0.088'>
+<phase_done name='lirGeneration' stamp='0.088'/>
+</phase>
+<phase name='linearScan' stamp='0.088'>
+<phase_done name='linearScan' stamp='0.088'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.088'/>
+</phase>
+<phase name='codeemit' stamp='0.088'>
+<phase_done name='codeemit' stamp='0.088'/>
+</phase>
+<phase name='codeinstall' stamp='0.088'>
+<phase_done name='codeinstall' stamp='0.088'/>
+</phase>
+<code_cache total_blobs='244' nmethods='18' adapters='141' free_code_cache='250545920'/>
+<task_done success='1' nmsize='496' count='882' stamp='0.088'/>
+</task>
+<task compile_id='20' method='java/lang/String equals (Ljava/lang/Object;)Z' bytes='81' count='258' backedge_count='1470' iicount='258' level='3' stamp='0.088'>
+<phase name='buildIR' stamp='0.088'>
+<type id='707' name='boolean'/>
+<klass id='720' name='java/lang/Object' flags='1'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='equals' return='707' arguments='720' flags='1' bytes='81' iicount='258'/>
+<parse method='823'  stamp='0.088'>
+<parse_done stamp='0.088'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.088'>
+<phase_done name='optimize_blocks' stamp='0.088'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.088'>
+<phase_done name='rangeCheckElimination' stamp='0.088'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.088'>
+<phase_done name='optimize_null_checks' stamp='0.088'/>
+</phase>
+<phase_done name='buildIR' stamp='0.088'/>
+</phase>
+<phase name='emit_lir' stamp='0.088'>
+<phase name='lirGeneration' stamp='0.088'>
+<phase_done name='lirGeneration' stamp='0.088'/>
+</phase>
+<phase name='linearScan' stamp='0.088'>
+<phase_done name='linearScan' stamp='0.088'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.088'/>
+</phase>
+<phase name='codeemit' stamp='0.088'>
+<phase_done name='codeemit' stamp='0.088'/>
+</phase>
+<phase name='codeinstall' stamp='0.088'>
+<phase_done name='codeinstall' stamp='0.088'/>
+</phase>
+<code_cache total_blobs='245' nmethods='19' adapters='141' free_code_cache='250543680'/>
+<task_done success='1' nmsize='1360' count='258' backedge_count='1470' stamp='0.088'/>
+</task>
+<task compile_id='17' method='java/lang/StringBuffer append (C)Ljava/lang/StringBuffer;' bytes='13' count='780' iicount='780' level='3' stamp='0.088'>
+<phase name='buildIR' stamp='0.088'>
+<klass id='785' name='java/lang/StringBuffer' flags='17'/>
+<type id='708' name='char'/>
+<method id='823' holder='785' name='append' return='785' arguments='708' flags='33' bytes='13' iicount='780'/>
+<parse method='823'  stamp='0.089'>
+<bc code='183' bci='7'/>
+<klass id='784' name='java/lang/AbstractStringBuilder' flags='1024'/>
+<method id='825' holder='784' name='append' return='784' arguments='708' flags='1' bytes='29' compile_id='16' compiler='C1' level='3' iicount='838'/>
+<call method='825' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='825'>
+<bc code='183' bci='7'/>
+<type id='715' name='void'/>
+<type id='713' name='int'/>
+<method id='827' holder='784' name='ensureCapacityInternal' return='715' arguments='713' flags='2' bytes='16' compile_id='13' compiler='C1' level='3' iicount='1099'/>
+<call method='827' instr='invokespecial'/>
+<inline_success reason='receiver is statically known'/>
+<parse method='827'>
+<bc code='182' bci='12'/>
+<method id='829' holder='784' name='expandCapacity' return='715' arguments='713' flags='0' bytes='50' iicount='141'/>
+<call method='829' instr='invokevirtual'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.089'/>
+</parse>
+<parse_done stamp='0.089'/>
+</parse>
+<parse_done stamp='0.089'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.089'>
+<phase_done name='optimize_blocks' stamp='0.089'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.089'>
+<phase_done name='rangeCheckElimination' stamp='0.089'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.089'>
+<phase_done name='optimize_null_checks' stamp='0.089'/>
+</phase>
+<phase_done name='buildIR' stamp='0.089'/>
+</phase>
+<phase name='emit_lir' stamp='0.089'>
+<phase name='lirGeneration' stamp='0.089'>
+<phase_done name='lirGeneration' stamp='0.089'/>
+</phase>
+<phase name='linearScan' stamp='0.089'>
+<phase_done name='linearScan' stamp='0.089'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.089'/>
+</phase>
+<phase name='codeemit' stamp='0.089'>
+<phase_done name='codeemit' stamp='0.089'/>
+</phase>
+<phase name='codeinstall' stamp='0.089'>
+<phase_done name='codeinstall' stamp='0.089'/>
+</phase>
+<code_cache total_blobs='246' nmethods='20' adapters='141' free_code_cache='250541440'/>
+<task_done success='1' nmsize='1256' count='780' inlined_bytes='45' stamp='0.089'/>
+</task>
+<task compile_id='22' method='java/lang/String indexOf (I)I' bytes='7' count='258' iicount='258' level='3' stamp='0.093'>
+<phase name='buildIR' stamp='0.093'>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='indexOf' return='713' arguments='713' flags='1' bytes='7' iicount='258'/>
+<parse method='823'  stamp='0.093'>
+<bc code='182' bci='3'/>
+<method id='825' holder='721' name='indexOf' return='713' arguments='713 713' flags='1' bytes='70' compile_id='1' compiler='C1' level='3' iicount='387'/>
+<call method='825' instr='invokevirtual'/>
+<inline_fail reason='callee is too large'/>
+<parse_done stamp='0.093'/>
+</parse>
+<phase name='optimize_blocks' stamp='0.093'>
+<phase_done name='optimize_blocks' stamp='0.093'/>
+</phase>
+<phase name='rangeCheckElimination' stamp='0.093'>
+<phase_done name='rangeCheckElimination' stamp='0.093'/>
+</phase>
+<phase name='optimize_null_checks' stamp='0.093'>
+<phase_done name='optimize_null_checks' stamp='0.093'/>
+</phase>
+<phase_done name='buildIR' stamp='0.093'/>
+</phase>
+<phase name='emit_lir' stamp='0.093'>
+<phase name='lirGeneration' stamp='0.093'>
+<phase_done name='lirGeneration' stamp='0.094'/>
+</phase>
+<phase name='linearScan' stamp='0.094'>
+<phase_done name='linearScan' stamp='0.094'/>
+</phase>
+<phase_done name='emit_lir' stamp='0.094'/>
+</phase>
+<phase name='codeemit' stamp='0.094'>
+<phase_done name='codeemit' stamp='0.094'/>
+</phase>
+<phase name='codeinstall' stamp='0.094'>
+<phase_done name='codeinstall' stamp='0.094'/>
+</phase>
+<code_cache total_blobs='252' nmethods='22' adapters='145' free_code_cache='250537600'/>
+<task_done success='1' nmsize='520' count='258' stamp='0.094'/>
+</task>
+</compilation_log>
+<compilation_log thread='2884'>
+<start_compile_thread name='C2 CompilerThread1' thread='2884' process='3276' stamp='0.073'/>
+<task compile_id='21' method='java/lang/String charAt (I)C' bytes='29' count='5666' iicount='5667' stamp='0.092'>
+<phase name='parse' nodes='3' live='3' stamp='0.092'>
+<type id='708' name='char'/>
+<type id='713' name='int'/>
+<klass id='721' name='java/lang/String' flags='17'/>
+<method id='823' holder='721' name='charAt' return='708' arguments='713' flags='1' bytes='29' compile_id='7' compiler='C1' level='3' iicount='5668'/>
+<klass id='825' name='java/lang/StringIndexOutOfBoundsException' unloaded='1'/>
+<uncommon_trap method='823' bci='13' reason='unloaded' action='reinterpret' index='245' klass='825'/>
+<parse method='823' uses='5668' stamp='0.092'>
+<bc code='155' bci='1'/>
+<branch target_bci='13' taken='0' not_taken='5668' cnt='5668' prob='never'/>
+<uncommon_trap bci='1' reason='unstable_if' action='reinterpret' comment='taken never'/>
+<bc code='190' bci='9'/>
+<uncommon_trap bci='9' reason='null_check' action='maybe_recompile'/>
+<bc code='161' bci='10'/>
+<branch target_bci='22' taken='5668' not_taken='0' cnt='5668' prob='always'/>
+<uncommon_trap bci='10' reason='unstable_if' action='reinterpret' comment='taken always'/>
+<bc code='52' bci='27'/>
+<uncommon_trap bci='27' reason='range_check' action='make_not_entrant' comment='range_check'/>
+<parse_done nodes='101' live='96' memory='32848' stamp='0.093'/>
+</parse>
+<phase_done name='parse' nodes='102' live='62' stamp='0.093'/>
+</phase>
+<phase name='optimizer' nodes='102' live='62' stamp='0.093'>
+<phase name='ccp' nodes='102' live='62' stamp='0.093'>
+<phase_done name='ccp' nodes='102' live='62' stamp='0.093'/>
+</phase>
+<phase name='idealLoop' nodes='102' live='62' stamp='0.093'>
+<phase_done name='idealLoop' nodes='102' live='62' stamp='0.093'/>
+</phase>
+<phase_done name='optimizer' nodes='106' live='63' stamp='0.093'/>
+</phase>
+<phase name='matcher' nodes='106' live='63' stamp='0.093'>
+<phase_done name='matcher' nodes='53' live='53' stamp='0.093'/>
+</phase>
+<phase name='regalloc' nodes='68' live='67' stamp='0.093'>
+<regalloc attempts='1' success='1'/>
+<phase_done name='regalloc' nodes='78' live='73' stamp='0.093'/>
+</phase>
+<phase name='output' nodes='78' live='73' stamp='0.093'>
+<phase_done name='output' nodes='91' live='83' stamp='0.093'/>
+</phase>
+<code_cache total_blobs='252' nmethods='21' adapters='145' free_code_cache='250533248'/>
+<task_done success='1' nmsize='184' count='5675' stamp='0.093'/>
+</task>
+</compilation_log>
+<hotspot_log_done stamp='0.100'/>
+</hotspot_log>

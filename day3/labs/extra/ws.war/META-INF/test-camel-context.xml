@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:cxf="http://camel.apache.org/schema/cxf"
+	     xmlns:amq="http://activemq.apache.org/schema/core"
+       xsi:schemaLocation="
+        http://www.springframework.org/schema/beans
+  		http://www.springframework.org/schema/beans/spring-beans.xsd
+        http://www.springframework.org/schema/context
+  		http://www.springframework.org/schema/context/spring-context.xsd
+  		http://camel.apache.org/schema/spring
+		http://camel.apache.org/schema/spring/camel-spring.xsd
+		http://camel.apache.org/schema/cxf
+		http://camel.apache.org/schema/cxf/camel-cxf.xsd
+		http://activemq.apache.org/schema/core http://activemq.apache.org/schema/core/activemq-core.xsd">
+
+		
+
+		<import resource="classpath:META-INF/cxf/cxf.xml"/>
+ 
+    <bean name="activemq" class="org.apache.camel.component.jms.JmsComponent" >
+         <property name="connectionFactory" ref="jmsConnectionFactory"/>
+        <property name="transactionManager" ref="transactionManager"/>
+        <property name="transacted" value="true"/>
+    </bean>
+	
+    <bean
+        class="org.springframework.jms.connection.JmsTransactionManager" id="transactionManager">
+        <property name="connectionFactory" ref="jmsConnectionFactory"/>
+    </bean>
+	
+    <bean class="org.apache.activemq.ActiveMQConnectionFactory" id="jmsConnectionFactory">
+        <property name="brokerURL" value="tcp://localhost:61616?jms.redeliveryPolicy.maximumRedeliveries=3&amp;jms.redeliveryPolicy.initialRedeliveryDelay=500"/>
+    </bean>
+  
+    <bean id="enrich" class="com.fusesource.training.camel.Enrich" />
+
+    <bean id="elStrategy" class="org.apache.camel.dataformat.soap.name.TypeNameStrategy"/>
+
+    <camelContext id="spring-context" trace="false" xmlns="http://camel.apache.org/schema/spring">
+      <dataFormats>
+        <soapjaxb contextPath="com.fusesource.training" elementNameStrategyRef="elStrategy" id="soapFormat"/>
+    </dataFormats>
+    <route>
+      <from uri="file:/camel-exercises/webservices?noop=true"/> 
+	  
+	
+        <convertBodyTo type="java.lang.String"/>
+        <log message="Name of the client to be created received : ${body}"/>
+        <bean ref="enrich" method="createCustomer"/>
+        <marshal ref="soapFormat"/>
+        <setHeader headerName="SOAPAction">
+            <constant>http://training.fusesource.com/saveCustomer</constant>
+        </setHeader>
+        
+       
+		<to uri="http4://localhost:9090/training/WebService"/>
+       
+       
+        <log message="SOAP message returned : ${body} and operation type : ${in.header.SOAPAction}"/>
+  <transform>
+  <simple>god is great..have unshakablefaith</simple>
+  </transform>
+  <to uri="seda:final"/>
+  </route>
+  
+  <route>
+  <from uri="seda:final"/>
+  <to uri="activemq:personnel.records"/>
+   <transform>
+        <constant>OK</constant>
+      </transform>
+   </route>
+</camelContext>
+
+
+</beans>

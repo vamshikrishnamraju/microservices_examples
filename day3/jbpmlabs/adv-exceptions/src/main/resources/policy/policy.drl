@@ -1,0 +1,46 @@
+package policy
+
+dialect "mvel"
+
+import model.*
+import org.kie.api.runtime.process.WorkflowProcessInstance
+
+rule "setvars1" ruleflow-group "price" salience -1 
+when
+	policy : Policy( )
+	p : WorkflowProcessInstance( )
+	r : Rejection( )
+then
+	policy.setRejection(r);
+	p.setVariable("policy", policy);
+end
+
+rule "setvars2" ruleflow-group "price" salience -1 
+when
+	policy : Policy( )
+	p : WorkflowProcessInstance( )
+	not Rejection( )
+then
+	p.setVariable("policy", policy);
+end
+
+rule "low risk" ruleflow-group "price"
+no-loop 
+when
+	policy : Policy( risk < 500 )
+then
+	modify(policy) { price = 756; }
+end
+
+rule "unacceptable risk" ruleflow-group "price"
+no-loop
+when
+	policy : Policy( risk >= 500 )
+then
+	insert(new Rejection("Risk > 500", RejectionLevel.ERROR));
+end
+
+
+
+
+

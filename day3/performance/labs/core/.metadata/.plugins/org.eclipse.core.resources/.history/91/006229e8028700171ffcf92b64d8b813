@@ -1,0 +1,10 @@
+package demo;
+
+public interface HeapManagementMBean {
+	
+	public void setAmt(float amt);
+
+	 public void clear();
+	 
+	 
+}

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <bean id="bean1" class="org.springframework.aop.framework.ProxyFactoryBean">
+      <!--
+      <property name="singleton">
+          <value>false</value>
+      </property>
+      -->
+      <property name="target">
+         <bean class="ex02_aop.ex04_introductions.Bean1">
+            <property name="string">
+               <value>a string value</value>
+            </property>
+         </bean>
+      </property>
+      <property name="proxyInterfaces">
+         <value>ex02_aop.ex04_introductions.BeanInterface1</value>
+      </property>
+      <property name="interceptorNames">
+         <list>
+            <value>lockinadvisor</value>
+         </list>
+      </property>
+   </bean>
+   
+   <bean id="lockinadvisor" class="ex02_aop.ex04_introductions.LockMixinAdvisor">
+   </bean>
+
+   <!--
+   <bean id="lockinadvisor" class="ex02_aop.ex04_introductions.LockMixinAdvisor" singleton="false">
+   </bean>
+   -->
+</beans>

@@ -3,7 +3,7 @@ instances: 1
 memory: 1G
 applications:
   - name: cook
-    host: cookie2
+    host: cookie2vamshi
     services:
       - config-server
     env:

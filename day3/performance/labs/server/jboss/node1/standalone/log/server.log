@@ -1,0 +1,127 @@
+13:16:05,043 INFO  [org.jboss.modules] (main) JBoss Modules version 1.3.6.Final-redhat-1
+13:16:05,533 INFO  [org.jboss.msc] (main) JBoss MSC version 1.1.5.Final-redhat-1
+13:16:05,692 INFO  [org.jboss.as] (MSC service thread 1-8) JBAS015899: JBoss EAP 6.4.0.GA (AS 7.5.0.Final-redhat-21) starting
+13:16:05,706 DEBUG [org.jboss.as.config] (MSC service thread 1-8) Configured system properties:
+	awt.toolkit = sun.awt.windows.WToolkit
+	file.encoding = Cp1252
+	file.encoding.pkg = sun.io
+	file.separator = \
+	java.awt.graphicsenv = sun.awt.Win32GraphicsEnvironment
+	java.awt.printerjob = sun.awt.windows.WPrinterJob
+	java.class.path = C:\JPT\extra\server\jboss\modcluster\node1\jboss-modules.jar
+	java.class.version = 52.0
+	java.endorsed.dirs = C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\endorsed
+	java.ext.dirs = C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\ext;C:\Windows\Sun\Java\lib\ext
+	java.home = C:\JPT\softwares\Java\jdk1.8.0_92\jre
+	java.io.tmpdir = C:\Users\KVRAMA~1\AppData\Local\Temp\
+	java.library.path = C:\JPT\softwares\Java\jdk1.8.0_92\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Intel\iCLS Client\;C:\Program Files\Intel\iCLS Client\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files\Intel\Intel(R) Management Engine Components\DAL;C:\Program Files (x86)\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\Intel(R) Management Engine Components\IPT;C:\Program Files\Intel\WiFi\bin\;C:\Program Files\Common Files\Intel\WirelessCommon\;C:\Users\K V Ramana Rao\AppData\Local\Microsoft\WindowsApps;C:\JPT\softwares\Java\jdk1.8.0_92\bin;C:\JPT\softwares\gradle-4.1\bin;;.
+	java.net.preferIPv4Stack = true
+	java.runtime.name = Java(TM) SE Runtime Environment
+	java.runtime.version = 1.8.0_92-b14
+	java.specification.name = Java Platform API Specification
+	java.specification.vendor = Oracle Corporation
+	java.specification.version = 1.8
+	java.util.logging.manager = org.jboss.logmanager.LogManager
+	java.vendor = Oracle Corporation
+	java.vendor.url = http://java.oracle.com/
+	java.vendor.url.bug = http://bugreport.sun.com/bugreport/
+	java.version = 1.8.0_92
+	java.vm.info = mixed mode
+	java.vm.name = Java HotSpot(TM) 64-Bit Server VM
+	java.vm.specification.name = Java Virtual Machine Specification
+	java.vm.specification.vendor = Oracle Corporation
+	java.vm.specification.version = 1.8
+	java.vm.vendor = Oracle Corporation
+	java.vm.version = 25.92-b14
+	javax.management.builder.initial = org.jboss.as.jmx.PluggableMBeanServerBuilder
+	javax.xml.datatype.DatatypeFactory = __redirected.__DatatypeFactory
+	javax.xml.parsers.DocumentBuilderFactory = __redirected.__DocumentBuilderFactory
+	javax.xml.parsers.SAXParserFactory = __redirected.__SAXParserFactory
+	javax.xml.stream.XMLEventFactory = __redirected.__XMLEventFactory
+	javax.xml.stream.XMLInputFactory = __redirected.__XMLInputFactory
+	javax.xml.stream.XMLOutputFactory = __redirected.__XMLOutputFactory
+	javax.xml.transform.TransformerFactory = __redirected.__TransformerFactory
+	javax.xml.validation.SchemaFactory:http://www.w3.org/2001/XMLSchema = __redirected.__SchemaFactory
+	javax.xml.xpath.XPathFactory:http://java.sun.com/jaxp/xpath/dom = __redirected.__XPathFactory
+	jboss.home.dir = C:\JPT\extra\server\jboss\modcluster\node1
+	jboss.host.name = desktop-p5djbal
+	jboss.modules.dir = C:\JPT\extra\server\jboss\modcluster\node1\modules
+	jboss.modules.policy-permissions = true
+	jboss.modules.system.pkgs = org.jboss.byteman
+	jboss.node.name = desktop-p5djbal
+	jboss.qualified.host.name = desktop-p5djbal
+	jboss.server.base.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone
+	jboss.server.config.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone\configuration
+	jboss.server.data.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone\data
+	jboss.server.deploy.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone\data\content
+	jboss.server.log.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone\log
+	jboss.server.name = desktop-p5djbal
+	jboss.server.persist.config = true
+	jboss.server.temp.dir = C:\JPT\extra\server\jboss\modcluster\node1\standalone\tmp
+	line.separator = 
+
+	logging.configuration = file:C:\JPT\extra\server\jboss\modcluster\node1\standalone\configuration/logging.properties
+	module.path = C:\JPT\extra\server\jboss\modcluster\node1\modules
+	org.jboss.boot.log.file = C:\JPT\extra\server\jboss\modcluster\node1\standalone\log\server.log
+	org.jboss.resolver.warning = true
+	org.xml.sax.driver = __redirected.__XMLReaderFactory
+	os.arch = amd64
+	os.name = Windows 10
+	os.version = 10.0
+	path.separator = ;
+	program.name = standalone.bat
+	sun.arch.data.model = 64
+	sun.boot.class.path = C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\resources.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\rt.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\sunrsasign.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\jsse.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\jce.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\charsets.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\lib\jfr.jar;C:\JPT\softwares\Java\jdk1.8.0_92\jre\classes
+	sun.boot.library.path = C:\JPT\softwares\Java\jdk1.8.0_92\jre\bin
+	sun.cpu.endian = little
+	sun.cpu.isalist = amd64
+	sun.desktop = windows
+	sun.io.unicode.encoding = UnicodeLittle
+	sun.java.command = C:\JPT\extra\server\jboss\modcluster\node1\jboss-modules.jar -mp C:\JPT\extra\server\jboss\modcluster\node1\modules -jaxpmodule javax.xml.jaxp-provider org.jboss.as.standalone -Djboss.home.dir=C:\JPT\extra\server\jboss\modcluster\node1
+	sun.java.launcher = SUN_STANDARD
+	sun.jnu.encoding = Cp1252
+	sun.management.compiler = HotSpot 64-Bit Tiered Compilers
+	sun.os.patch.level = 
+	sun.stderr.encoding = cp437
+	sun.stdout.encoding = cp437
+	user.country = IN
+	user.dir = C:\JPT\extra\server\jboss\modcluster\node1\bin
+	user.home = C:\Users\K V Ramana Rao
+	user.language = en
+	user.name = K V Ramana Rao
+	user.script = 
+	user.timezone = Asia/Calcutta
+	user.variant = 
+13:16:05,708 DEBUG [org.jboss.as.config] (MSC service thread 1-8) VM Arguments: -Xloggc:C:\JPT\extra\server\jboss\modcluster\node1\standalone\log\gc.log -verbose:gc -XX:+PrintGCDetails -XX:+PrintGCDateStamps -XX:+UseGCLogFileRotation -XX:NumberOfGCLogFiles=5 -XX:GCLogFileSize=3M -XX:-TraceClassUnloading -XX:+UseCompressedOops -Dprogram.name=standalone.bat -Xms1G -Xmx1G -XX:MaxPermSize=256M -Djava.net.preferIPv4Stack=true -Djboss.modules.policy-permissions=true -Djboss.modules.system.pkgs=org.jboss.byteman -Dorg.jboss.boot.log.file=C:\JPT\extra\server\jboss\modcluster\node1\standalone\log\server.log -Dlogging.configuration=file:C:\JPT\extra\server\jboss\modcluster\node1\standalone\configuration/logging.properties 
+13:16:08,633 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute default-stack is deprecated, and it might be removed in future version!
+13:16:08,709 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,724 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,729 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,730 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,731 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,732 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,733 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,734 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,735 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,738 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,740 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,741 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,742 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,744 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,745 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,748 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,749 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,751 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,752 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,753 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,754 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,755 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,758 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,762 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,766 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,770 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,771 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,772 INFO  [org.jboss.as.controller.management-deprecated] (ServerService Thread Pool -- 10) JBAS014627: Attribute type is deprecated, and it might be removed in future version!
+13:16:08,792 INFO  [org.xnio] (MSC service thread 1-8) XNIO Version 3.0.13.GA-redhat-1
+13:16:08,798 INFO  [org.jboss.as.server] (Controller Boot Thread) JBAS015888: Creating http management service using socket-binding (management-http)
+13:16:08,814 INFO  [org.xnio.nio] (MSC service thread 1-8) XNIO NIO Implementation Version 3.0.13.GA-redhat-1

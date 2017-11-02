@@ -1,0 +1,2001 @@
+!SESSION 2016-11-20 21:47:48.219 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:47:54.555
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:47:54.555
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-20 21:47:57.675
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.core.net 4 0 2016-11-20 21:47:58.786
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+!SESSION 2016-11-20 21:48:52.866 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\BPMS-2016\labs -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:48:58.564
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:48:58.564
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-11-20 21:49:02.615
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-20 21:49:04.211
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:27.356
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.348
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.383
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.425
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.457
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.487
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.516
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.545
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.573
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.603
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.650
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.678
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.709
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.735
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.760
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:28.786
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-20 21:49:33.600
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-egit does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-20 21:49:33.602
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subversive does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 2 0 2016-11-20 21:49:33.603
+!MESSAGE CatalogItem org.eclipse.m2e.discovery.lifecyclemapping.m2e-subclipse does not contain lifecycle mapping metadata
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.687
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.713
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.736
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.753
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.774
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.809
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.827
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.844
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.862
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.878
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.894
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.909
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.928
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.945
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.962
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.977
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:33.994
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.009
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.036
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.051
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.069
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.084
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.101
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.115
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.134
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.151
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.166
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.182
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.206
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.222
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.242
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.257
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.273
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.289
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.304
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.319
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.334
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.349
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.365
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.380
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.395
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.413
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.434
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.450
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.465
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.480
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.497
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.513
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.530
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.543
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.558
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.571
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.584
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.598
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.613
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.632
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.647
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.661
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.677
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.691
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.713
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.733
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.750
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.770
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.788
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.802
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.816
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.834
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.848
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.862
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.878
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.893
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.906
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.920
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.934
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.946
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.960
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.975
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:34.988
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.002
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.027
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.043
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.058
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.075
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.093
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.110
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.126
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.151
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.166
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.184
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.201
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.221
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.246
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.261
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.279
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.295
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.311
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.327
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.342
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.357
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.375
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.391
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.406
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.421
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.435
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.452
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.467
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.484
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.498
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.512
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.527
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.545
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.565
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.584
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.598
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.613
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.628
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.648
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.662
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.678
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.692
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.709
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.723
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.738
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.755
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.769
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.787
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.803
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.816
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.830
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.852
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.866
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.880
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.896
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.909
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.921
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.933
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.946
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.960
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.971
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:35.988
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.000
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.016
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.028
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.042
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.057
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.068
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.080
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.092
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.104
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.116
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.129
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.142
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.157
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.170
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.192
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.206
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.218
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.230
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.243
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.258
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.271
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.283
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.295
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.311
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.328
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.342
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.361
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.379
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.527
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.546
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.563
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.580
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.597
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.617
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.632
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.646
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.659
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.674
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.693
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.709
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.725
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.739
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.751
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.764
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.777
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.790
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.803
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.817
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.830
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.842
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.853
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.873
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.885
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.897
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.910
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.923
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.936
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.950
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.963
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.975
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:36.990
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.003
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.017
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.033
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.047
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.060
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.077
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.100
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.121
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.147
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.165
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.177
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.189
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.201
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.212
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.224
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.243
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.254
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.266
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.277
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.289
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.303
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.314
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.327
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.339
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.351
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.365
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.383
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.407
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.421
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.434
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.448
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.466
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.478
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.491
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.510
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.525
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.538
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.550
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.562
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.573
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.592
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.605
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.617
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.628
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.640
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.651
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.664
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.677
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.689
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.703
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.716
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.727
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.743
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.754
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.766
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.780
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.791
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.802
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.813
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.826
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.837
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.848
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.862
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.874
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.890
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.901
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.912
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.925
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.937
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.949
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.961
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.973
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.984
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:37.995
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.006
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.018
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.029
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.046
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.059
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.070
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.081
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.092
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.104
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.115
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.128
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.140
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.152
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.164
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.175
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.193
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.205
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.217
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.228
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.239
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.251
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.263
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.274
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.285
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.297
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.309
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.320
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.332
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.348
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.359
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.372
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.484
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.502
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.513
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.524
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.536
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.547
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.559
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.571
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.582
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.598
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.610
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.623
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.634
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.646
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.658
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.670
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.681
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.692
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.704
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.716
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.728
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.740
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.756
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.767
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.778
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.789
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.800
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.811
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.821
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.834
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.844
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.855
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.867
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.877
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.893
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.906
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.916
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.927
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.939
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.953
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.964
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.978
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:38.991
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.003
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.015
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.027
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.039
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.055
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.067
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.080
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.092
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.104
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.116
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.127
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.139
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.151
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.163
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.176
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.188
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.205
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.221
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.232
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.243
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.254
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.265
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.276
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.287
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.298
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.308
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.319
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.331
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.346
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.358
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.369
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.380
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.391
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.401
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.412
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.422
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.433
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.444
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.454
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.465
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.476
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.491
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.504
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.514
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.526
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.536
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.547
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.559
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.571
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.585
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.601
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.617
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.638
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.656
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.669
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.681
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.692
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.703
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.714
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.726
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.737
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.747
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.759
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.771
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.783
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.795
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.811
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.822
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.832
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.843
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.857
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.868
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.879
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.891
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.902
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.913
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.924
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.935
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.950
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.961
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.973
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.984
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:39.996
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.008
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.019
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.030
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.041
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.052
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.062
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.073
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.083
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.099
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.110
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.121
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.132
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.142
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.153
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:49:40.165
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:06.722
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:06.978
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:06.996
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.013
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.041
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.057
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.072
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.086
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.102
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.116
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.131
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.145
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.160
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.174
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.189
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:07.204
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.008
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.050
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.102
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.178
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.261
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.331
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.396
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.464
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.547
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.633
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.699
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:15.963
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:16.047
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:16.090
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:16.924
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:17.370
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:17.758
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:17.825
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:17.863
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.053
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.185
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.269
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.341
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.824
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:18.929
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.051
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.142
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.236
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.521
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.599
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.708
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:19.813
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:20.039
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:20.069
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:21.569
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:22.080
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:22.436
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:23.047
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:23.475
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:24.115
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:24.253
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:24.435
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:24.942
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:50:25.322
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:51:07.104
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:51:07.166
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:51:07.200
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:52:42.309
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.jface 4 2 2016-11-20 21:52:42.369
+!MESSAGE Problems occurred when invoking code from plug-in: "org.eclipse.jface".
+!STACK 0
+java.lang.ClassCastException: org.eclipse.core.internal.resources.Project cannot be cast to org.eclipse.jface.viewers.TreeSelection
+	at org.kie.eclipse.navigator.preferences.AbstractKiePropertyPage.getContentNode(AbstractKiePropertyPage.java:61)
+	at org.kie.eclipse.navigator.preferences.AbstractKiePropertyPage.getInitialPageId(AbstractKiePropertyPage.java:105)
+	at org.kie.eclipse.navigator.preferences.AbstractKiePropertyPage.createContents(AbstractKiePropertyPage.java:41)
+	at org.eclipse.jface.preference.PreferencePage.createControl(PreferencePage.java:232)
+	at org.eclipse.jface.preference.PreferenceDialog.createPageControl(PreferenceDialog.java:1502)
+	at org.eclipse.jface.preference.PreferenceDialog$14.run(PreferenceDialog.java:1259)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.preference.PreferenceDialog.showPage(PreferenceDialog.java:1253)
+	at org.eclipse.ui.internal.dialogs.FilteredPreferenceDialog.showPage(FilteredPreferenceDialog.java:675)
+	at org.eclipse.jface.preference.PreferenceDialog$10.run(PreferenceDialog.java:709)
+	at org.eclipse.swt.custom.BusyIndicator.showWhile(BusyIndicator.java:70)
+	at org.eclipse.jface.preference.PreferenceDialog$9.selectionChanged(PreferenceDialog.java:705)
+	at org.eclipse.jface.viewers.StructuredViewer$3.run(StructuredViewer.java:888)
+	at org.eclipse.core.runtime.SafeRunner.run(SafeRunner.java:42)
+	at org.eclipse.ui.internal.JFaceUtil$1.run(JFaceUtil.java:49)
+	at org.eclipse.jface.util.SafeRunnable.run(SafeRunnable.java:175)
+	at org.eclipse.jface.viewers.StructuredViewer.firePostSelectionChanged(StructuredViewer.java:886)
+	at org.eclipse.jface.viewers.StructuredViewer.handlePostSelect(StructuredViewer.java:1226)
+	at org.eclipse.jface.viewers.StructuredViewer$5.widgetSelected(StructuredViewer.java:1251)
+	at org.eclipse.jface.util.OpenStrategy.firePostSelectionEvent(OpenStrategy.java:262)
+	at org.eclipse.jface.util.OpenStrategy.access$5(OpenStrategy.java:256)
+	at org.eclipse.jface.util.OpenStrategy$3.run(OpenStrategy.java:433)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:35)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:135)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4145)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3762)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:826)
+	at org.eclipse.jface.window.Window.open(Window.java:802)
+	at org.eclipse.jdt.internal.ui.wizards.buildpaths.newsourcepage.ConfigureBuildPathAction.run(ConfigureBuildPathAction.java:88)
+	at org.eclipse.jface.action.Action.runWithEvent(Action.java:499)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:584)
+	at org.eclipse.jface.action.ActionContributionItem.access$2(ActionContributionItem.java:501)
+	at org.eclipse.jface.action.ActionContributionItem$5.handleEvent(ActionContributionItem.java:411)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:84)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1057)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4170)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3759)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$9.run(PartRenderingEngine.java:1113)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:997)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:138)
+	at org.eclipse.ui.internal.Workbench$5.run(Workbench.java:610)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:332)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:567)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:150)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:124)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:110)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:79)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:354)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:181)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:636)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:591)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1450)
+!SESSION 2016-11-20 21:53:22.814 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\BPMS-2016\labs -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-20 21:53:26.839
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:53:29.884
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:53:29.885
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-11-20 21:53:35.324
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:49.809
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.240
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.328
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.414
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.504
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.617
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.738
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.824
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.907
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:50.961
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:51.750
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:51.934
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:51.985
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:52.225
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:52.610
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:56:53.329
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:21.367
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:21.715
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:21.770
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:21.816
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:22.110
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:22.423
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:22.721
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.195
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.534
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.858
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.900
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.933
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:23.973
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:24.308
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:24.379
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 21:58:24.641
+!MESSAGE Could not read parent project
+!SESSION 2016-11-20 21:58:34.363 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\BPMS-2016\labs -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-20 21:58:38.408
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:58:41.533
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 21:58:41.534
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-11-20 21:58:46.199
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2016-11-20 22:04:04.235
+!MESSAGE Could not read parent project
+!SESSION 2016-11-20 22:04:09.716 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product -data D:\BPMS-2016\labs -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2016-11-20 22:04:13.722
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:04:16.714
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2016-11-20 22:04:16.715
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.core.net 4 0 2016-11-20 22:04:21.935
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+!SESSION 2017-02-12 10:54:09.535 -----------------------------------------------
+eclipse.buildId=4.3.0.M20130911-1000
+java.version=1.7.0_51
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.jee.product
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.jee.product
+
+!ENTRY org.eclipse.wst.common.project.facet.core 4 0 2017-02-12 10:54:29.250
+!MESSAGE Project facet jboss.m2 has not been defined. It is used in plugin org.switchyard.tools.ui.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-12 10:54:40.757
+!MESSAGE Warning: EGit couldn't detect the installation path "gitPrefix" of native Git. Hence EGit can't respect system level
+Git settings which might be configured in ${gitPrefix}/etc/gitconfig under the native Git installation directory.
+The most important of these settings is core.autocrlf. Git for Windows by default sets this parameter to true in
+this system level configuration. The Git installation location can be configured on the
+Team > Git > Configuration preference page's 'System Settings' tab.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-02-12 10:54:40.757
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\dell'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:54:53.323
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:08.704
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:09.410
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:09.882
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:10.312
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:11.009
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:11.706
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:12.188
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:12.713
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:13.103
+!MESSAGE Could not read parent project
+
+!ENTRY org.jboss.tools.common 4 0 2017-02-12 10:55:13.381
+!MESSAGE 
+!STACK 0
+org.jboss.tools.common.validation.JBTValidationException
+	at org.jboss.tools.common.validation.ValidatorManager.validateInJob(ValidatorManager.java:101)
+	at org.eclipse.wst.validation.internal.operations.ValidatorJob.run(ValidatorJob.java:78)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:53)
+Caused by: java.util.ConcurrentModificationException
+	at java.util.ArrayList$Itr.checkForComodification(Unknown Source)
+	at java.util.ArrayList$Itr.next(Unknown Source)
+	at org.jboss.tools.jst.web.kb.internal.KbProject.getKBBuilderRequiredNatureDescriptions(KbProject.java:983)
+	at org.jboss.tools.jst.web.kb.internal.KbProject.checkKBBuilderInstalled(KbProject.java:1009)
+	at org.jboss.tools.jsf.web.validation.JSFELValidationDelegate.shouldValidate(JSFELValidationDelegate.java:36)
+	at org.jboss.tools.jst.web.kb.internal.validation.ELValidator.shouldValidate(ELValidator.java:634)
+	at org.jboss.tools.common.validation.ValidationContext.shouldValidate(ValidationContext.java:137)
+	at org.jboss.tools.common.validation.ValidationContext.init(ValidationContext.java:126)
+	at org.jboss.tools.common.validation.ValidationContext.<init>(ValidationContext.java:43)
+	at org.jboss.tools.common.validation.ContextValidationHelper.getValidationContextManager(ContextValidationHelper.java:176)
+	at org.jboss.tools.common.validation.ContextValidationHelper.getValidationContextManager(ContextValidationHelper.java:168)
+	at org.jboss.tools.common.validation.ValidatorManager.validateInJob(ValidatorManager.java:65)
+	... 2 more
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:15.094
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:15.434
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:15.848
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:16.329
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-02-12 10:55:17.916
+!MESSAGE Could not read parent project
+
+!ENTRY org.eclipse.core.net 4 0 2017-02-12 10:55:20.090
+!MESSAGE WinHttp.GetProxyForUrl for pac failed with error 'The proxy auto-configuration script could not be downloaded
+' #12167.
+
+!ENTRY org.eclipse.core.jobs 2 2 2017-02-12 10:55:42.007
+!MESSAGE Job found still running after platform shutdown.  Jobs should be canceled by the plugin that scheduled them during shutdown: org.jboss.tools.usage.internal.reporting.UsageReport$ReportingJob

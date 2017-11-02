@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+xsi:schemaLocation="http://www.springframework.org/schema/beans
+http://www.springframework.org/schema/beans/spring-beans-3.0.xsd">
+
+   <!--
+      Definition of a simple Bean
+   -->
+	<bean id="bean3" class="ex01_bean.ex05_postprocessor.Bean1"/>
+	
+	<bean id="bean1" class="ex01_bean.ex05_postprocessor.Bean1" init-method="init">
+      
+      <!--
+         Note: The following ${...} placeholders are resolved by the programmatically
+               registered PropertyPlaceholderConfigurer Bean Factory post processor.
+               Take a look at Main.java to see the registration.
+      -->
+	   <constructor-arg index="0">
+	      <value>${example.string}</value>
+      </constructor-arg>
+      <property name="int">
+         <value>${example.int}</value>
+      </property>
+      
+	</bean>
+   
+   
+   
+	<bean id="bean2" class="ex01_bean.ex05_postprocessor.Bean1" />
+      
+     
+</beans>
