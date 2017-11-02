@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="gs-rest-hateoas"/>
+<aop-project name="spring-boot-web"/>
+<aop-project name="com.doj.ms.accounts"/>
+<aop-project name="gs-rest-service"/>
+<aop-project name="demoexample1"/>
+<aop-project name="spring-boot-sample-activemq"/>
+</aop-reference-model>

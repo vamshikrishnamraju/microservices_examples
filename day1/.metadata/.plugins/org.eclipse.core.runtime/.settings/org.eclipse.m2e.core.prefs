@@ -1,0 +1,8 @@
+eclipse.m2.defaultPomEditorPage=true
+eclipse.m2.defaultRuntime=apache-maven-3.3.1
+eclipse.m2.runtimes=apache-maven-3.3.1
+eclipse.m2.runtimesNodes/apache-maven-3.3.1/location=C\:\\mst\\software\\apache-maven-3.3.1
+eclipse.m2.runtimesNodes/apache-maven-3.3.1/type=EXTERNAL
+eclipse.m2.userSettingsFile=C\:\\mst\\software\\apache-maven-3.3.1\\conf\\settings.xml
+eclipse.m2.warn_incomplete_mapping=true
+eclipse.preferences.version=1

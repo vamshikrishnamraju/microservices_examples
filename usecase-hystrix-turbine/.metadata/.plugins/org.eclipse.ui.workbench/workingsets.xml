@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1509174264609_0" label="spring-cloud-hystrix-example" name="spring-cloud-hystrix-example">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hystrix-dashboard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/hystrix-example" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/turbine" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/eureka-server" type="4"/>
+</workingSet>
+</workingSetManager>

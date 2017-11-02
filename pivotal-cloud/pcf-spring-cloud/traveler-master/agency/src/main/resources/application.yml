@@ -1,0 +1,14 @@
+spring:
+  application:
+    name: agency
+  cloud:
+    services:
+      registrationMethod: route
+
+---
+spring:
+  profiles: dev
+
+security:
+  basic:
+    enabled: false

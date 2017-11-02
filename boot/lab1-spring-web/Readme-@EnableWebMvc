@@ -1,0 +1,21 @@
+
+@Configuration
+@EnableWebMvc
+@ComponentScan({"com.web"})
+public class WebConfig extends WebMvcConfigurerAdapter {
+
+    @Bean
+    public InternalResourceViewResolver viewResolver(){
+        InternalResourceViewResolver viewResolver = new InternalResourceViewResolver();
+        viewResolver.setViewClass(JstlView.class);
+        viewResolver.setPrefix("/WEB-INF/views/");
+        viewResolver.setSuffix(".jsp");
+        return viewResolver;
+    }
+}
+
+
+
+Note:
+
+@EnableWebMvc is equivalent to <mvc:annotation-driven /> in XML

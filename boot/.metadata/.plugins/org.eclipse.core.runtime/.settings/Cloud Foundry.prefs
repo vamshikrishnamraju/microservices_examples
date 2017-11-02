@@ -1,0 +1,7 @@
+//jbossramana@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ SCP\ \:\ development\:Abootex\:PROJECT_NAME=bootex
+//jbossramana@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ SCP\ \:\ development\:Aday1.ex1\:PROJECT_NAME=bootex
+//jbossramana@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ SCP\ \:\ development\:Ademo.springboot.helloworld\:PROJECT_NAME=demo.springboot.helloworld
+//jbossramana@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ SCP\ \:\ development\:Alab2\:PROJECT_NAME=lab2-boot
+//jbossramana@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ SCP\ \:\ development\:Aspringbootex2\:PROJECT_NAME=springbootex2
+eclipse.preferences.version=1
+runTargets=[{"storeCredentials"\:"STORE_NOTHING","runTargetID"\:"jbossramana@gmail.com \: https\://api.run.pivotal.io \: SCP \: development","selfsigned"\:"false","organization"\:"SCP","skipSslValidation"\:"false","organization_guid"\:"d0b50715-880b-485c-9a6a-3eeded5f0633","space_guid"\:"7ba396ed-4d0a-4c1e-bf2d-f50a4a4e06e8","url"\:"https\://api.run.pivotal.io","space"\:"development","username"\:"jbossramana@gmail.com"}]

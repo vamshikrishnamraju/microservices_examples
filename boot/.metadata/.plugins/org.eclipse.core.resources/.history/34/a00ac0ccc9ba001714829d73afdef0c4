@@ -1,0 +1,15 @@
+
+@SpringBootApplication
+----------------------
+
+The @SpringBootApplication annotation is equivalent to using @Configuration, @EnableAutoConfiguration and @ComponentScan
+
+
+@EnableAutoConfiguration
+------------------------
+
+Using @EnableAutoConfiguration is like using @Configuration annotation. 
+It configures and wires our beans based on what @Bean methods we have defined in our configuration class. 
+It does other additional configurations too, which includes configuring/invoking helper components
+(like embedded tomcat in web application). This mechanism works based on the jar dependencies available
+in the classpath.

@@ -1,0 +1,2379 @@
+!SESSION 2017-10-31 10:24:46.765 -----------------------------------------------
+eclipse.buildId=3.9.0.201707061823-RELEASE-e47
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -product org.springsource.sts.ide -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide -product org.springsource.sts.ide -data C:\mst\labs\day1 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.ui 2 2 2017-10-31 10:24:53.437
+!MESSAGE org.eclipse.jdt.junit.ResultView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2017-10-31 10:24:53.437
+!MESSAGE org.springframework.ide.eclipse.aop.ui.navigator.aopReferenceModelNavigator: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.ui 2 2 2017-10-31 10:24:53.452
+!MESSAGE org.eclipse.contribution.xref.ui.views.XReferenceView: Deprecated relationship "fast" should be converted to "stack".
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 10:24:53.967
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 10:24:53.967
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-10-31 10:24:56.198
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abridge.Abridge-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:29:59.325
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:29:59.350
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.360
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.361
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.367
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.368
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.376
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.376
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.399
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.400
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.414
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.415
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.424
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.425
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.585
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:33:03.586
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.649
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.650
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.663
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.664
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.671
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.671
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.678
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.679
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.686
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.687
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.703
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.704
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.705
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:56.705
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.847
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.847
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.863
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.863
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.871
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.871
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.935
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.935
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.943
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.943
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.959
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.959
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.967
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.967
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.975
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.975
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.983
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.983
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.990
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.991
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.998
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:34:59.999
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.047
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.047
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.287
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.287
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.295
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.295
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.303
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.303
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.311
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.311
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.319
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.319
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.327
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.327
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.334
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.334
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.342
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.342
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.350
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.351
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.358
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.360
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.366
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.367
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.374
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.374
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.382
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.382
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.390
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.390
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.400
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.400
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.407
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.407
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.416
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.416
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.425
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.425
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.430
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.430
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.438
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.439
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.448
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.448
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.454
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.454
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.462
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.462
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.470
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.470
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.478
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.478
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.486
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.487
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.494
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.495
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.502
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.503
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.566
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.566
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.577
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.580
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.582
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.582
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.590
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.591
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.598
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.598
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.606
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.606
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.614
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.614
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.622
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:00.622
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.495
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.495
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.504
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.504
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.511
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.511
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.518
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 10:35:01.519
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 11:12:36.979
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 11:12:36.979
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 11:12:37.012
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-10-31 11:12:37.012
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 11:48:38.181
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 11:48:38.182
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.830
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.831
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.846
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.846
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.870
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.870
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.878
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.878
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.894
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.894
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.912
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.919
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.919
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.926
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.926
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.934
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.934
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.941
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.942
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.957
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.958
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.965
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.965
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.973
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.973
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.981
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.981
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.989
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.989
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.997
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:56.997
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.013
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.014
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.029
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.030
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.038
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.038
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.046
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.046
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.054
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.054
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.061
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.062
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.135
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:11:57.136
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:29.108
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:29.109
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.645
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.646
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.653
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.653
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.661
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.661
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.668
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.669
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.684
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.685
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.708
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.709
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.740
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.741
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.756
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.757
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.780
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.781
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.844
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.845
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.876
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.877
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.917
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.940
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:36.941
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:37.028
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:37.029
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:37.031
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:14:37.032
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.820
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.821
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.836
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.837
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.860
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.860
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.868
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.868
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.883
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.884
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.915
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:03.916
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:04.701
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:04.701
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.462
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.463
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.468
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.468
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.476
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.476
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.484
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.484
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.492
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.492
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.500
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.500
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.508
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.508
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.605
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:20.605
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:22.348
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:22.349
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:29.195
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:29.196
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:31.495
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:31.496
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:32.044
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:32.044
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:33.698
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:33.699
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.373
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.373
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.396
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.396
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.419
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.420
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.427
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.428
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.435
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.436
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.443
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.444
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.556
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.556
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.564
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.564
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.572
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.572
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.652
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.652
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.660
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.660
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.668
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.668
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.676
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.676
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.684
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.684
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.692
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.692
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.700
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.700
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.708
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.708
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.716
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.716
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.764
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.764
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.772
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.772
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.780
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.780
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.788
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.788
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.836
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:16:35.836
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.668
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.669
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.676
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.677
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.683
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.684
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.691
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:17:01.692
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:18:52.757
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:18:52.759
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 4 0 2017-10-31 12:19:06.382
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.ProjectSpecificLanguageServerWrapper.getServerCapabilities(ProjectSpecificLanguageServerWrapper.java:421)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.lambda$3(LanguageServiceAccessor.java:221)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.stream.ReferencePipeline$2$1.accept(Unknown Source)
+	at java.util.HashMap$KeySpliterator.forEachRemaining(Unknown Source)
+	at java.util.stream.AbstractPipeline.copyInto(Unknown Source)
+	at java.util.stream.AbstractPipeline.wrapAndCopyInto(Unknown Source)
+	at java.util.stream.ReduceOps$ReduceOp.evaluateSequential(Unknown Source)
+	at java.util.stream.AbstractPipeline.evaluate(Unknown Source)
+	at java.util.stream.ReferencePipeline.collect(Unknown Source)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getMatchingStartedWrappers(LanguageServiceAccessor.java:223)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:143)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:261)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 4 0 2017-10-31 12:19:06.393
+!MESSAGE 
+!STACK 0
+java.util.concurrent.TimeoutException
+	at java.util.concurrent.CompletableFuture.timedGet(Unknown Source)
+	at java.util.concurrent.CompletableFuture.get(Unknown Source)
+	at org.eclipse.lsp4e.ProjectSpecificLanguageServerWrapper.getServerCapabilities(ProjectSpecificLanguageServerWrapper.java:421)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSWrappers(LanguageServiceAccessor.java:165)
+	at org.eclipse.lsp4e.LanguageServiceAccessor.getLSPDocumentInfosFor(LanguageServiceAccessor.java:261)
+	at org.eclipse.lsp4e.ConnectDocumentToLanguageServerSetupParticipant$1.run(ConnectDocumentToLanguageServerSetupParticipant.java:74)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:24:56.378
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:24:56.379
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.441
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.441
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.471
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.472
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.480
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.480
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.487
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.488
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.495
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.496
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.503
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.504
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.512
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.512
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.520
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.520
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.528
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.528
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.544
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.544
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.568
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.568
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.576
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.576
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.591
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.592
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.608
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.608
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.616
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.616
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.632
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.632
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.648
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.648
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.664
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.664
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.672
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.672
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.688
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.688
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.696
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.697
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.704
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.704
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.712
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.712
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.720
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.720
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.728
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.728
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.736
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.736
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.744
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.744
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.752
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.753
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.865
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:51.866
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.528
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.528
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.544
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.545
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.552
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.552
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.560
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.560
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.592
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.592
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.616
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.616
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.624
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.624
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.632
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.632
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.640
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.648
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.648
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.656
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.664
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.664
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.680
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.680
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.720
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.720
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.768
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.768
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.784
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.784
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.800
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.800
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.912
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:52.913
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.088
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.088
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.857
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.858
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.861
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:53.861
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.336
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.336
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.352
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.352
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.368
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.368
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.376
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.376
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.383
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.384
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.392
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.392
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.436
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.436
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.440
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.440
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.448
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 12:25:54.448
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.918
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.919
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.930
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.930
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.935
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.935
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.942
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.942
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.949
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.950
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.957
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.958
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.965
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.966
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.973
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.974
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.981
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.982
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.989
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.990
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.997
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:55.998
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.005
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.006
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.013
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.014
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.115
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.115
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.510
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.511
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.621
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.622
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.629
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.629
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.637
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.637
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.645
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.645
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.653
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.653
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.661
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.661
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.741
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:56.742
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.021
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.022
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.029
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.030
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.037
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.038
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.045
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.045
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.997
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:26:57.998
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:13.589
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:13.590
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:13.741
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:13.742
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:52.053
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 13:27:52.053
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY Activator 4 0 2017-10-31 13:58:21.842
+!MESSAGE UaaException: unauthorized: Invalid passcode
+!STACK 0
+java.io.IOException: org.cloudfoundry.uaa.UaaException: unauthorized: Invalid passcode
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.ReactorUtils.get(ReactorUtils.java:96)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.getSpaces(DefaultClientRequestsV2.java:557)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:233)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:1)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation$1.run(Operation.java:60)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+Caused by: org.cloudfoundry.uaa.UaaException: unauthorized: Invalid passcode
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$8(ErrorPayloadMapper.java:89)
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$10(ErrorPayloadMapper.java:108)
+	at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:351)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:103)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber.onNext(FluxPeekFuseable.java:428)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:150)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+	at reactor.ipc.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:375)
+	at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:198)
+	at reactor.ipc.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.ipc.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:343)
+	at reactor.ipc.netty.channel.ChannelOperations.onHandlerTerminate(ChannelOperations.java:419)
+	at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:566)
+	at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.ChannelInboundHandlerAdapter.channelRead(ChannelInboundHandlerAdapter.java:86)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoProcessor] :
+	reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+	org.cloudfoundry.reactor.tokenprovider.AbstractUaaTokenProvider.token(AbstractUaaTokenProvider.java:268)
+	org.cloudfoundry.reactor.tokenprovider.AbstractUaaTokenProvider.getToken(AbstractUaaTokenProvider.java:107)
+	org.cloudfoundry.reactor.util.AbstractReactorOperations.addAuthorization(AbstractReactorOperations.java:245)
+	reactor.core.publisher.Mono.transform(Mono.java:3516)
+	org.cloudfoundry.reactor.util.AbstractReactorOperations.lambda$null$4(AbstractReactorOperations.java:95)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse$HttpClientHandler.apply(MonoHttpClientResponse.java:117)
+	reactor.ipc.netty.http.client.MonoHttpClientResponse$HttpClientHandler.apply(MonoHttpClientResponse.java:82)
+	reactor.ipc.netty.channel.ChannelOperations.applyHandler(ChannelOperations.java:381)
+	reactor.ipc.netty.http.client.HttpClientOperations.onHandlerStart(HttpClientOperations.java:470)
+	io.netty.util.concurrent.AbstractEventExecutor.safeExecute(AbstractEventExecutor.java:163)
+	io.netty.util.concurrent.SingleThreadEventExecutor.runAllTasks(SingleThreadEventExecutor.java:403)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:442)
+	io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+Error has been observed by the following operator(s):
+	|_	Mono.checkpoint(AbstractUaaTokenProvider.java:268)
+	|_	Mono.checkpoint(ReactorOrganizations.java:199)
+	|_	Flux.checkpoint(DefaultOrganizations.java:122)
+
+	Suppressed: reactor.core.publisher.FluxOnAssembly$AssemblySnapshotException
+		at reactor.core.publisher.MonoOnAssembly.<init>(MonoOnAssembly.java:54)
+		at reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+		at org.cloudfoundry.reactor.client.v2.organizations.ReactorOrganizations.list(ReactorOrganizations.java:199)
+		at org.cloudfoundry.operations.organizations.DefaultOrganizations.lambda$requestOrganizations$22(DefaultOrganizations.java:306)
+		at org.cloudfoundry.util.PaginationUtils.requestClientV2Resources(PaginationUtils.java:45)
+		at org.cloudfoundry.operations.organizations.DefaultOrganizations.requestOrganizations(DefaultOrganizations.java:305)
+		at reactor.core.publisher.FluxFlatMap.trySubscribeScalarMap(FluxFlatMap.java:140)
+		at reactor.core.publisher.MonoFlatMap.subscribe(MonoFlatMap.java:46)
+		at reactor.core.publisher.FluxMap.subscribe(FluxMap.java:62)
+		at reactor.core.publisher.FluxOnAssembly.subscribe(FluxOnAssembly.java:195)
+		at reactor.core.publisher.FluxOnAssembly.subscribe(FluxOnAssembly.java:227)
+		at reactor.core.publisher.FluxFlatMap.subscribe(FluxFlatMap.java:95)
+		at reactor.core.publisher.MonoCollectList.subscribe(MonoCollectList.java:57)
+		at reactor.core.publisher.Mono.block(Mono.java:1322)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.ReactorUtils.get(ReactorUtils.java:93)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.getSpaces(DefaultClientRequestsV2.java:557)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:233)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:1)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation$1.run(Operation.java:60)
+		at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$AssemblySnapshotException
+		at reactor.core.publisher.FluxOnAssembly.<init>(FluxOnAssembly.java:74)
+		at reactor.core.publisher.Flux.checkpoint(Flux.java:2914)
+		at org.cloudfoundry.operations.organizations.DefaultOrganizations.list(DefaultOrganizations.java:122)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.getSpaces(DefaultClientRequestsV2.java:559)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:233)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:1)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation$1.run(Operation.java:60)
+		at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:120)
+		at reactor.core.publisher.Mono.block(Mono.java:1323)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.ReactorUtils.get(ReactorUtils.java:93)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.getSpaces(DefaultClientRequestsV2.java:557)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:233)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudFoundryTargetWizardModel$1.runOp(CloudFoundryTargetWizardModel.java:1)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation$1.run(Operation.java:60)
+		at org.eclipse.jface.operation.ModalContext$ModalContextThread.run(ModalContext.java:119)
+
+!ENTRY Activator 1 0 2017-10-31 14:00:15.782
+!MESSAGE mapRoute FAILED!
+
+!ENTRY Activator 4 0 2017-10-31 14:00:15.783
+!MESSAGE ClientV2Exception: CF-RouteInvalid(210001): The route is invalid: host format
+!STACK 0
+org.cloudfoundry.client.v2.ClientV2Exception: CF-RouteInvalid(210001): The route is invalid: host format
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$0(ErrorPayloadMapper.java:47)
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$10(ErrorPayloadMapper.java:108)
+	at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:351)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:103)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber.onNext(FluxPeekFuseable.java:428)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:150)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+	at reactor.ipc.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:375)
+	at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:198)
+	at reactor.ipc.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.ipc.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:343)
+	at reactor.ipc.netty.channel.ChannelOperations.onHandlerTerminate(ChannelOperations.java:419)
+	at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:566)
+	at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoPeek] :
+	reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+	org.cloudfoundry.reactor.client.v2.routes.ReactorRoutes.create(ReactorRoutes.java:71)
+	org.cloudfoundry.operations.routes.DefaultRoutes.requestCreateRoute(DefaultRoutes.java:409)
+	org.cloudfoundry.operations.routes.DefaultRoutes.lambda$getOrCreateRoute$34(DefaultRoutes.java:280)
+	reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:72)
+	reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+	reactor.core.publisher.MonoSingle$SingleSubscriber.onComplete(MonoSingle.java:169)
+	reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:78)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:491)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:484)
+	reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:317)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:616)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:258)
+	reactor.core.publisher.FluxBuffer$BufferExactSubscriber.onComplete(FluxBuffer.java:179)
+	reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:183)
+	reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:79)
+	reactor.core.publisher.FluxBuffer.subscribe(FluxBuffer.java:72)
+	reactor.core.publisher.FluxFlattenIterable.subscribe(FluxFlattenIterable.java:104)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:183)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:173)
+	reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:235)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:207)
+	reactor.ipc.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+	reactor.ipc.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:316)
+	reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:581)
+	reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	reactor.ipc.netty.http.HttpOperations.lambda$static$3(HttpOperations.java:261)
+	reactor.ipc.netty.ReactorNetty$ExtractorHandler.channelRead(ReactorNetty.java:328)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+Error has been observed by the following operator(s):
+	|_	Mono.checkpoint(ReactorRoutes.java:71)
+	|_	Mono.checkpoint(DefaultRoutes.java:183)
+
+	Suppressed: reactor.core.publisher.FluxOnAssembly$AssemblySnapshotException
+		at reactor.core.publisher.MonoOnAssembly.<init>(MonoOnAssembly.java:54)
+		at reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+		at org.cloudfoundry.operations.routes.DefaultRoutes.map(DefaultRoutes.java:183)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.lambda$35(DefaultClientRequestsV2.java:910)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1668)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:159)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:159)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onSubscribe(MonoThenMap.java:105)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoThenMap.subscribe(MonoThenMap.java:59)
+		at reactor.core.publisher.MonoIgnoreEmpty.subscribe(MonoIgnoreEmpty.java:36)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:150)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:144)
+		at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:779)
+		at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:863)
+		at reactor.core.publisher.ReplayProcessor.onNext(ReplayProcessor.java:523)
+		at reactor.core.publisher.MonoProcessor.drainLoop(MonoProcessor.java:473)
+		at reactor.core.publisher.MonoProcessor.onNext(MonoProcessor.java:321)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+		at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:115)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:384)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerComplete(FluxFlatMap.java:840)
+		at reactor.core.publisher.FluxFlatMap$FlatMapInner.onComplete(FluxFlatMap.java:933)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:491)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:484)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:317)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:616)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:258)
+		at reactor.core.publisher.FluxBuffer$BufferExactSubscriber.onComplete(FluxBuffer.java:179)
+		at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:183)
+		at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:79)
+		at reactor.core.publisher.FluxBuffer.subscribe(FluxBuffer.java:72)
+		at reactor.core.publisher.FluxFlattenIterable.subscribe(FluxFlattenIterable.java:104)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:183)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:373)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:173)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:235)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:207)
+		at reactor.ipc.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+		at reactor.ipc.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:316)
+		at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:581)
+		at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+		at reactor.ipc.netty.http.HttpOperations.lambda$static$3(HttpOperations.java:261)
+		at reactor.ipc.netty.ReactorNetty$ExtractorHandler.channelRead(ReactorNetty.java:328)
+		... 26 more
+
+!ENTRY Activator 4 0 2017-10-31 14:00:17.520
+!MESSAGE ClientV2Exception: CF-RouteInvalid(210001): The route is invalid: host format
+!STACK 0
+java.io.IOException: org.cloudfoundry.client.v2.ClientV2Exception: CF-RouteInvalid(210001): The route is invalid: host format
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.ReactorUtils.get(ReactorUtils.java:86)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.push(DefaultClientRequestsV2.java:729)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.lambda$1(ProjectsDeployer.java:118)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.OperationTracker.whileExecuting(OperationTracker.java:77)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudAppDashElement.whileStarting(CloudAppDashElement.java:754)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.doDeployProject(ProjectsDeployer.java:102)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.lambda$0(ProjectsDeployer.java:91)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.OperationsExecution$1.doCloudOp(OperationsExecution.java:39)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.CloudOperation.runOp(CloudOperation.java:37)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.CloudOperation.runOp(CloudOperation.java:1)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+	at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.OperationsExecution$2.run(OperationsExecution.java:55)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Caused by: org.cloudfoundry.client.v2.ClientV2Exception: CF-RouteInvalid(210001): The route is invalid: host format
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$0(ErrorPayloadMapper.java:47)
+	at org.cloudfoundry.reactor.util.ErrorPayloadMapper.lambda$null$10(ErrorPayloadMapper.java:108)
+	at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+	at reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onNext(FluxSwitchIfEmpty.java:67)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+	at reactor.core.publisher.FluxUsing$UsingFuseableSubscriber.onNext(FluxUsing.java:351)
+	at reactor.core.publisher.FluxFilterFuseable$FilterFuseableSubscriber.onNext(FluxFilterFuseable.java:103)
+	at reactor.core.publisher.FluxPeekFuseable$PeekFuseableConditionalSubscriber.onNext(FluxPeekFuseable.java:428)
+	at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+	at reactor.core.publisher.MonoReduceSeed$ReduceSeedSubscriber.onComplete(MonoReduceSeed.java:150)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+	at reactor.ipc.netty.channel.FluxReceive.terminateReceiver(FluxReceive.java:375)
+	at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:198)
+	at reactor.ipc.netty.channel.FluxReceive.onInboundComplete(FluxReceive.java:338)
+	at reactor.ipc.netty.channel.ChannelOperations.onInboundComplete(ChannelOperations.java:343)
+	at reactor.ipc.netty.channel.ChannelOperations.onHandlerTerminate(ChannelOperations.java:419)
+	at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:566)
+	at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoPeek] :
+	reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+	org.cloudfoundry.reactor.client.v2.routes.ReactorRoutes.create(ReactorRoutes.java:71)
+	org.cloudfoundry.operations.routes.DefaultRoutes.requestCreateRoute(DefaultRoutes.java:409)
+	org.cloudfoundry.operations.routes.DefaultRoutes.lambda$getOrCreateRoute$34(DefaultRoutes.java:280)
+	reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onNext(FluxOnErrorResume.java:72)
+	reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+	reactor.core.publisher.MonoSingle$SingleSubscriber.onComplete(MonoSingle.java:169)
+	reactor.core.publisher.FluxSwitchIfEmpty$SwitchIfEmptySubscriber.onComplete(FluxSwitchIfEmpty.java:78)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:491)
+	reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:484)
+	reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:317)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:616)
+	reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:258)
+	reactor.core.publisher.FluxBuffer$BufferExactSubscriber.onComplete(FluxBuffer.java:179)
+	reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:183)
+	reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:79)
+	reactor.core.publisher.FluxBuffer.subscribe(FluxBuffer.java:72)
+	reactor.core.publisher.FluxFlattenIterable.subscribe(FluxFlattenIterable.java:104)
+	reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:183)
+	reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:173)
+	reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:235)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:207)
+	reactor.ipc.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+	reactor.ipc.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:316)
+	reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:581)
+	reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	reactor.ipc.netty.http.HttpOperations.lambda$static$3(HttpOperations.java:261)
+	reactor.ipc.netty.ReactorNetty$ExtractorHandler.channelRead(ReactorNetty.java:328)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+Error has been observed by the following operator(s):
+	|_	Mono.checkpoint(ReactorRoutes.java:71)
+	|_	Mono.checkpoint(DefaultRoutes.java:183)
+
+	Suppressed: reactor.core.publisher.FluxOnAssembly$AssemblySnapshotException
+		at reactor.core.publisher.MonoOnAssembly.<init>(MonoOnAssembly.java:54)
+		at reactor.core.publisher.Mono.checkpoint(Mono.java:1400)
+		at org.cloudfoundry.operations.routes.DefaultRoutes.map(DefaultRoutes.java:183)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.lambda$35(DefaultClientRequestsV2.java:910)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:120)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onNext(FluxMapFuseable.java:115)
+		at reactor.core.publisher.Operators$ScalarSubscription.request(Operators.java:1668)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:159)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.request(FluxMapFuseable.java:159)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onSubscribe(MonoThenMap.java:105)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+		at reactor.core.publisher.FluxMapFuseable$MapFuseableSubscriber.onSubscribe(FluxMapFuseable.java:90)
+		at reactor.core.publisher.MonoJust.subscribe(MonoJust.java:54)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoMapFuseable.subscribe(MonoMapFuseable.java:59)
+		at reactor.core.publisher.MonoThenMap.subscribe(MonoThenMap.java:59)
+		at reactor.core.publisher.MonoIgnoreEmpty.subscribe(MonoIgnoreEmpty.java:36)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:150)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+		at reactor.core.publisher.MonoThenMap$ThenMapMain.onNext(MonoThenMap.java:144)
+		at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replayNormal(FluxReplay.java:779)
+		at reactor.core.publisher.FluxReplay$SizeBoundReplayBuffer.replay(FluxReplay.java:863)
+		at reactor.core.publisher.ReplayProcessor.onNext(ReplayProcessor.java:523)
+		at reactor.core.publisher.MonoProcessor.drainLoop(MonoProcessor.java:473)
+		at reactor.core.publisher.MonoProcessor.onNext(MonoProcessor.java:321)
+		at reactor.core.publisher.Operators$MonoSubscriber.complete(Operators.java:962)
+		at reactor.core.publisher.MonoCollectList$MonoBufferAllSubscriber.onComplete(MonoCollectList.java:115)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onComplete(FluxOnAssembly.java:384)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.innerComplete(FluxFlatMap.java:840)
+		at reactor.core.publisher.FluxFlatMap$FlatMapInner.onComplete(FluxFlatMap.java:933)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:491)
+		at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:484)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:317)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:616)
+		at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:258)
+		at reactor.core.publisher.FluxBuffer$BufferExactSubscriber.onComplete(FluxBuffer.java:179)
+		at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:183)
+		at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:79)
+		at reactor.core.publisher.FluxBuffer.subscribe(FluxBuffer.java:72)
+		at reactor.core.publisher.FluxFlattenIterable.subscribe(FluxFlattenIterable.java:104)
+		at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:183)
+		at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:373)
+		at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:173)
+		at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:235)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+		at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:207)
+		at reactor.ipc.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+		at reactor.ipc.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:316)
+		at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:581)
+		at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+		at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+		at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+		at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+		at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+		at reactor.ipc.netty.http.HttpOperations.lambda$static$3(HttpOperations.java:261)
+		at reactor.ipc.netty.ReactorNetty$ExtractorHandler.channelRead(ReactorNetty.java:328)
+		... 26 more
+	Suppressed: java.lang.Exception: #block terminated with an error
+		at reactor.core.publisher.BlockingSingleSubscriber.blockingGet(BlockingSingleSubscriber.java:120)
+		at reactor.core.publisher.Mono.block(Mono.java:1323)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.ReactorUtils.get(ReactorUtils.java:83)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.push(DefaultClientRequestsV2.java:729)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.lambda$1(ProjectsDeployer.java:118)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.OperationTracker.whileExecuting(OperationTracker.java:77)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.CloudAppDashElement.whileStarting(CloudAppDashElement.java:754)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.doDeployProject(ProjectsDeployer.java:102)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.ProjectsDeployer.lambda$0(ProjectsDeployer.java:91)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.OperationsExecution$1.doCloudOp(OperationsExecution.java:39)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.CloudOperation.runOp(CloudOperation.java:37)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.CloudOperation.runOp(CloudOperation.java:1)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.Operation.run(Operation.java:38)
+		at org.springframework.ide.eclipse.boot.dash.cloudfoundry.ops.OperationsExecution$2.run(OperationsExecution.java:55)
+		at org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 14:00:46.176
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 14:01:30.864
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-10-31 14:01:30.910
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.m2e.logback.appender 4 0 2017-10-31 15:45:56.914
+!MESSAGE [HttpClient] Error processing connection. Requesting close the channel
+!STACK 0
+reactor.core.Exceptions$ErrorCallbackNotImplemented: java.lang.IllegalArgumentException: Application test1 does not exist
+Caused by: java.lang.IllegalArgumentException: Application test1 does not exist
+	at org.cloudfoundry.util.ExceptionUtils.illegalArgument(ExceptionUtils.java:45)
+	at org.cloudfoundry.operations.applications.DefaultApplications.lambda$getApplication$60(DefaultApplications.java:690)
+	at reactor.core.publisher.Mono.lambda$onErrorResume$30(Mono.java:3067)
+	at reactor.core.publisher.FluxOnErrorResume$ResumeSubscriber.onError(FluxOnErrorResume.java:87)
+	at reactor.core.publisher.MonoSingle$SingleSubscriber.onComplete(MonoSingle.java:164)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onComplete(FluxMap.java:130)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.checkTerminated(FluxFlatMap.java:739)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drainLoop(FluxFlatMap.java:511)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.drain(FluxFlatMap.java:491)
+	at reactor.core.publisher.FluxFlatMap$FlatMapMain.onComplete(FluxFlatMap.java:484)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onComplete(MonoFlatMap.java:245)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drainAsync(FluxFlattenIterable.java:317)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.drain(FluxFlattenIterable.java:616)
+	at reactor.core.publisher.FluxFlattenIterable$FlattenIterableSubscriber.onComplete(FluxFlattenIterable.java:258)
+	at reactor.core.publisher.FluxBuffer$BufferExactSubscriber.onComplete(FluxBuffer.java:179)
+	at reactor.core.publisher.FluxConcatArray$ConcatArraySubscriber.onComplete(FluxConcatArray.java:183)
+	at reactor.core.publisher.FluxConcatArray.subscribe(FluxConcatArray.java:79)
+	at reactor.core.publisher.FluxBuffer.subscribe(FluxBuffer.java:72)
+	at reactor.core.publisher.FluxFlattenIterable.subscribe(FluxFlattenIterable.java:104)
+	at reactor.core.publisher.MonoFlatMap$FlatMapMain.onNext(MonoFlatMap.java:183)
+	at reactor.core.publisher.FluxOnAssembly$OnAssemblySubscriber.onNext(FluxOnAssembly.java:373)
+	at reactor.core.publisher.FluxPeek$PeekSubscriber.onNext(FluxPeek.java:173)
+	at reactor.core.publisher.MonoNext$NextSubscriber.onNext(MonoNext.java:76)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.core.publisher.MonoFlatMap$FlatMapInner.onNext(MonoFlatMap.java:235)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.core.publisher.FluxMap$MapSubscriber.onNext(FluxMap.java:108)
+	at reactor.ipc.netty.channel.FluxReceive.drainReceiver(FluxReceive.java:207)
+	at reactor.ipc.netty.channel.FluxReceive.onInboundNext(FluxReceive.java:322)
+	at reactor.ipc.netty.channel.ChannelOperations.onInboundNext(ChannelOperations.java:316)
+	at reactor.ipc.netty.http.client.HttpClientOperations.onInboundNext(HttpClientOperations.java:581)
+	at reactor.ipc.netty.channel.ChannelOperationsHandler.channelRead(ChannelOperationsHandler.java:125)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at reactor.ipc.netty.http.HttpOperations.lambda$static$3(HttpOperations.java:261)
+	at reactor.ipc.netty.ReactorNetty$ExtractorHandler.channelRead(ReactorNetty.java:328)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.codec.ByteToMessageDecoder.fireChannelRead(ByteToMessageDecoder.java:293)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:267)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.handler.ssl.SslHandler.unwrap(SslHandler.java:1240)
+	at io.netty.handler.ssl.SslHandler.decode(SslHandler.java:1041)
+	at io.netty.handler.codec.ByteToMessageDecoder.callDecode(ByteToMessageDecoder.java:411)
+	at io.netty.handler.codec.ByteToMessageDecoder.channelRead(ByteToMessageDecoder.java:248)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.AbstractChannelHandlerContext.fireChannelRead(AbstractChannelHandlerContext.java:340)
+	at io.netty.channel.DefaultChannelPipeline$HeadContext.channelRead(DefaultChannelPipeline.java:1334)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:362)
+	at io.netty.channel.AbstractChannelHandlerContext.invokeChannelRead(AbstractChannelHandlerContext.java:348)
+	at io.netty.channel.DefaultChannelPipeline.fireChannelRead(DefaultChannelPipeline.java:926)
+	at io.netty.channel.nio.AbstractNioByteChannel$NioByteUnsafe.read(AbstractNioByteChannel.java:134)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKey(NioEventLoop.java:624)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeysOptimized(NioEventLoop.java:559)
+	at io.netty.channel.nio.NioEventLoop.processSelectedKeys(NioEventLoop.java:476)
+	at io.netty.channel.nio.NioEventLoop.run(NioEventLoop.java:438)
+	at io.netty.util.concurrent.SingleThreadEventExecutor$5.run(SingleThreadEventExecutor.java:858)
+	at java.lang.Thread.run(Unknown Source)
+	Suppressed: reactor.core.publisher.FluxOnAssembly$OnAssemblyException: 
+Assembly trace from producer [reactor.core.publisher.MonoFlatMap] :
+	reactor.core.publisher.Flux.checkpoint(Flux.java:2914)
+	org.cloudfoundry.operations.applications.DefaultApplications.logs(DefaultApplications.java:324)
+	org.springframework.ide.eclipse.boot.dash.cloudfoundry.client.v2.DefaultClientRequestsV2.streamLogs(DefaultClientRequestsV2.java:368)
+	org.springframework.ide.eclipse.boot.dash.cloudfoundry.console.CloudAppLogManager.connectLoggregator(CloudAppLogManager.java:154)
+	org.springframework.ide.eclipse.boot.dash.cloudfoundry.console.CloudAppLogManager.getApplicationConsole(CloudAppLogManager.java:141)
+	org.springframework.ide.eclipse.boot.dash.cloudfoundry.console.CloudAppLogManager.showConsole(CloudAppLogManager.java:197)
+	org.springframework.ide.eclipse.boot.dash.cloudfoundry.console.CloudAppLogManager.showConsole(CloudAppLogManager.java:192)
+	org.springframework.ide.eclipse.boot.dash.views.OpenConsoleAction.doShowConsoles(OpenConsoleAction.java:69)
+	org.springframework.ide.eclipse.boot.dash.views.OpenConsoleAction$1.run(OpenConsoleAction.java:49)
+	org.eclipse.core.internal.jobs.Worker.run(Worker.java:56)
+Error has been observed by the following operator(s):
+	|_	Flux.checkpoint(DefaultApplications.java:324)
+
+!SESSION 2017-11-01 09:52:38.687 -----------------------------------------------
+eclipse.buildId=3.9.0.201707061823-RELEASE-e47
+java.version=1.8.0_121
+java.vendor=Oracle Corporation
+BootLoader constants: OS=win32, ARCH=x86_64, WS=win32, NL=en_US
+Framework arguments:  -product org.springsource.sts.ide -product org.springsource.sts.ide
+Command-line arguments:  -os win32 -ws win32 -arch x86_64 -product org.springsource.sts.ide -data C:\mst\labs\day1 -product org.springsource.sts.ide
+
+!ENTRY org.eclipse.egit.ui 2 0 2017-11-01 09:52:50.372
+!MESSAGE Warning: The environment variable HOME is not set. The following directory will be used to store the Git
+user global configuration and to define the default location to store repositories: 'C:\Users\Abridge.Abridge-PC'. If this is
+not correct please set the HOME environment variable and restart Eclipse. Otherwise Git for Windows and
+EGit might behave differently since they see different configuration options.
+This warning can be switched off on the Team > Git > Confirmations and Warnings preference page.
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.106
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.193
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.665
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.666
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.776
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 09:54:28.776
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.ui 4 0 2017-11-01 10:01:38.617
+!MESSAGE Unhandled event loop exception
+!STACK 0
+org.eclipse.swt.SWTException: Widget is disposed
+	at org.eclipse.swt.SWT.error(SWT.java:4533)
+	at org.eclipse.swt.SWT.error(SWT.java:4448)
+	at org.eclipse.swt.SWT.error(SWT.java:4419)
+	at org.eclipse.swt.widgets.Widget.error(Widget.java:482)
+	at org.eclipse.swt.widgets.Widget.checkWidget(Widget.java:354)
+	at org.eclipse.swt.widgets.Label.setText(Label.java:402)
+	at org.eclipse.jface.wizard.ProgressMonitorPart.done(ProgressMonitorPart.java:175)
+	at org.eclipse.core.runtime.ProgressMonitorWrapper.done(ProgressMonitorWrapper.java:76)
+	at org.eclipse.jface.operation.AccumulatingProgressMonitor.lambda$1(AccumulatingProgressMonitor.java:180)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.operation.ModalContext$ModalContextThread.block(ModalContext.java:165)
+	at org.eclipse.jface.operation.ModalContext.run(ModalContext.java:369)
+	at org.eclipse.mylyn.commons.ui.ProgressContainer.run(ProgressContainer.java:189)
+	at org.eclipse.mylyn.tasks.ui.wizards.AbstractRepositoryQueryPage2.doRefreshConfiguration(AbstractRepositoryQueryPage2.java:380)
+	at org.eclipse.mylyn.tasks.ui.wizards.AbstractRepositoryQueryPage2.refreshConfiguration(AbstractRepositoryQueryPage2.java:342)
+	at org.eclipse.mylyn.tasks.ui.wizards.AbstractRepositoryQueryPage2.initializePage(AbstractRepositoryQueryPage2.java:315)
+	at org.eclipse.mylyn.tasks.ui.wizards.AbstractRepositoryQueryPage2.access$0(AbstractRepositoryQueryPage2.java:313)
+	at org.eclipse.mylyn.tasks.ui.wizards.AbstractRepositoryQueryPage2$1.run(AbstractRepositoryQueryPage2.java:263)
+	at org.eclipse.swt.widgets.RunnableLock.run(RunnableLock.java:37)
+	at org.eclipse.swt.widgets.Synchronizer.runAsyncMessages(Synchronizer.java:182)
+	at org.eclipse.swt.widgets.Display.runAsyncMessages(Display.java:4213)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3820)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.search.internal.ui.OpenSearchDialogAction.run(OpenSearchDialogAction.java:57)
+	at org.eclipse.search.ui.NewSearchUI.openSearchDialog(NewSearchUI.java:300)
+	at org.eclipse.mylyn.internal.tasks.ui.search.DefaultSearchProvider.openSearchDialog(DefaultSearchProvider.java:32)
+	at org.eclipse.mylyn.internal.tasks.ui.search.SearchUtil.openSearchDialog(SearchUtil.java:108)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.TaskSelectionDialog$3.linkActivated(TaskSelectionDialog.java:558)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleActivate(AbstractHyperlink.java:213)
+	at org.eclipse.ui.forms.widgets.ImageHyperlink.handleActivate(ImageHyperlink.java:208)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.handleMouseUp(AbstractHyperlink.java:307)
+	at org.eclipse.ui.forms.widgets.AbstractHyperlink.lambda$3(AbstractHyperlink.java:115)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.jface.window.Window.runEventLoop(Window.java:818)
+	at org.eclipse.jface.window.Window.open(Window.java:794)
+	at org.eclipse.mylyn.internal.tasks.ui.actions.OpenTaskAction.run(OpenTaskAction.java:47)
+	at org.eclipse.ui.actions.ActionDelegate.runWithEvent(ActionDelegate.java:75)
+	at org.eclipse.ui.internal.PluginAction.runWithEvent(PluginAction.java:237)
+	at org.eclipse.ui.internal.WWinPluginAction.runWithEvent(WWinPluginAction.java:219)
+	at org.eclipse.jface.action.ActionContributionItem.handleWidgetSelection(ActionContributionItem.java:565)
+	at org.eclipse.jface.action.ActionContributionItem.lambda$5(ActionContributionItem.java:436)
+	at org.eclipse.swt.widgets.EventTable.sendEvent(EventTable.java:86)
+	at org.eclipse.swt.widgets.Display.sendEvent(Display.java:4428)
+	at org.eclipse.swt.widgets.Widget.sendEvent(Widget.java:1079)
+	at org.eclipse.swt.widgets.Display.runDeferredEvents(Display.java:4238)
+	at org.eclipse.swt.widgets.Display.readAndDispatch(Display.java:3817)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine$5.run(PartRenderingEngine.java:1155)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.e4.ui.internal.workbench.swt.PartRenderingEngine.run(PartRenderingEngine.java:1044)
+	at org.eclipse.e4.ui.internal.workbench.E4Workbench.createAndRunUI(E4Workbench.java:153)
+	at org.eclipse.ui.internal.Workbench.lambda$3(Workbench.java:680)
+	at org.eclipse.core.databinding.observable.Realm.runWithDefault(Realm.java:336)
+	at org.eclipse.ui.internal.Workbench.createAndRunWorkbench(Workbench.java:594)
+	at org.eclipse.ui.PlatformUI.createAndRunWorkbench(PlatformUI.java:148)
+	at org.eclipse.ui.internal.ide.application.IDEApplication.start(IDEApplication.java:151)
+	at org.eclipse.equinox.internal.app.EclipseAppHandle.run(EclipseAppHandle.java:196)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.runApplication(EclipseAppLauncher.java:134)
+	at org.eclipse.core.runtime.internal.adaptor.EclipseAppLauncher.start(EclipseAppLauncher.java:104)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:388)
+	at org.eclipse.core.runtime.adaptor.EclipseStarter.run(EclipseStarter.java:243)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.eclipse.equinox.launcher.Main.invokeFramework(Main.java:653)
+	at org.eclipse.equinox.launcher.Main.basicRun(Main.java:590)
+	at org.eclipse.equinox.launcher.Main.run(Main.java:1499)
+
+!ENTRY org.eclipse.jface.text 2 0 2017-11-01 10:06:36.495
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.number'
+
+!ENTRY org.eclipse.jface.text 2 0 2017-11-01 10:06:36.495
+!MESSAGE Duplicate template id: 'org.eclipse.wst.xslt.templates.xpath.round'
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 10:06:47.087
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 10:06:47.087
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:22.919
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:22.919
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.091
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.091
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.231
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.247
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.341
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.356
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.434
+!MESSAGE Non IFiles not supported yet
+
+!ENTRY org.eclipse.lsp4e 1 0 2017-11-01 11:35:23.434
+!MESSAGE Non IFiles not supported yet

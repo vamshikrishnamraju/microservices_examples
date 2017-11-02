@@ -1,0 +1,11 @@
+---
+instances: 1
+memory: 1G
+applications:
+  - name: agency
+    host: agency2
+    services:
+      - service-registry
+      - circuit-breaker-dashboard
+    env:
+      SPRING_PROFILES_ACTIVE: dev

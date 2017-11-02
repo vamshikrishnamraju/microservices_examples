@@ -1,0 +1,18 @@
+zuul.routes.books.url=http://localhost:8090
+
+here "books" is the context-path
+
+i.e.,
+
+http://localhost:8080/books  is routed to http://localhost:8090
+
+-------
+
+similarly for the below route
+
+zuul.routes.test.url=http://localhost:8090/available
+
+results are
+
+http://localhost:8080/test  is routed to http://localhost:8090/available
+

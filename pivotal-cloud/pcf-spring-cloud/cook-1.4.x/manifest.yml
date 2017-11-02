@@ -1,0 +1,10 @@
+---
+instances: 1
+memory: 1G
+applications:
+  - name: cook
+    host: cookie2
+    services:
+      - config-server
+    env:
+      SPRING_PROFILES_ACTIVE: dev

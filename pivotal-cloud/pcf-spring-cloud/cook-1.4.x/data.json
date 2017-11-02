@@ -1,0 +1,7 @@
+{ 
+
+"git": { 
+"uri": "https://github.com/spring-cloud-services-samples/cook-config", 
+"label": "master"  
+         }
+ }

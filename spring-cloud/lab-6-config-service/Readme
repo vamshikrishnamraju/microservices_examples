@@ -1,0 +1,13 @@
+1. To access all environment properties
+
+http://localhost:8888/env
+
+user name : user
+password : root
+
+
+2. To access application-specific properties
+
+http://localhost:8888/account-service/env
+
+

@@ -1,0 +1,2 @@
+INDEX VERSION 1.127+D:\microservices\labs\usecase-simple-docker\.metadata\.plugins\org.eclipse.jdt.core
+2727955345.index

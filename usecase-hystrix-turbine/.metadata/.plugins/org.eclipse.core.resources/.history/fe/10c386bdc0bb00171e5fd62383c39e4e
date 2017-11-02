@@ -1,0 +1,13 @@
+HystrixFallbackController
+=========================
+
+1. Access the below url
+
+http://localhost:8080/customer-fallback/1
+
+2. hystrix stream can be monitored from the dashboard
+
+http://localhost:8081/hystrix/monitor?stream=http://localhost:8080/hystrix.stream
+
+
+ 

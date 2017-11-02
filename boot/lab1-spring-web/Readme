@@ -1,0 +1,12 @@
+Uses Of Annotation-Config, Annotation-Driven And Component-Scan
+----------------------------------------------------------------
+
+1. annotation-config allow us to use @Autowire, @Required and @Qualifier annotations.
+2. component-scan allow @Component, @Service, @Controller, etc.. annotations.
+3. annotation-driven <mvc:annotation-driven /> declares explicit support for annotation-driven MVC controllers
+ (i.e. @RequestMapping, @Controller, although support for those is the default behaviour), 
+ as well as adding support for declrative validation via @Valid and message body marshalling with
+  @RequestBody/ResponseBody.
+  
+
+Note : @EnableWebMvc is equivalent to <mvc:annotation-driven /> in XML

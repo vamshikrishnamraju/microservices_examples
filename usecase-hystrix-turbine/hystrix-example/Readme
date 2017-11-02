@@ -1,0 +1,28 @@
+HystrixFallbackController
+=========================
+
+1.  Hystrix circuit breaker, fallback using @HystrixCommand 
+
+http://localhost:8080/customer-fallback/2
+
+2. Hystrix request collapser using @HystrixCollapser 
+
+http://localhost:8080/customer-collapser/1
+(or) http://localhost:8080/customer-collapser/2
+
+
+2. hystrix stream can be monitored from the dashboard
+
+http://localhost:8081/hystrix/monitor?stream=http://localhost:8080/hystrix.stream
+
+3. Turbine stream can be monitored from the dashboard
+
+http://localhost:8081/hystrix/monitor?stream=http://localhost:8082/turbine.stream
+
+
+
+Note : 
+change the value CustomerCollapserService-> @HystrixProperty(name = "timerDelayInMilliseconds", value = "2000")
+and monitor the dashboard
+
+ 

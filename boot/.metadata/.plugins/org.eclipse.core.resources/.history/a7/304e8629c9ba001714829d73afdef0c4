@@ -1,0 +1,34 @@
+Using the @RestController Annotation
+------------------------------------
+
+Spring 4.0 introduced @RestController, a specialized version of the controller which is a convenience 
+annotation that does nothing more than add the @Controller and @ResponseBody annotations. 
+
+By annotating the controller class with @RestController annotation, we no longer need to add @ResponseBody
+to all the request mapping methods. 
+
+The @ResponseBody annotation is active by default.
+
+
+
+Spring 4.3 onwards:
+------------------
+
+
+@GetMapping is a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.GET)
+
+
+@PostMapping is a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.POST)
+
+
+@PutMapping is a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.PUT)
+
+
+@DeleteMapping is a composed annotation that acts as a shortcut for @RequestMapping(method = RequestMethod.DELETE)
+
+
+
+
+
+
+

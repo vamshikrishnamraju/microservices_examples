@@ -1,0 +1,4 @@
+//vamshi14krishna@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ stacktrace.in\ \:\ development\:Ademo.example1\:PROJECT_NAME=demoexample1
+//vamshi14krishna@gmail.com\ \:\ https\://api.run.pivotal.io\ \:\ stacktrace.in\ \:\ development\:Ademoexample1\:PROJECT_NAME=demoexample1
+eclipse.preferences.version=1
+runTargets=[{"storeCredentials"\:"STORE_NOTHING","runTargetID"\:"vamshi14krishna@gmail.com \: https\://api.run.pivotal.io \: stacktrace.in \: development","selfsigned"\:"false","organization"\:"stacktrace.in","skipSslValidation"\:"false","organization_guid"\:"82f88172-a919-4d5b-9785-2e0871a7455d","space_guid"\:"4b29e29b-2d7c-4a9b-b72b-1eaed2d71ac1","url"\:"https\://api.run.pivotal.io","space"\:"development","username"\:"vamshi14krishna@gmail.com"}]

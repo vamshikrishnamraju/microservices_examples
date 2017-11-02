@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;Readme-@RestController&apos; to &apos;lab4-spring-boot-rest-service&apos;&#x0D;&#x0A;- Original project: &apos;lab2-spring-boot-web&apos;&#x0D;&#x0A;- Destination element: &apos;lab4-spring-boot-rest-service&apos;&#x0D;&#x0A;- Original element: &apos;Readme-@RestController&apos;" description="Copy file" destination="=lab4-spring-boot-rest-service" element1="Readme-@RestController" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1509081372372" units="0" version="1.0"/>
+</session>

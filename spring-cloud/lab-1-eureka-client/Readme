@@ -1,0 +1,3 @@
+To access Eureka server and display the service details:
+
+http://localhost:8080//service-instances/simple-microservice

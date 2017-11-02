@@ -1,0 +1,4 @@
+eclipse.preferences.version=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.actuator=1
+org.springframework.ide.eclipse.boot.wizard.PopularityTracker.actuator-docs=1
+org.springframework.ide.eclipse.boot.wizard.initializr.url=http\://start.spring.io\n

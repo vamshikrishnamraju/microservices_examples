@@ -1,0 +1,10 @@
+---
+instances: 1
+memory: 1G
+applications:
+  - name: greeter
+    host: greeter2
+    services:
+      - service-registry
+    env:
+      SPRING_PROFILES_ACTIVE: dev

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<workingSetManager>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508479112594_0" label="greeting" name="greeting">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/greeting-master" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/message-generation" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/greeter" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508483969043_2" label="traveler" name="traveler">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/traveler-master" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/company" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/agency" type="4"/>
+</workingSet>
+<workingSet editPageId="org.eclipse.ui.resourceWorkingSetPage" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508485261740_3" label="fortune-teller" name="fortune-teller">
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-master" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-config-server" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-eureka" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-fortune-service" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-hystrix-dashboard" type="4"/>
+<item factoryID="org.eclipse.ui.internal.model.ResourceFactory" path="/fortune-teller-ui" type="4"/>
+</workingSet>
+<workingSet aggregate="true" factoryID="org.eclipse.ui.internal.WorkingSetFactory" id="1508482650101_1" label="Window Working Set" name="Aggregate for window 1508482650101"/>
+</workingSetManager>

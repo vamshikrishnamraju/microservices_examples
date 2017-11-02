@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aop-reference-model>
+<aop-project name="lab3-spring-boot-actuator"/>
+<aop-project name="lab1-spring-web"/>
+<aop-project name="lab6-spring-boot-rest-hateoas"/>
+<aop-project name="lab2-boot-web"/>
+<aop-project name="lab8-spring-boot-hateoas-links"/>
+<aop-project name="lab5-spring-boot-sample-activemq"/>
+<aop-project name="lab4-spring-boot-rest-service"/>
+<aop-project name="lab7-spring-boot-rest-data"/>
+</aop-reference-model>
